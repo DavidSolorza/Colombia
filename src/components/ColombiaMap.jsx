@@ -510,8 +510,11 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
     <div className="mx-auto flex w-full max-w-[42rem] flex-col gap-2 sm:gap-2.5 md:max-w-[46rem] lg:mx-0 lg:max-w-none">
       <header className="pointer-events-none flex w-full shrink-0 justify-center px-1">
         <div className="inline-flex flex-col rounded-2xl border border-slate-200/80 bg-white px-5 py-2.5 text-center shadow-md shadow-slate-900/[0.06] ring-1 ring-slate-900/[0.03] sm:px-6 sm:py-3">
+          <p className="text-[0.5rem] font-bold uppercase leading-snug tracking-[0.08em] text-emerald-700 sm:text-[0.58rem] sm:tracking-[0.1em]">
+            Culturas indígenas de Colombia
+          </p>
           <h2 className="text-base font-bold tracking-tight text-slate-900 sm:text-lg">Mapa de Colombia</h2>
-          <p className="mt-0.5 text-xs text-slate-500 sm:text-sm">94 pueblos indígenas</p>
+          <p className="mt-0.5 text-xs text-slate-500 sm:text-sm">Seis regiones naturales · 94 pueblos</p>
         </div>
       </header>
 

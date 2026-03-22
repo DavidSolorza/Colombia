@@ -138,9 +138,13 @@ export default function Library({ onEthnicityClick }) {
           <h1 className="bg-gradient-to-r from-slate-900 via-emerald-900 to-teal-800 bg-clip-text text-3xl font-extrabold tracking-tight text-transparent sm:text-4xl lg:text-[2.65rem] lg:leading-tight">
             Biblioteca de pueblos indígenas
           </h1>
+          <p className="mx-auto mt-2 text-center text-[0.65rem] font-bold uppercase leading-snug tracking-[0.1em] text-emerald-800/90 sm:text-xs sm:tracking-[0.12em]">
+            Culturas indígenas de Colombia
+          </p>
           <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
-            Consulta lenguas, territorios y población. Filtra por región natural, estado de la lengua u ordénalos como
-            prefieras.
+            Consulta lenguas, territorios y población estimada. Filtra por región natural o por estado de la lengua
+            (vulnerable, en peligro, en peligro crítico), busca por nombre o departamento, y ordénalos como prefieras.
+            Desde cada tarjeta abres la ficha completa del pueblo.
           </p>
         </motion.header>
 

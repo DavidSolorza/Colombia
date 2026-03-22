@@ -6,6 +6,7 @@ import RegionView from './components/RegionView';
 import EthnicityDetail from './components/EthnicityDetail';
 import Library from './components/Library';
 import MapInfoPanel from './components/MapInfoPanel';
+import SiteFooter from './components/SiteFooter';
 
 export default function App() {
   const [currentView, setCurrentView] = useState('map');
@@ -57,9 +58,10 @@ export default function App() {
                       animate={{ opacity: 1, y: 0 }}
                       className="max-w-[22rem] rounded-2xl border border-slate-200/90 bg-white/95 p-5 shadow-lg shadow-slate-900/5 backdrop-blur-md"
                     >
-                      <h3 className="text-base font-semibold text-slate-900">Explora Colombia</h3>
+                      <h3 className="text-base font-semibold text-slate-900">Explora el territorio</h3>
                       <p className="mt-1 text-sm leading-relaxed text-slate-600">
-                        Haz clic en una región del mapa para ver sus pueblos
+                        Pasa el cursor para ver datos de cada región natural. Haz clic en el mapa o en la leyenda para
+                        abrir la lista de pueblos y sus fichas.
                       </p>
                     </motion.div>
                   )}
@@ -81,6 +83,8 @@ export default function App() {
           )}
         </AnimatePresence>
       </main>
+
+      <SiteFooter />
 
       <AnimatePresence>
         {selectedRegion && (

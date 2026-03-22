@@ -41,7 +41,7 @@ export default function RegionView({ region, onClose, onEthnicityClick }) {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.25 }}
-        className="fixed inset-0 z-[55] flex items-center justify-center bg-gradient-to-b from-slate-950/80 via-slate-900/75 to-emerald-950/50 p-3 pb-6 pt-[max(0.75rem,env(safe-area-inset-top,0px))] backdrop-blur-xl sm:p-5 sm:pb-8"
+        className="fixed inset-0 z-[55] flex items-start justify-center overflow-y-auto overscroll-contain bg-gradient-to-b from-slate-950/80 via-slate-900/75 to-emerald-950/50 px-3 pb-10 pt-[max(1rem,calc(6.75rem+env(safe-area-inset-top,0px)))] backdrop-blur-xl sm:px-6 sm:pb-12 sm:pt-[max(1rem,calc(7rem+env(safe-area-inset-top,0px)))]"
         onClick={onClose}
         role="presentation"
       >
@@ -53,7 +53,7 @@ export default function RegionView({ region, onClose, onEthnicityClick }) {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.96, y: 20 }}
           transition={{ type: 'spring', damping: 24, stiffness: 320 }}
-          className="relative flex max-h-[min(76dvh,calc(100dvh-5rem))] w-full max-w-[min(100%,42rem)] flex-col overflow-hidden rounded-3xl border border-white/20 bg-white shadow-[0_32px_64px_-12px_rgba(0,0,0,0.45)] ring-1 ring-white/40 sm:max-h-[min(78dvh,calc(100dvh-5.5rem))] md:max-w-5xl lg:max-w-6xl xl:max-w-[76rem] 2xl:max-w-[82rem]"
+          className="relative flex max-h-[min(64dvh,calc(100dvh-8rem-env(safe-area-inset-top,0px)-env(safe-area-inset-bottom,0px)))] w-full max-w-[min(100%,48rem)] flex-col overflow-hidden rounded-3xl border border-white/20 bg-white shadow-[0_32px_64px_-12px_rgba(0,0,0,0.45)] ring-1 ring-white/40 sm:max-h-[min(66dvh,calc(100dvh-8.25rem-env(safe-area-inset-top,0px)-env(safe-area-inset-bottom,0px)))] md:max-w-5xl lg:max-w-6xl xl:max-w-[76rem] 2xl:max-w-[84rem]"
           onClick={(e) => e.stopPropagation()}
         >
           <div

@@ -1,0 +1,17 @@
+/** Marca del sitio: mismo motivo que public/favicon.svg (pin sobre territorio). */
+export function BrandMark({ className = 'h-9 w-9 shrink-0' }) {
+  return (
+    <svg className={className} viewBox="0 0 32 32" fill="none" aria-hidden>
+      <rect width="32" height="32" rx="9" className="fill-emerald-600" />
+      <path
+        fill="#fff"
+        d="M16 6.25c-3.35 0-5.75 2.55-5.75 5.65 0 3.35 4.35 9.35 5.55 11.05.15.2.4.2.55 0 1.2-1.7 5.55-7.7 5.55-11.05 0-3.1-2.4-5.65-5.75-5.65Zm0 7.9a2.35 2.35 0 1 1 0-4.7 2.35 2.35 0 0 1 0 4.7Z"
+      />
+      <path
+        fill="#a7f3d0"
+        fillOpacity={0.95}
+        d="M23.5 9.25c.35.45.65.95.9 1.5l-1.35.45c-.2-.55-.45-1.05-.75-1.5l1.2-.45Zm-15.35 1.05c-.35.45-.65.95-.85 1.5l1.4.4c.2-.5.45-.95.75-1.4l-1.3-.5Z"
+      />
+    </svg>
+  );
+}

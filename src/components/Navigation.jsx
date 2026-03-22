@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { BrandMark } from './BrandMark';
 
 const linkBase =
   'flex items-center gap-2 rounded-xl px-5 py-2.5 text-sm font-medium transition-all duration-200';
@@ -13,22 +14,16 @@ export default function Navigation({ currentView, onViewChange }) {
       animate={{ y: 0 }}
       className="fixed left-0 right-0 top-0 z-[100] flex h-[70px] items-center justify-between border-b border-slate-200/80 bg-white/90 px-4 shadow-sm backdrop-blur-xl sm:px-8"
     >
-      <div className="flex items-center gap-3 text-emerald-700">
-        <svg
-          className="h-8 w-8 shrink-0"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          aria-hidden
-        >
-          <circle cx="12" cy="12" r="10" />
-          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-          <path d="M2 12h20" />
-        </svg>
-        <span className="hidden text-lg font-bold tracking-tight text-slate-900 sm:inline">
-          Culturas de Colombia
-        </span>
+      <div className="flex min-w-0 items-center gap-2.5 sm:gap-3">
+        <BrandMark className="h-9 w-9 shrink-0 sm:h-10 sm:w-10" />
+        <div className="min-w-0 flex flex-col leading-[1.15] uppercase">
+          <span className="text-[0.58rem] font-bold tracking-[0.08em] text-slate-900 sm:text-[0.72rem] sm:tracking-[0.09em]">
+            Culturas indígenas
+          </span>
+          <span className="text-[0.54rem] font-bold tracking-[0.14em] text-emerald-700 sm:text-[0.68rem]">
+            de Colombia
+          </span>
+        </div>
       </div>
 
       <div className="flex items-center gap-1 sm:gap-2">
@@ -85,7 +80,7 @@ export default function Navigation({ currentView, onViewChange }) {
             <circle cx="12" cy="12" r="10" />
             <path d="M12 16v-4M12 8h.01" />
           </svg>
-          94 etnias indígenas
+          94 pueblos indígenas
         </span>
       </div>
     </motion.nav>

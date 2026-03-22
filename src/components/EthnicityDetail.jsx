@@ -75,7 +75,7 @@ export default function EthnicityDetail({ ethnicity, onClose }) {
         className="fixed inset-0 z-[60] overflow-y-auto overscroll-contain bg-gradient-to-b from-slate-950/85 via-slate-900/80 to-emerald-950/40 backdrop-blur-xl"
       >
         <div
-          className="flex min-h-[100dvh] w-full items-start justify-center px-3 pb-10 pt-[max(0.75rem,env(safe-area-inset-top,0px))] sm:items-center sm:px-5 sm:py-8 sm:pb-12"
+          className="flex min-h-[100dvh] w-full items-start justify-center px-3 pb-10 pt-[max(1rem,calc(6.75rem+env(safe-area-inset-top,0px)))] sm:px-6 sm:pb-12 sm:pt-[max(1rem,calc(7rem+env(safe-area-inset-top,0px)))]"
           onClick={onClose}
           role="presentation"
         >
@@ -84,7 +84,7 @@ export default function EthnicityDetail({ ethnicity, onClose }) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: 20 }}
             transition={{ type: 'spring', damping: 24, stiffness: 320 }}
-            className="relative flex max-h-[min(85dvh,720px)] w-full max-w-[min(100%,36rem)] flex-col overflow-hidden rounded-3xl border border-white/25 bg-white shadow-[0_32px_64px_-12px_rgba(0,0,0,0.5)] ring-1 ring-white/30 sm:max-h-[min(88dvh,760px)] sm:max-w-2xl md:max-w-3xl lg:max-w-4xl"
+            className="relative flex max-h-[min(66dvh,calc(100dvh-8rem-env(safe-area-inset-top,0px)-env(safe-area-inset-bottom,0px)))] w-full max-w-[min(100%,44rem)] flex-col overflow-hidden rounded-3xl border border-white/25 bg-white shadow-[0_32px_64px_-12px_rgba(0,0,0,0.5)] ring-1 ring-white/30 sm:max-h-[min(68dvh,calc(100dvh-8.25rem-env(safe-area-inset-top,0px)-env(safe-area-inset-bottom,0px)))] sm:max-w-4xl md:max-w-5xl lg:max-w-6xl xl:max-w-7xl"
             onClick={(e) => e.stopPropagation()}
           >
             <div
@@ -105,7 +105,7 @@ export default function EthnicityDetail({ ethnicity, onClose }) {
               </svg>
             </button>
 
-            <div className="relative h-36 shrink-0 overflow-hidden sm:h-40 md:h-44">
+            <div className="relative h-28 shrink-0 overflow-hidden sm:h-32 md:h-36">
               <img src={ethnicity.image} alt={ethnicity.name} className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-black/20" />
               <div
