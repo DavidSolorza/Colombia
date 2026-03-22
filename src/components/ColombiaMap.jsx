@@ -47,29 +47,7 @@ function mapJsonUrl() {
   return `${base.endsWith('/') ? base : `${base}/`}colombia-municipios.json`;
 }
 
-/** [lng, lat] para marcar en el mapa: coordenadas de la etnia o centro del primer departamento listado. */
-function getEthnicityLngLat(ethnicity) {
-  const c = ethnicity.coordinates;
-  if (c && Number.isFinite(Number(c.lng)) && Number.isFinite(Number(c.lat))) {
-    return [Number(c.lng), Number(c.lat)];
-  }
-  const names = ethnicity.departments || [];
-  for (const name of names) {
-    const d = departments.find((dept) => dept.name === name);
-    if (d?.coordinates && Number.isFinite(Number(d.coordinates.lng)) && Number.isFinite(Number(d.coordinates.lat))) {
-      return [Number(d.coordinates.lng), Number(d.coordinates.lat)];
-    }
-  }
-  return null;
-}
-
-const STATUS_MARKER_COLORS = {
-  Vulnerable: '#ea580c',
-  'En peligro': '#ef4444',
-  'En peligro crítico': '#b91c1c'
-};
-
-/** SVG estable: al cambiar tooltip u otras props del padre, React no re-renderiza esto y D3 conserva los puntos. */
+/** SVG estable: al cambiar tooltip u otras props del padre, React no re-renderiza el lienzo y D3 conserva el dibujo. */
 const MapSvgCanvas = memo(
   forwardRef(function MapSvgCanvas({ viewW, viewH }, ref) {
     return (
@@ -86,13 +64,11 @@ const MapSvgCanvas = memo(
   (prev, next) => prev.viewW === next.viewW && prev.viewH === next.viewH
 );
 
-export default function ColombiaMap({ onRegionClick, selectedRegion, onEthnicityClick }) {
+export default function ColombiaMap({ onRegionClick, selectedRegion }) {
   const svgRef = useRef();
   const containerRef = useRef();
   const onRegionClickRef = useRef(onRegionClick);
-  const onEthnicityClickRef = useRef(onEthnicityClick);
   onRegionClickRef.current = onRegionClick;
-  onEthnicityClickRef.current = onEthnicityClick;
 
   const [tooltip, setTooltip] = useState({ show: false, x: 0, y: 0, content: '' });
   const [dimensions, setDimensions] = useState({ width: 800, height: 900 });
@@ -188,10 +164,6 @@ export default function ColombiaMap({ onRegionClick, selectedRegion, onEthnicity
 
       const markerScale = Math.min(1.55, Math.max(0.95, width / 640));
       const regionR = 14 * markerScale;
-      const ethR = Math.max(9, 7 * markerScale);
-      const ethHaloR = ethR + 5;
-      const ethRHoverVal = ethR * 1.5;
-      const ethHaloHoverR = ethHaloR + 3;
 
       const geomsByRegion = {};
       const mpiosGeoms = co.objects.mpios.geometries;
@@ -299,90 +271,6 @@ export default function ColombiaMap({ onRegionClick, selectedRegion, onEthnicity
           .attr('pointer-events', 'none')
           .text(region.name);
       });
-
-      const ethLayer = svg
-        .append('g')
-        .attr('class', 'ethnicity-markers-layer')
-        .attr('data-layer', 'top');
-
-      for (const ethnicity of ethnicities) {
-        const lngLat = getEthnicityLngLat(ethnicity);
-        if (!lngLat) continue;
-        const [x, y] = projection(lngLat);
-        if (!Number.isFinite(x) || !Number.isFinite(y)) continue;
-        if (x < -12 || x > width + 12 || y < -12 || y > height + 12) continue;
-        const fill = STATUS_MARKER_COLORS[ethnicity.status] || '#059669';
-
-        const g = ethLayer
-          .append('g')
-          .attr('class', `ethnicity-marker ethnicity-${ethnicity.id}`)
-          .style('cursor', 'pointer');
-
-        g.append('circle')
-          .attr('class', 'ethnicity-halo')
-          .attr('cx', x)
-          .attr('cy', y)
-          .attr('r', ethHaloR)
-          .attr('fill', '#ffffff')
-          .attr('opacity', 0.9)
-          .attr('pointer-events', 'none');
-
-        g.append('circle')
-          .attr('class', 'ethnicity-dot')
-          .attr('cx', x)
-          .attr('cy', y)
-          .attr('r', ethR)
-          .attr('fill', fill)
-          .attr('stroke', '#ffffff')
-          .attr('stroke-width', 3);
-
-        g.on('click', (event) => {
-          event.stopPropagation();
-          onEthnicityClickRef.current(ethnicity);
-        });
-
-        g.on('mouseover', function (event) {
-          d3.select(this).select('.ethnicity-dot')
-            .transition()
-            .duration(100)
-            .attr('r', ethRHoverVal)
-            .attr('stroke-width', 3.5);
-          d3.select(this).select('.ethnicity-halo')
-            .transition()
-            .duration(100)
-            .attr('r', ethHaloHoverR);
-          setTooltip({
-            show: true,
-            x: event.clientX,
-            y: event.clientY,
-            content: `${ethnicity.name} — ${ethnicity.location || 'Colombia'}`
-          });
-        });
-
-        g.on('mousemove', (event) => {
-          setTooltip((t) => (t.show ? { ...t, x: event.clientX, y: event.clientY } : t));
-        });
-
-        g.on('mouseout', function () {
-          d3.select(this).select('.ethnicity-dot')
-            .transition()
-            .duration(100)
-            .attr('r', ethR)
-            .attr('stroke-width', 3);
-          d3.select(this).select('.ethnicity-halo')
-            .transition()
-            .duration(100)
-            .attr('r', ethHaloR);
-          setTooltip({ show: false, x: 0, y: 0, content: '' });
-        });
-      }
-
-      ethLayer.raise();
-      const root = svg.node();
-      const top = ethLayer.node();
-      if (root && top && top.parentNode === root) {
-        root.appendChild(top);
-      }
     })
       .catch((err) => {
         console.error('No se pudo cargar colombia-municipios.json', err);
@@ -395,7 +283,7 @@ export default function ColombiaMap({ onRegionClick, selectedRegion, onEthnicity
   }, [dimensions]);
 
   return (
-    <div className="mx-auto flex w-full max-w-full flex-col gap-2 sm:gap-2.5 sm:max-w-[40rem] md:max-w-[48rem] lg:max-w-[56rem] xl:max-w-[64rem] 2xl:max-w-[72rem]">
+    <div className="mx-auto flex w-full max-w-[42rem] flex-col gap-2 sm:gap-2.5 md:max-w-[46rem] lg:mx-0 lg:max-w-none">
       <header className="pointer-events-none flex w-full shrink-0 justify-center px-1">
         <div className="inline-flex flex-col rounded-2xl border border-slate-200/80 bg-white px-5 py-2.5 text-center shadow-md shadow-slate-900/[0.06] ring-1 ring-slate-900/[0.03] sm:px-6 sm:py-3">
           <h2 className="text-base font-bold tracking-tight text-slate-900 sm:text-lg">Mapa de Colombia</h2>
@@ -467,24 +355,6 @@ export default function ColombiaMap({ onRegionClick, selectedRegion, onEthnicity
               </button>
             );
           })}
-        </div>
-        <div className="my-3 h-px bg-slate-200/90" />
-        <h4 className="mb-2.5 text-[0.65rem] font-bold uppercase tracking-[0.12em] text-slate-500">
-          Etnias
-        </h4>
-        <div className="flex flex-col gap-1 text-[0.8125rem] text-slate-600 sm:text-sm">
-          <div className="flex items-center gap-2.5 rounded-lg px-1 py-1">
-            <span className="h-3 w-3 shrink-0 rounded-full bg-amber-400 shadow-sm ring-1 ring-black/[0.06]" aria-hidden />
-            <span>Vulnerable</span>
-          </div>
-          <div className="flex items-center gap-2.5 rounded-lg px-1 py-1">
-            <span className="h-3 w-3 shrink-0 rounded-full bg-red-400 shadow-sm ring-1 ring-black/[0.06]" aria-hidden />
-            <span>En peligro</span>
-          </div>
-          <div className="flex items-center gap-2.5 rounded-lg px-1 py-1">
-            <span className="h-3 w-3 shrink-0 rounded-full bg-red-600 shadow-sm ring-1 ring-black/[0.06]" aria-hidden />
-            <span>En peligro crítico</span>
-          </div>
         </div>
       </aside>
       </div>
