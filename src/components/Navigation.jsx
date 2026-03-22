@@ -66,23 +66,6 @@ export default function Navigation({ currentView, onViewChange }) {
           Biblioteca
         </button>
       </div>
-
-      <div className="hidden sm:flex">
-        <span className="inline-flex items-center gap-2 rounded-full border border-emerald-200/80 bg-emerald-50/90 px-3 py-1.5 text-xs font-semibold text-emerald-800 shadow-sm">
-          <svg
-            className="h-3.5 w-3.5 text-emerald-600"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            aria-hidden
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M12 16v-4M12 8h.01" />
-          </svg>
-          94 pueblos indígenas
-        </span>
-      </div>
     </motion.nav>
   );
 }

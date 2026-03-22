@@ -143,23 +143,24 @@ export const ethnicities = [
     coordinates: { lat: 2.8, lng: -76.5 },
     population: 2749,
     language: 'Namtrik',
-    languageFamily: 'Paez',
+    languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description:
-      'Resguardo en el Cauca, en alturas sobre 3.800 m; pueblo namtrik (familia paez) con convivencia paeces, ambalueños y guambianos; economía de ganadería y agricultura.',
+    description: 'Resguardo namtrik en el Cauca, en alturas sobre 3.800 m.',
+    otherNames: 'Ambaló.',
     locationDetail:
-      'La comunidad indígena de Ambaló se encuentra ubicada en cercanías de los cerros Crestegallo, Puzna y Gallinazo, cuyas alturas sobrepasan los 3.800 m de altitud.',
+      'La comunidad indígena de Ambaló se encuentra ubicada en cercanías de los cerros Crestegallo, Puzna y Gallinazo, cuyas alturas sobrepasan los 3.800 m de altitud. Asentados en nueve veredas.',
     populationSource:
-      'Tomando los datos censales existentes del territorio ancestral del pueblo ambalueño —estudio socioeconómico realizado en el año 2007—, el resguardo de Ambaló está constituido por 825 familias, o 2.749 personas: 1.372 hombres (49,70 %) y 1.377 mujeres (50,30 %), entre paeces, ambalueños y guambianos, asentados en nueve veredas. En el territorio ambalueño convive con personas originarias de Guambía, de Totoró y provenientes de otras zonas del país que se radican en las llamadas «zonas campesinas».',
+      '825 familias, o 2.749 personas: 1.372 hombres (49,70%) y 1.377 mujeres (50,30%).',
     languageDetail:
-      'Namtrik.\n\nSe deduce que, de toda la población (2.749 personas), 401 hablan el idioma castellano y el nativo; el resto (2.348 personas) habla únicamente el castellano. Indudablemente esto preocupa al cabildo; de allí que el Comité de Educación haya confeccionado el Proyecto Educativo Comunitario orientado hacia el fortalecimiento del Plan de Vida y de la organización para la recuperación del territorio, la lengua y la cultura.\n\nEs claro que la población hablante del namtrik se encuentra dispersa en varias zonas colindantes, de allí que un acercamiento a la situación social de esta lengua requiera abordajes diferenciados.',
+      'Namtrik. Pertenece a la familia lingüística Chibcha. De toda la población, 401 personas hablan el castellano y el nativo; el resto (2.348 personas) habla únicamente el castellano.',
     culture:
-      'Cuentan los mayores que el pueblo de Ambaló se origina a partir de la unión del Trueno y la laguna Brava, espíritus mayores que, al unirse, fecundan y dan origen a un cacique, quien baja por el río Agoyan acompañado de la avalancha. Este niño fue recogido y criado hasta convertirse en hombre.\n\nAsí nace el pueblo de Ambaló. La autoridad tradicional del pueblo Ambaló, a lo largo de la existencia y su presencia histórica, ha reafirmado su pensamiento, identidad y cultura; a la vez ha construido caminos, mandatos y políticas de resistencia, autonomía y control territorial, fundamentales para conmemorar de manera conjunta los 33 años de reconstitución de la autoridad, quien fuera desaparecida por los terratenientes durante más de cuatro décadas, tiempo en el cual hemos venido reafirmando nuestra existencia desde el territorio y la armonía viva depositada en nuestros mayores y mayoras.',
-    economy: 'La actividad económica de sus gentes se basa principalmente en la ganadería y la agricultura.',
+      'Cuentan los mayores que el pueblo de Ambaló se origina a partir de la unión del Trueno y la Laguna Brava, espíritus mayores que, al unirse, fecundan y dan origen a un cacique. La autoridad tradicional ha reafirmado su pensamiento, identidad y cultura; ha construido caminos, mandatos y políticas de resistencia, autonomía y control territorial.',
+    economy:
+      'La actividad económica se basa principalmente en la ganadería y la agricultura.',
     traditions: ['Sistema de autoridad tradicional', 'Recuperación de lengua y cultura', 'Plan de Vida comunitario'],
     crafts: ['Tejidos', 'Cestería', 'Trabajos en lana'],
-    location: 'Resguardo Ambaló, Cauca (cerros Crestegallo, Puzna, Gallinazo)'
+    location: 'Resguardo Ambaló, Cauca'
   },
   {
     id: 'amorua',
@@ -172,22 +173,21 @@ export const ethnicities = [
     languageFamily: 'Guahíbo',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description:
-      'Grupo de la familia lingüística guahíba en Paz de Ariporo (Casanare) y en contacto con guahibo-sikuani en Vichada; economía de horticultura y chagras de yuca.',
+    description: 'Wipiwe, Siripu, Mariposa. Grupo Guahíbo en los llanos orientales.',
     otherNames: 'Wipiwe, Siripu, Mariposa.',
     locationDetail:
-      'Están ubicados en el municipio de Paz de Ariporo, Casanare, en la localidad de El Merey-La Guagilla. Existe también un asentamiento de población conocida localmente como Amorúa en la localidad de La Esmeralda sobre el caño Aguaclara, afluente del río Casanare. Hay otro, de unas quince casas, en un punto vecino al hato El Porvenir, aproximadamente a tres horas de navegación por el río Meta, quienes se dedican a trabajar como jornaleros en las haciendas y fondos y siembran algodón por contrato. Otros asentamientos están en los fundos La Arenosa, Lituania, Tierra Macha y en la reserva los Mochuelos. Los Amorúa conviven con Guahibo-Sikuani en la reserva actual de Guáripa-La Hormiga, en Vichada. Aparentemente allí hay más del doble de población Amorúa de la que existe en El Porvenir.',
+      'Municipio de Paz de Ariporo, Casanare, en la localidad de El Merey-La Guagilla. También en La Esmeralda sobre el caño Aguaclara. Conviven con Guahibo-Sikuani en la reserva Guáripa-La Hormiga, en Vichada.',
     populationSource:
       'La población estimada es de 178 personas, repartidas en un perímetro de 94.670 hectáreas, que hacen parte del resguardo Caño Mochuelo.',
     languageDetail:
-      'El grupo conocido como Amorúa o Hamorúa pertenece a la familia lingüística Guahíbo. Guahibo Sikuani.',
+      'Pertenece a la familia lingüística Guahíbo.',
     culture:
-      'Su sistema de representación tiene en la figura del chamán al principal personaje de la vida ritual y espiritual de la etnia. Desde esa perspectiva, el yopo es la principal planta psicotrópica, fundamental en la realización de cualquier ceremonia o ritual, aunque también es utilizada en actividades de tipo social. El consumo de yopo, durante las ceremonias, va acompañado del consumo de tabaco y de otras plantas alucinógenas.\n\n– El «rezo del pescado», ceremonia de iniciación y de bautizo, que tiene una gran difusión entre los grupos de la región. Su sentido general es preparar a la joven para la vida adulta.\n\nEl Itomo, que hace parte del ciclo de ceremonias del segundo enterramiento. Es uno de los principales rituales, incluso, por encima del ritual de la primera ceremonia, donde el entierro es sencillo y solo interviene el chamán. El ritual permite perpetuar la presencia del difunto y se convierte en una actividad social importante.\n\nOrganización sociopolítica\n\nEn los grupos Amorúa prevalece un tipo de organización familiar fundada en la autoridad del suegro. La unidad de producción y consumo y la unidad residencial están constituidas generalmente por una pareja adulta, los hijos e hijas jóvenes y las hijas casadas, con sus respectivas familias. Con el crecimiento del grupo, los yernos tienden a construir viviendas separadas.\n\nPoseen un sistema de parentesco dravídico, donde clasifican a los miembros de la comunidad, y en general de la etnia, en dos categorías fundamentales: la de consanguíneos directos como los progenitores, hermanos e hijos, lo mismo que los tíos, hermanos del mismo sexo que los progenitores, hermano del padre y hermana de la madre y cuyas denominaciones se pueden traducir como «padrecito» y «madrecita», respectivamente; los primos paralelos, hijos de los hermanos del padre y las hermanas de la madre, se asimilan a los hermanos, y los sobrinos y sobrinas hijos de hermanos, se asocian a los hijos propios.\n\nEn la categoría de aliados se considera a los hermanos de la madre y hermanas del padre, quienes son a la vez suegros y suegras, pues son los progenitores de los primos cruzados o esposos y esposas virtuales. En la generación inferior, los hijos de la hermana para un ego masculino, y los hijos del hermano para un ego femenino se consideran como yernos y nueras que ya efectivamente son quienes se casan con los hijos de ego.',
+      'El chamán es el principal personaje de la vida ritual y espiritual. El yopo es la principal planta psicotrópica. El "rezo del pescado" es una ceremonia de iniciación y bautizo. El Itomo es parte del ciclo de ceremonias del segundo enterramiento.',
     economy:
-      'La yuca como cultivo principal, caracteriza la horticultura de los grupos Amorúa. Las variedades de yuca amarga se siembran intercaladas hasta una docena por chagra, para lograr una mayor y más larga producción en el terreno. En áreas de bajos y en zonas húmedas se siembran los plátanos. La piña, fríjol, batata y ñame se cultivan en pequeñas extensiones al lado de los yucales, mientras que cerca de las casas se siembran frutales como guama, mango, papaya, cítricos, condimentos y plantas medicinales. Para la elaboración de la bebida alcohólica, Yalaki, elaborada a partir de la yuca amarga, se siembra una yuquera adicional.\n\nLa preparación de nuevos terrenos (actividad que se realiza en diciembre), y algunas veces la siembra, se lleva a cabo mediante el convite o unuma, convocado por el jefe del asentamiento. La siembra tiene lugar en los días anteriores a las primeras lluvias.\n\nDespués de unos ocho meses de sembrados los yucales, la producción es continua, y como cada familia posee varios conucos en distintas fases de desarrollo, las necesidades familiares se satisfacen ampliamente.',
+      'La yuca es el cultivo principal. Siembran plátanos, piña, fríjol, batata, ñame y frutales. La Yalaki es una bebida elaborada a partir de la yuca amarga.',
     traditions: ['Ritual del "rezo del pescado"', 'Ceremonia Itomo', 'Uso del Yopo'],
     crafts: ['Cestería', 'Elaboración de hamacas', 'Trabajos en fibra'],
-    location: 'Paz de Ariporo (Casanare); resguardo Caño Mochuelo; Guáripa-La Hormiga (Vichada)'
+    location: 'Casanare y Vichada'
   },
   {
     id: 'andoque',
@@ -229,6 +229,17 @@ export const ethnicities = [
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
     description: 'Pueblo indígena de la familia lingüística Paez en el departamento del Cauca.',
+    otherNames: 'Andakies, Andakí.',
+    locationDetail:
+      'Ubicados en el departamento del Cauca, en la región andina sur.',
+    populationSource:
+      'Su población se estima aproximadamente en 500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Paez (Nasa Yuwe). La lengua se transmite principalmente en el ámbito familiar, aunque su uso está en decline entre las nuevas generaciones.',
+    culture:
+      'El pueblo Andakies ha mantenido tradiciones culturales vinculadas a la agricultura de subsistencia en las tierras frías del Cauca. Practican la medicina ancestral y mantienen danzas tradicionales que hacen parte de sus rituales comunitarios.',
+    economy:
+      'Su actividad económica principal es la agricultura de subsistencia, cultivando productos de clima frío como papa, cebolla, habas y otros alimentos tradicionales de la región andina.',
     traditions: ['Danza tradicional', 'Medicina ancestral', 'Agricultura de subsistencia'],
     crafts: ['Tejidos', 'Cestería', 'Artesanía en bambú'],
     location: 'Cauca'
@@ -412,58 +423,102 @@ export const ethnicities = [
     languageFamily: 'Embera',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Comunidad Embera ubicada en Risaralda.',
-    traditions: ['Danza tradicional', 'Chamanismo', 'Agricultura de tala y quema'],
-    crafts: ['Canastos', 'Mochilas', 'Brazaletes'],
+    description: 'Pueblo Embera ubicado en Risaralda, heredero de tradiciones ancestrales.',
+    otherNames: 'Cañamomo-Lomaprieta.',
+    locationDetail:
+      'Se localizan en el departamento de Risaralda, en los municipios de Pueblo Rico, Mistrató y otros asentamientos tradicionales Embera.',
+    populationSource:
+      'Su población se estima aproximadamente en 8.500 individuos distribuidos en varios resguardos.',
+    languageDetail:
+      'Los Embera Cañamomo conservan su lengua nativa Embera, perteneciente a la familia lingüística Embera-Chocó.',
+    culture:
+      'Comparten la cosmovisión Embera caracterizada por el Jaibanismo, donde el Jaibaná es el especialista en el manejo de las relaciones entre el mundo espiritual y físico. Su sistema de creencias se estructura en torno a los espíritus de la naturaleza y la importancia del territorio ancestral.',
+    economy:
+      'Basada en agricultura de selva tropical, cultivando café, cacao, plátano, maíz y frutales. Complementan con caza, pesca y recolección. Las artesanías representan una fuente importante de ingresos.',
+    traditions: ['Jaibanismo', 'Danza del agua', 'Chagra tradicional', 'Medicina ancestral'],
+    crafts: ['Canastos', 'Mochilas', 'Brazaletes de chaquira', 'Tambos ceremoniales'],
     location: 'Risaralda'
   },
   {
     id: 'carapana',
     name: 'Carapana',
     region: 'amazonia-norte',
-    departments: ['Vaupés'],
+    departments: ['Vaupés', 'Guaviare'],
     coordinates: { lat: 0.8, lng: -70.3 },
-    population: 1500,
-    language: 'Carapana',
+    population: 482,
+    language: 'Karapanã',
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
-    description: 'Pueblo Tukano Oriental ubicado en el Vaupés.',
-    traditions: ['Ceremonia Yuruparí', 'Danza tradicional', 'Pesca con barbasco'],
-    crafts: ['Bebederos', 'Flautas', 'Brazaletes'],
-    location: 'Vaupés'
+    description: 'Ucomaja ("Los médicos"). Pueblo Tukano Oriental del Vaupés.',
+    otherNames: 'Ucomaja, Karapana, Moxdoa, Muxtea.',
+    locationDetail:
+      'El pueblo Ucomaja está ubicado en el Vaupés, en asentamientos dispersos por los ríos Ti, Pirá Paraná, comunidad de San Antonio (Papurí), y en el Gran Resguardo Oriental del Vaupés. También hay presencia en el Guaviare en el Resguardo Vuelta del Alivio (Miraflores) y en el Resguardo El Itilla (Calamar).',
+    populationSource:
+      'Esta población se compone de 482 personas según el censo de 2005, entre ellos 244 hombres y 238 mujeres. Del total, 231 personas hablan la lengua de su pueblo. La distribución está en dos resguardos: El Itilla y Cachivera de Nare.',
+    languageDetail:
+      'La lengua karapanã-tapúya pertenece a la subfamilia lingüística tucano oriental. Constituye un elemento importante de identidad e intercambio matrimonial. Cada pueblo tiene su lenguaje que le permite conservar su base cultural.',
+    culture:
+      'Para los pueblos amazónicos, el uso de plantas sagradas es fundamental. El Yuruparí es el ritual más trascendental porque rememora los orígenes. Viven en malokas como espacios de vivienda colectiva y rituales. Una autoridad vertical era detentada por el jefe y apoyada por el payé.',
+    economy:
+      'La economía se basa en la horticultura de roza, quema y siembra de yuca, ñame, chontaduro, banano, ají, aguacate, piña, papaya, calabaza. Complementa con caza, pesca y recolección de frutos silvestres.',
+    traditions: ['Ceremonia Yuruparí', 'Danza tradicional', 'Pesca con barbasco', 'Payé'],
+    crafts: ['Bebederos', 'Flautas', 'Brazaletes', 'Malokas'],
+    location: 'Vaupés y Guaviare'
   },
   {
     id: 'chimila',
     name: 'Chimila',
     region: 'andina-norte-caribe',
-    departments: ['Cesar', 'Magdalena', 'Bolívar'],
+    departments: ['Cesar', 'Magdalena', 'Bolívar', 'La Guajira'],
     coordinates: { lat: 9.5, lng: -74.0 },
-    population: 3000,
-    language: 'Chimila',
+    population: 1614,
+    language: 'Ette Taara',
     languageFamily: 'Chibcha',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1531299204812-e6d0d4b7b02c?w=800',
-    description: 'Pueblo Chibcha que habita en la región del Magdalena y Cesar.',
-    traditions: ['Danza del careticio', 'Caza tradicional', 'Medicina ancestral'],
-    crafts: ['Canastas', 'Hamacas', 'Arcos ceremoniales'],
+    description: 'Ette Ennaka ("gente propia" "gente verdadera"). Pueblo Chibcha que habita en la región del Magdalena y Cesar.',
+    otherNames: 'Ette Ennaka, simiza, chimile, shimizya.',
+    locationDetail:
+      'A la llegada de los españoles, el pueblo Chimila ocupaba grandes extensiones desde Río Frío y las estribaciones noroccidentales de la Sierra Nevada de Santa Marta hasta las inmediaciones de Mompox y la Ciénaga de Zapatosa. Hoy se localizan en torno a la población de San Angel, en las llanuras centrales de los departamentos del Magdalena y el Cesar.',
+    populationSource:
+      'El Censo DANE 2005 reportó 1.614 personas autoreconocidas como pertenecientes al pueblo Ette Ennaka, de las cuales el 52% son hombres (840 personas) y el 48% mujeres (774 personas). El pueblo se concentra en Magdalena (63,9%), La Guajira (20,0%) y Cesar (2,9%).',
+    languageDetail:
+      'La lengua nativa se denomina Ette Taara y pertenece al complejo lingüístico Chibcha. De acuerdo al autodiagnóstico realizado con el Ministerio de Cultura, su lengua se encuentra en riesgo de extinción pues solamente el 23,5% de la población la habla y entiende, de los cuales la mayoría son ancianos y líderes de la comunidad.',
+    culture:
+      'En la cosmología del pueblo Ette Ennaka el Cosmos está conformado por diferentes estratos, los cuales van disminuyendo a través de ciclos destructivos marcados por cataclismos. Los sueños y el acto mismo de soñar tienen una importante función social y cultural. A partir de los conocimientos cosmológicos interpretan y analizan colectivamente los sueños; y a través del acto de recordar, narrar e interpretar sus ensoñaciones diariamente, transmiten sus saberes y reproducen su cultura.',
+    economy:
+      'La producción económica está sustentada en la horticultura, la cacería y la pesca, complementadas con la cría de animales y aves domésticas. Es común que los indígenas se conviertan en jornaleros de las grandes haciendas. El trabajo agrícola es compartido entre hombres y mujeres. Complementan con la elaboración de productos artesanales como mochilas y hamacas.',
+    traditions: ['Danza del caretcio', 'Caza tradicional', 'Medicina ancestral', 'Interpretación de sueños'],
+    crafts: ['Canastas', 'Hamacas', 'Arcos ceremoniales', 'Mochilas'],
     location: 'Cesar y Magdalena'
   },
   {
     id: 'chiricoa',
     name: 'Chiricoa',
     region: 'llanos-orientales',
-    departments: ['Meta', 'Vichada'],
+    departments: ['Meta', 'Vichada', 'Antioquia'],
     coordinates: { lat: 4.5, lng: -71.0 },
-    population: 500,
+    population: 46,
     language: 'Guahibo',
     languageFamily: 'Guahibo',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Pueblo de la familia Guahibo ubicado en los llanos orientales.',
-    traditions: ['Caza tradicional', 'Pesca', 'Agricultura itinerante'],
+    description: 'Pueblo de la familia Guahibo, uno de los más reducidos y vulnerables de Colombia.',
+    otherNames: 'Chiricoa Guahibo.',
+    locationDetail:
+      'Originariamente se ubicaban en el alto río Ele (Arauca). También existe información sobre asentamientos en Arauquita. Actualmente no poseen un territorio geográficamente definido.',
+    populationSource:
+      'Su población se estima en 46 individuos, una de las más reducidas comunidades indígenas de Colombia. Se encuentran en Antioquia, Bolívar y Bogotá. La mayor concentración está en Medellín (8 personas) y Bogotá (7 personas).',
+    languageDetail:
+      'Pertenece a la familia lingüística Guahibo. La lengua ha sido poco estudiada y está en grave peligro de desaparición.',
+    culture:
+      'Descritos como un grupo nómada que se desplazaba por los actuales departamentos de Arauca y Casanare. Al comienzo de la colonización de los Llanos Orientales, constituían un gran pueblo que fue diezmado por las reducciones misioneras y las enfermedades. Se conservan rituales donde se utilizan plantas psicotrópicas. El "rezo del pescado" es una ceremonia de iniciación y bautizo, y el Itomo hace parte del ciclo de ceremonias del segundo enterramiento.',
+    economy:
+      'La economía está sustentada en la horticultura de roza, quema y siembra, con cultivos de yuca, ñame, chontaduro, banano, ají, caimo, aguacate, piña, papaya, calabaza, lulo y marañón. Se complementa con caza, pesca y recolección de frutos silvestres.',
+    traditions: ['Caza tradicional', 'Pesca', 'Agricultura itinerante', 'Ritual del "rezo del pescado"', 'Ceremonia Itomo'],
     crafts: ['Canastos', 'Brazaletes', 'Trabajos en palma'],
-    location: 'Meta y Vichada'
+    location: 'Meta, Vichada y dispersos en otros departamentos'
   },
   {
     id: 'coconuco',
@@ -471,13 +526,24 @@ export const ethnicities = [
     region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.6, lng: -76.5 },
-    population: 12000,
+    population: 6141,
     language: 'Coconuco',
-    languageFamily: 'Paez',
+    languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=800',
-    description: 'Herederos de la cultura Paez en las tierras frías del Cauca.',
-    traditions: ['Baños termales ceremoniales', 'Tejido de ruanas', 'Danza del oso'],
+    description: 'Kokonuko. Herederos de la cultura Paez en las tierras frías del Cauca.',
+    otherNames: 'Kokonuko, Puracé.',
+    locationDetail:
+      'El Pueblo Kokonuko está asentado en tres Municipios del Departamento del Cauca: en el Municipio de Puracé (Resguardos de Paletará, Kokonuko y Puracé), en el Municipio de Popayán (Resguardos de Poblazón, Quintana y Pueblo Kokonuko), y en el Municipio del Tambo (Resguardo de Alto del Rey y Cabildo de Guarapamba).',
+    populationSource:
+      'Se estima una población de 6.141 personas distribuidas en un perímetro de 24.462 hectáreas.',
+    languageDetail:
+      'Ya no quedan hablantes de coconuco, lengua perteneciente a la familia Chibcha, pero conservan elementos lingüísticos como toponímicos, nombres de plantas y de animales.',
+    culture:
+      'La cosmogonía Coconuco se estructura en un sistema dual: lo masculino y lo femenino, lo caliente y lo frío, el sol y la luna. El universo está habitado por seres sobrenaturales. Ure es uno de los principales espíritus malignos que habita debajo de la tierra. Nuguwaymasig mora en el volcán Puracé. Yash, Kway-Mantsik y Kalyim pueden arrebatar el alma a las personas, producir enfermedades y muerte.',
+    economy:
+      'Cada familia posee una o dos parcelas para cultivar maíz y papa. Actualmente practican la ganadería y en menor escala otros productos para autoconsumo como el ulluco, repollo y habas. Complementan con actividades laborales en cultivos de flores y explotación de azufre. Para la realización de cultivos se utiliza la minga como sistema de cooperación colectiva.',
+    traditions: ['Baños termales ceremoniales', 'Tejido de ruanas', 'Danza del oso', 'Minga comunitaria'],
     crafts: ['Ruanas de lana', 'Mochilas', 'Chales bordados'],
     location: 'Cauca'
   },
@@ -487,13 +553,24 @@ export const ethnicities = [
     region: 'amazonia-sur',
     departments: ['Caquetá', 'Putumayo'],
     coordinates: { lat: 1.0, lng: -75.5 },
-    population: 8000,
-    language: 'Coreguaje',
+    population: 1767,
+    language: 'Korewahe',
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
-    description: 'Pueblo Tukano Oriental en las cuencas del Caquetá y Putumayo.',
-    traditions: ['Caza sostenible', 'Pesca con barbasco', 'Danza del caimán'],
+    description: 'Koreguaje ("la gente de tierra"). Pueblo Tukano Oriental en las cuencas del Caquetá y Putumayo.',
+    otherNames: 'Koreguaje, korebaju, coreguaxe, Koré pâín.',
+    locationDetail:
+      'Se encuentran ubicados en varios caseríos a lo largo del río Orteguaza y sus afluentes, al sudeste de Florencia en el departamento del Caquetá, y en el río Caquetá y sus afluentes al este de Puerto Solano.',
+    populationSource:
+      'Su población se estima en 1.767 individuos. La mayor concentración está en Solano - Caquetá (534 indígenas) y Milán - Caquetá (771 personas).',
+    languageDetail:
+      'La lengua korewahe se habla en el departamento del Caquetá, en 27 asentamientos a lo largo de los ríos Orteguazo, Peneya y Caquetá. Los hablantes presentan una fusión de varios grupos étnicos ya que también la hablan inga, witoto, carijona y Tama.',
+    culture:
+      'Para la cultura Koreguaje el mundo se conforma por tres niveles: Cheja buebú (tierra de abajo), Cheja sanaba jopo (tierra del centro) y Cheja sesebú (tierra de encima donde habitan las personas). El mundo está controlado por espíritus o fuerzas que determinan los acontecimientos. El chaman o curaca establece comunicación con las fuerzas sobrenaturales. El cacique es la autoridad tradicional conocedor del pensamiento de los ancestros.',
+    economy:
+      'La economía se encuentra en proceso de integración con la agricultura comercial. Los principales cultivos para autoconsumo son la yuca, plátano y frutales. Utilizan la yuca amarga para elaborar casabe y fariña. También practican pesca, caza, cría de animales, explotación maderera y fabricación de artesanías.',
+    traditions: ['Caza sostenible', 'Pesca con barbasco', 'Danza del caimán', 'Toma de yagé'],
     crafts: ['Bebederos', 'Cucharas talladas', 'Brazaletes'],
     location: 'Caquetá y Putumayo'
   },
@@ -503,13 +580,24 @@ export const ethnicities = [
     region: 'andina-sur',
     departments: ['Tolima'],
     coordinates: { lat: 3.8, lng: -75.0 },
-    population: 25000,
-    language: 'Coyaima-Natagaima',
+    population: 24663,
+    language: 'Castellano (sin lengua aborigen)',
     languageFamily: 'Arawak',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
-    description: 'Pueblo de la familia Arawak ubicados en Tolima.',
-    traditions: ['Pesca tradicional', 'Agricultura', 'Medicina ancestral'],
+    description: 'Pijao del sur del Tolima. Pueblo de la familia Arawak ubicados en Tolima.',
+    otherNames: 'Pijao, Coyaima, Natagaima.',
+    locationDetail:
+      'Se autodenominan Pijao del sur del departamento del Tolima. Se ubican en pequeñas parcialidades en los municipios de Coyaima, Natagaima, Ortega, Chaparral y San Antonio. Los Coyaima estaban asentados en los valles de los ríos Saldaña y Magdalena, y los Natagaima en la serranía de los Órganos.',
+    populationSource:
+      'Su población comprende 24.663 personas repartidas en varias comunidades.',
+    languageDetail:
+      'No hablan lengua aborigen en la actualidad. Pertenecen a la familia lingüística Arawak.',
+    culture:
+      'Formaron parte de los Pijao, una sociedad con afinidades lingüísticas y culturales cuyo territorio abarcaba la actual ciudad de Ibagué, el valle del Magdalena y parte de las cordilleras Oriental y Central. Después de su reducción en el siglo XVII, establecieron dos resguardos. Han apropiado elementos de la tradición cultural hispánica como la ganadería y los ritos católicos. El sistema de creencias se caracteriza por el sincretismo religioso. La patasola y la madremonte hacen parte de los protagonistas míticos de su tradición oral.',
+    economy:
+      'Mantienen una economía de subsistencia complementada con productos comerciales de consumo básico. Generalmente existe un terreno comunitario para cultivos comerciales y de autoconsumo. Sus cultivos principales son la yuca, el maíz y el plátano. Complementan con ganadería y cría de animales de corral. Han logrado dotación de tierras en 64 resguardos a través del Consejo Nacional Indígena del Tolima (CRIT).',
+    traditions: ['Pesca tradicional', 'Agricultura', 'Medicina ancestral', 'Sincretismo religioso'],
     crafts: ['Canastas', 'Hamacas', 'Trabajos en barro'],
     location: 'Tolima'
   },
@@ -517,38 +605,60 @@ export const ethnicities = [
     id: 'cubeo',
     name: 'Cubeo',
     region: 'amazonia-norte',
-    departments: ['Vaupés'],
+    departments: ['Vaupés', 'Guaviare', 'Guainía'],
     coordinates: { lat: 1.2, lng: -70.5 },
-    population: 3000,
-    language: 'Cubeo',
+    population: 3926,
+    language: 'Kubeo',
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
-    description: 'Pueblo Tukano Oriental conocido por sus máscaras ceremoniales.',
-    traditions: ['Mascarada ritual', 'Danza tradicional', 'Ceremonia de iniciación'],
-    crafts: ['Máscaras talladas', 'Bebederos', 'Canastos'],
-    location: 'Vaupés'
+    description: 'Pamíva ("hijos de la Anaconda Ancestral"). Pueblo Tukano Oriental conocido por sus máscaras ceremoniales.',
+    otherNames: 'Kubeo, Paniwa, Cobewa, Hipnwa, Kaniwa, Pamíva.',
+    locationDetail:
+      'El pueblo Cubeo se encuentra ubicado en el departamento del Vaupés, en las fronteras con Venezuela y Brasil. Se calcula que aproximadamente el 70% de su territorio tiene figura legal de Resguardo Indígena.',
+    populationSource:
+      'Su población se estima en 3.926 individuos. La mayor concentración está en Mitú - Vaupés (2.439 indígenas) y Mira Flores - Guaviare (546 personas).',
+    languageDetail:
+      'La lengua Kubeo (Cubeo, Cobewa, Kubéwa, Pamíwa) se habla en el noroeste del Amazonas brasileiro y en Colombia en la zona noroccidental de los ríos Vaupés, Cuduyari y Querarí. Aunque han estado en contacto con occidentales desde el siglo XVI, su lengua y cultura han permanecido casi intactas.',
+    culture:
+      'Su origen está asociado al ciclo mítico de la Anaconda Ancestral. Kuwai es el principal héroe cultural y el ritual del "Yuruparí" se destaca entre sus celebraciones. Su patrón de asentamiento se caracteriza por aldeas dispersas estructuradas alrededor de una escuela o centro de salud. Viven en casas rectangulares divididas en dos espacios para una familia nuclear. En algunas aldeas se construyen malokas rectangulares con función de sitio de reunión.',
+    economy:
+      'Trabajan la cerámica, la talla de madera y la cestería. El balay (tejido redondo y cóncavo usado para servir el casabe) es uno de los objetos más representativos. El comercializar sus artesanías tiene un valor importante para recuperar y valorar sus conocimientos.',
+    traditions: ['Mascarada ritual', 'Danza tradicional', 'Ceremonia de iniciación', 'Ritual del Yuruparí'],
+    crafts: ['Máscaras talladas', 'Bebederos (balay)', 'Canastos', 'Cerámica'],
+    location: 'Vaupés, Guaviare y Guainía'
   },
   {
     id: 'desano',
     name: 'Desano',
     region: 'amazonia-norte',
-    departments: ['Vaupés'],
+    departments: ['Vaupés', 'Guaviare', 'Guainía'],
     coordinates: { lat: 0.8, lng: -70.2 },
-    population: 5000,
+    population: 2179,
     language: 'Desano',
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Pueblo Tukano Oriental con cosmogonía basada en los astros.',
-    traditions: ['Cosmología astral', 'Danza tradicional', 'Ceremonias del Yuruparí'],
-    crafts: ['Bebederos', 'Canastos', 'Brazaletes'],
-    location: 'Vaupés'
+    description: 'Desana, Winá, Wirá. Pueblo Tukano Oriental con cosmogonía basada en los astros.',
+    otherNames: 'Desana, Uina, Winá, Uira, Wirá boleka, Oregua, Kusibi, Wirá, Kotedia, Dessana.',
+    locationDetail:
+      'Se encuentran ubicados al noroeste del departamento del Amazonas. La comunidad se encuentra en los departamentos de Vaupés, Guaviare y Guainía, especialmente en los caños Abiyú, Macú-Paraná, Viña, y en Piracuara o caño Viarí. Ocupan el Gran Resguardo del Vaupés, Arará-Bacati, El Venado, Lagos del Dorado, El Remanso, La Palma y Asunción.',
+    populationSource:
+      'Según el censo general del DANE 2005 está constituido por 2.179 habitantes. Solo entre el 30 y 50% de la comunidad conoce y usa su lengua.',
+    languageDetail:
+      'La lengua desano hace parte de la subfamilia lingüística tucano oriental, constituida por quince lenguas que comparten características lingüísticas y culturales.',
+    culture:
+      'Comparten ceremonias especiales con otros pueblos tucano oriental. La más conocida es el intercambio matrimonial entre miembros de comunidades indígenas diferentes. Las uniones matrimoniales han propiciado el multilingüismo. El ritual del "Yuruparí" es el eje primordial para recordar orígenes y reafirmar vínculos con la cosmovisión. El Payé oficia las ceremonias del ciclo vital y cura enfermedades. El kumu (representante del sol) es la persona con mayor rango dentro de la sociedad.',
+    economy:
+      'Su economía se fundamenta en la horticultura incipiente, caza, pesca y recolección de frutos. Cultivan yuca amarga, yuca dulce, maíz, caña de azúcar, ñame, chontaduro, banano y frutales. Son hábiles artesanos en la fabricación de canastos de carrizo y ollas de arcilla.',
+    traditions: ['Cosmología astral', 'Danza tradicional', 'Ceremonias del Yuruparí', 'Intercambio matrimonial'],
+    crafts: ['Bebederos', 'Canastos de carrizo', 'Brazaletes', 'Ollas de arcilla'],
+    location: 'Vaupés, Guaviare y Guainía'
   },
   {
     id: 'dujo',
     name: 'Dujo',
-    region: 'andina-norte-caribe',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.5, lng: -70.8 },
     population: 300,
@@ -556,9 +666,20 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Pueblo Tukano Oriental pequeño ubicado en el Vaupés.',
-    traditions: ['Caza', 'Pesca', 'Rituales chamánicos'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Dujo. Pueblo Tukano Oriental pequeño ubicado en el Vaupés.',
+    otherNames: 'Duxo.',
+    locationDetail:
+      'Se encuentran en el departamento del Vaupés, formando parte del complejo cultural del Vaupés junto con otros pueblos de la familia lingüística Tucano Oriental.',
+    populationSource:
+      'Su población se estima aproximadamente en 300 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental. La lengua se encuentra en situación crítica de extinción.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés. El sistema de organización social se basa en linajes patrilineales. El ritual del Yuruparí es central en su cosmovisión.',
+    economy:
+      'La economía se basa en la horticultura de tala y quema, caza, pesca y recolección. Cultivan yuca amarga, plátano, maíz y otros productos de subsistencia.',
+    traditions: ['Ritual del Yuruparí', 'Caza', 'Pesca', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas ceremoniales', 'Bebederos'],
     location: 'Vaupés'
   },
   {
@@ -569,45 +690,78 @@ export const ethnicities = [
     coordinates: { lat: 5.5, lng: -76.5 },
     population: 45000,
     language: 'Embera',
-    languageFamily: 'Embera',
+    languageFamily: 'Embera-Chocó',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Pueblo que habita las selvas del Chocó biogeográfico.',
-    traditions: ['Danza del agua', 'Piru (baño ceremonial)', 'Caza con cerbatana'],
-    crafts: ['Canastos finamente tejidos', 'Bebederos', 'Máscaras talladas'],
-    location: 'Chocó'
+    description: 'Embera Dobida. Pueblo que habita las selvas del Chocó biogeográfico.',
+    otherNames: 'Embera Dobida, "gente del río".',
+    locationDetail:
+      'Los Embera Dobida se encuentran principalmente en el departamento del Chocó, distribuidos a lo largo de los ríos Baudó, Docordó, Sipí y sus afluentes. También hay asentamientos en Córdoba y Antioquia.',
+    populationSource:
+      'Su población se estima aproximadamente en 45.000 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Embera-Chocó. La lengua Embera tiene dos grandes bloques dialectales: el Bajo Baudó y el de Antioquia/Córdoba.',
+    culture:
+      'Los Embera están constituidos en dos grandes grupos: Dobida (gente del río) y Eyabida. Los Dobida son la gente cuyo modo de vida gira en torno al río: sus casas y huertos están a orillas del río, la pesca es una actividad permanente. El Jaibaná tiene una función de gran importancia en el manejo de la vida mágico-religiosa del grupo.',
+    economy:
+      'Practican agricultura de selva tropical con cultivos de café, cacao, plátano, maíz, arroz, yuca y frutales. Complementan con caza, pesca y recolección. Los tambos se ubican en las riberas de los ríos.',
+    traditions: ['Piru (baño ceremonial)', 'Danza del agua', 'Jaibanismo', 'Rituales de curación'],
+    crafts: ['Canastos finamente tejidos', 'Bebederos', 'Máscaras talladas', 'Brazaletes de chaquira'],
+    location: 'Chocó, Córdoba y Antioquia'
   },
   {
     id: 'embera-katio',
     name: 'Embera Katío',
     region: 'pacifica',
-    departments: ['Córdoba', 'Chocó', 'Antioquia'],
+    departments: ['Córdoba', 'Chocó', 'Antioquia', 'Caldas', 'Putumayo'],
     coordinates: { lat: 7.0, lng: -76.0 },
-    population: 30000,
+    population: 38259,
     language: 'Embera',
-    languageFamily: 'Embera',
+    languageFamily: 'Chocó',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
-    description: 'Habitan las cuencas de los ríos Sinú y alto Magdalena.',
-    traditions: ['Toma de chirrapa', 'Danza del duende', 'Ritual de la luna nueva'],
-    crafts: ['Voladores de madera', 'Bebederos tallados', 'Brazaletes de chaquira'],
-    location: 'Córdoba y Chocó'
+    description: 'Embera Eyabida. Habitan las cuencas de los ríos Sinú y alto Magdalena.',
+    otherNames: 'Embera Eyabida.',
+    locationDetail:
+      'Los Embera Katío se encuentran en el departamento del Chocó en los municipios de Unguía, Acandí, Riosucio, Bojayá, Bagadó, Carmen de Atrato y Quibdó; en Córdoba sobre los ríos Sinú, Esmeralda y Río Verde; en Antioquia. Parte de su territorio coincide con el Parque Nacional Natural de Paramillo.',
+    populationSource:
+      'El Censo DANE 2005 reportó 38.259 personas autoreconocidas. El 50,7% son hombres (19.383) y 49,3% mujeres (18.876). Se concentran en Antioquia (33,5%), Chocó (26,5%) y Córdoba (13,4%). Representan el 2,7% de la población indígena de Colombia.',
+    languageDetail:
+      'Los embera katío conservan su lengua nativa perteneciente a la familia lingüística Chocó, emparentada con la waunan. Hay dos grandes bloques dialectales: del Bajo Baudó y de Antioquia/Córdoba.',
+    culture:
+      'En la cosmovisión embera hay tres mundos: el de arriba (bajía) donde están Karagabí y Ba (trueno); el de los humanos (egoró); y el de abajo. El Jaibaná es el personaje que traduce y hace la relación entre los tres mundos. Es uno de los pueblos más influenciados por la iglesia católica. Conserved importance of water and rivers in culture.',
+    economy:
+      'Practican agricultura de selva tropical con cultivos de café, cacao, plátano, maíz, arroz, yuca y frutales. Complementan con caza, pesca y recolección. Los tambos se ubican en las riberas de los ríos.',
+    traditions: ['Toma de chirrapa', 'Danza del duende', 'Ritual de la luna nueva', 'Jaibanismo'],
+    crafts: ['Voladores de madera', 'Bebederos tallados', 'Brazaletes de chaquira', 'Tambos'],
+    location: 'Córdoba, Chocó y Antioquia'
   },
   {
     id: 'embera-chami',
     name: 'Embera Chamí',
     region: 'pacifica',
-    departments: ['Risaralda', 'Chocó', 'Caldas'],
+    departments: ['Risaralda', 'Caldas', 'Valle del Cauca', 'Antioquia'],
     coordinates: { lat: 5.2, lng: -76.0 },
-    population: 12000,
+    population: 29094,
     language: 'Embera',
-    languageFamily: 'Embera',
+    languageFamily: 'Chocó',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
-    description: 'Habitan las selvas de Risaralda y Chocó.',
-    traditions: ['Medicina tradicional', 'Danza ceremonial', 'Cestería medicinal'],
-    crafts: ['Canastos medicinales', 'Brazaletes', 'Bebederos'],
-    location: 'Risaralda y Chocó'
+    description: 'Embera Chamí ("Habitante de Montaña"). Habitan las selvas de Risaralda y Chocó.',
+    otherNames: 'Embera Chamí.',
+    locationDetail:
+      'La mayor parte de la población chamí se encuentra sobre el Río San Juan y en los municipios de Pueblo Rico y Mistrató (Risaralda). Un segundo núcleo se encuentra en los ríos Garrapatas y San Quiníni (Valle del Cauca) y en el Resguardo de Cristiana (Antioquia). También hay asentamientos en Quindío, Caldas, Valle del Cauca y Caquetá.',
+    populationSource:
+      'El Censo DANE 2005 reportó 29.094 personas autoreconocidas. El 50,2% son hombres (14.609) y 49,8% mujeres (14.485). Se concentran en Risaralda (55,1%), Caldas (24,8%) y Antioquia (7,3%). Representan el 2,1% de la población indígena de Colombia.',
+    languageDetail:
+      'Los embera chamí conservan su lengua nativa perteneciente a la familia lingüística Chocó, que tiene relación con las familias arawak, karib y chibcha. Consta de un complejo conjunto de variedades dialectales que pueden ser inteligibles entre sí.',
+    culture:
+      'Los Embera están constituidos en dos grandes grupos: Dobida (gente del río) y Eyabida. Los Embera Chamí comparten la historia prehispánica y colonial caracterizada por su continua resistencia a las incursiones conquistadoras. Se destacan por la dispersión de sus asentamientos sobre las cuencas de los ríos. El Jaibaná tiene gran importancia en el manejo de la vida mágico-religiosa del grupo.',
+    economy:
+      'El sistema de producción se basa en la agricultura de selva tropical, cultivando café, cacao, chontaduro, maíz, fríjol y caña de azúcar. Además practican caza, pesca, recolección y en menor medida extracción de madera y oro.',
+    traditions: ['Medicina tradicional', 'Danza ceremonial', 'Cestería medicinal', 'Jaibanismo'],
+    crafts: ['Canastos medicinales', 'Brazaletes', 'Bebederos', 'Tambos'],
+    location: 'Risaralda, Caldas, Valle del Cauca y Antioquia'
   },
   {
     id: 'eperara',
@@ -615,29 +769,51 @@ export const ethnicities = [
     region: 'pacifica',
     departments: ['Cauca', 'Nariño', 'Valle del Cauca'],
     coordinates: { lat: 3.0, lng: -77.5 },
-    population: 8000,
-    language: 'Eperara',
-    languageFamily: 'Chibcha',
+    population: 3853,
+    language: 'Epérã Pedée',
+    languageFamily: 'Chocó',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Pueblo del Pacífico sur conocido por sus tejidos.',
-    traditions: ['Tejido tradicional', 'Danza', 'Agricultura de tala y quema'],
-    crafts: ['Tejidos', 'Canastos', 'Brazaletes'],
-    location: 'Cauca y Nariño'
+    description: 'Eperara síapidara ("la gente de la lengua"). Pueblo del Pacífico sur.',
+    otherNames: 'Eperara, saija, epená saija, epea pedée, cholo.',
+    locationDetail:
+      'Se encuentran en el departamento del Cauca, en la ribera del Saija (López de Micay), y en el río Naya (Buenaventura, Valle del Cauca). También hay asentamientos en El Charco y Olaya Herrera (Nariño).',
+    populationSource:
+      'El Censo DANE 2005 reportó 3.853 personas autoreconocidas. El 50% son hombres (1.926) y 50% mujeres (1.927). Se concentran en Cauca (49,2%), Nariño (44,8%) y Valle del Cauca (2%). Representan el 0,3% de la población indígena de Colombia.',
+    languageDetail:
+      'Su lengua nativa es la epérã pedée, perteneciente a la familia lingüística de los Chocó. Epera significa "gente", ra indica "plural", sía es "nombre de la lengua" y pidara es "reportativo".',
+    culture:
+      'Todo conocimiento se expresa en dos mundos: el etéreo (del Jai, espíritus) y el físico (ecosistema). La estructura social se basa en organización familiar de trabajo agrícola. La máxima autoridad espiritual es la Tachi nawe ("nuestra madre"). El Jaipana tiene la autoridad de la salud. Su vivienda tradicional es el tambo.',
+    economy:
+      'Tradicionalmente han practicado agricultura de selva tropical húmeda itinerante, cultivando plátano, maíz, caña de azúcar, arroz, yuca y fríjol. Complementan con caza, pesca y recolección de frutos.',
+    traditions: ['Tejido tradicional', 'Danza', 'Agricultura de tala y quema', 'Jaipana'],
+    crafts: ['Tejidos', 'Canastos', 'Brazaletes', 'Tambos'],
+    location: 'Cauca, Nariño y Valle del Cauca'
   },
   {
     id: 'arhuaco',
     name: 'Arhuaco (Ika)',
     region: 'andina-norte-caribe',
-    departments: ['Cesar', 'Magdalena', 'La Guajira'],
+    departments: ['Cesar', 'La Guajira', 'Magdalena'],
     coordinates: { lat: 10.5, lng: -73.2 },
-    population: 12000,
+    population: 22134,
     language: 'Ika',
     languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1518182170546-0766dd6f7a56?w=800',
-    description: 'Guardianes de la Sierra Nevada de Santa Marta.',
-    traditions: ['La Kolla (bebida sagrada)', 'Ceremonias en los picos nevados', 'Sistema de gobierno propio'],
+    description: 'Iku ("gente"). Guardianes de la Sierra Nevada de Santa Marta.',
+    otherNames: 'Ika, iku, Ijku.',
+    locationDetail:
+      'Los Ika habitan las cuencas altas de los ríos Aracataca, Fundación y Ariguaní en la vertiente occidental de la Sierra Nevada de Santa Marta. Ocupan zonas en Cesar, La Guajira y Magdalena. Comparten territorio con los kogui y los wiwa. Están favorecidos por los tres pisos térmicos.',
+    populationSource:
+      'Son un grupo homogéneo de 14.799 personas en un área de 195.900 hectáreas. El Censo DANE 2005 reportó 22.134 personas autoreconocidas. Se concentran en Magdalena (97,1%), La Guajira (1,9%) y Bogotá (0,42%). Representan el 1,59% de la población indígena de Colombia.',
+    languageDetail:
+      'Lengua Ika (chibchense). Hay aproximadamente 8.000 a 10.000 hablantes. Otros nombres son ika, bíntukwa.',
+    culture:
+      'Son un pueblo profundamente espiritual con su propia filosofía globalizante. Consideran la Sierra como el corazón del mundo desde el cual se originó. Son dinámicos y combativos con organización política desarrollada. El mundo se concibe como dos pirámides sostenidas sobre una misma base con nueve mundos. La Sierra es considerada como un cuerpo humano.',
+    economy:
+      'La agricultura es la principal actividad económica. Practican tumba y quema de bosque para sus cultivos.',
+    traditions: ['La Kolla (bebida sagrada)', 'Ceremonias en los picos nevados', 'Sistema de gobierno propio', 'Mamos'],
     crafts: ['Mochilas ceremoniales', 'Sombreros de caña', 'Collares de semillas'],
     location: 'Sierra Nevada de Santa Marta'
   },
@@ -645,17 +821,28 @@ export const ethnicities = [
     id: 'guambiano',
     name: 'Guambiano',
     region: 'andina-sur',
-    departments: ['Cauca'],
+    departments: ['Cauca', 'Huila', 'Valle del Cauca'],
     coordinates: { lat: 2.5, lng: -76.7 },
-    population: 25000,
-    language: 'Guambiano',
-    languageFamily: 'Paez',
+    population: 21085,
+    language: 'Namtrik',
+    languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Habitan el resguardo de Pitayó en el Cauca.',
-    traditions: ['La Guambia (reunión comunitaria)', 'Danza del indio', 'Cultivo de papa nativa'],
+    description: 'Misak ("gente del agua"). Habitan el resguardo de Guambía en el Cauca.',
+    otherNames: 'Misak, "gente del agua".',
+    locationDetail:
+      'La mayor parte de su población vive en la vertiente occidental de la Cordillera Central, en las inmediaciones de los Páramos de Las Delicias y el Pisno, en el centro-oriente del Cauca, en los municipios de Silvia y Piendamo. En menor número en Totoró, Jambaló, Caldono, Inzá y Morales. También en La Plata y La Argentina (Huila).',
+    populationSource:
+      'El Censo DANE 2005 reportó 21.085 personas autoreconocidas. El 50,4% son hombres (10.620) y 49,6% mujeres (10.465). Se concentran en Cauca (91,3%), Valle del Cauca (3,5%) y Huila (3,3%). Representan el 1,5% de la población indígena de Colombia.',
+    languageDetail:
+      'Nam trik. Pertenece a la familia lingüística Chibcha. Aunque la mayoría hablan español y el bilingüismo es generalizado, se resisten a perder su lengua. La población hablante del namtrik está dispersa en varias zonas.',
+    culture:
+      'La cosmogonía se estructura en un sistema dual: lo masculino y lo femenino, lo caliente y lo frío, el sol y la luna. Las plantas, árboles y la "madretierra" guardan espíritus. El Murbik es el curandero que conoce las plantas medicinales y actúa como intermediario. El mito de origen los describe como "la gente del agua".',
+    economy:
+      'La base de su economía es la agricultura. En zonas bajas cultivan maíz, en partes altas papa y cebolla. La ganadería se ha desarrollado complementariamente. El trabajo colectivo está estrechamente ligado a la tierra.',
+    traditions: ['La Guambia (reunión comunitaria)', 'Danza del indio', 'Pishimaruk', 'Cultivo de papa nativa'],
     crafts: ['Mochilas guambianas', 'Bordados coloridos', 'Sombreros de paja'],
-    location: 'Cauca'
+    location: 'Cauca y Huila'
   },
   {
     id: 'guanaca',
@@ -663,31 +850,53 @@ export const ethnicities = [
     region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.6, lng: -76.6 },
-    population: 3000,
-    language: 'Paez',
+    population: 723,
+    language: 'Wambiano-mogés',
     languageFamily: 'Paez',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Pueblo Nasa emparentado con los Paeces.',
-    traditions: ['Danza tradicional', 'Agricultura', 'Tejido'],
+    description: 'Pueblo Nasa emparentado con los Paeces en Tierradentro, Cauca.',
+    otherNames: 'Guanaco.',
+    locationDetail:
+      'Los Guanaca se localizan en la región de Tierradentro, al oriente del departamento del Cauca. No cuentan con un resguardo definido y las tierras que poseen son de propiedad individual.',
+    populationSource:
+      'Su población se estima en 723 personas, distribuidas en un perímetro de 1.000 hectáreas.',
+    languageDetail:
+      'La lengua wambiano-mogés (coconuco, guanaca, totoró) se habla en el Cauca. No está claro el número de hablantes del grupo étnico.',
+    culture:
+      'Se suelen considerar como pertenecientes a los Nasa. Conservan un sistema de símbolos y creencias cuyas bases están en la cosmogonía Páez. K\'pish (el Trueno) es la deidad que ocupa el lugar más privilegiado. Habita en el fondo de las lagunas del páramo. Guequián es posiblemente el emisario precolombino de K\'pish.',
+    economy:
+      'La agricultura es la base de su economía y en menor proporción la ganadería. Cultivan papa, cebolla, calabaza, caña de azúcar, fríjol y café. Como complemento se ocupan como jornaleros en fincas vecinas.',
+    traditions: ['Danza tradicional', 'Agricultura', 'Tejido', 'Ritual de K\'pish'],
     crafts: ['Mochilas', 'Ruanas', 'Bordados'],
     location: 'Cauca'
   },
   {
     id: 'guane',
     name: 'Guane',
-    region: 'andina-sur',
-    departments: ['Santander', 'Boyacá'],
-    coordinates: { lat: 6.0, lng: -73.5 },
-    population: 500,
-    language: 'Guane',
+    region: 'andina-norte-caribe',
+    departments: ['Santander'],
+    coordinates: { lat: 6.5, lng: -73.0 },
+    population: 812,
+    language: 'Castellano (lengua extinta)',
     languageFamily: 'Chibcha',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Pueblo Chibcha heredero de la cultura Guane.',
-    traditions: ['Tradiciones Chibchas', 'Agricultura', 'Rituales'],
-    crafts: ['Cestería', 'Tejidos', 'Trabajos en barro'],
-    location: 'Santander y Boyacá'
+    description: 'Pueblo Chibcha de Santander con rica tradición cultural.',
+    otherNames: 'Guane.',
+    locationDetail:
+      'Los Guane habitaron la región que actualmente ocupa gran parte de las provincias de Soto, Guanentá y Comuneros, en el Departamento de Santander. Actualmente ubicado a 20 minutos de Barichara, Santander.',
+    populationSource:
+      'La etnia no aparece en los listados del Dane 2005. Se estima aproximadamente 812 personas. El mayor índice está en Bucaramanga (412 personas) y Barichara (86 personas). Distribución: 409 hombres y 403 mujeres.',
+    languageDetail:
+      'No hablan su lengua tradicional. Pertenecen a la familia lingüística Chibcha.',
+    culture:
+      'Los Guanes dejaron muestras de una cultura superior. La única propiedad individual reconocida era la de viviendas, labranzas, animales domésticos y bienes muebles. La tierra era propiedad común de cada tribu. Se destaca la agricultura, el tejido de mantas de algodón y la fabricación de utensilios de barro.',
+    economy:
+      'La economía tuvo como base principal la agricultura, el tejido de mantas de algodón y la fabricación de utensilios de barro. Carecían de herramientas de hierro y usaban macana y piedras de sílice.',
+    traditions: ['Tradiciones Chibchas', 'Agricultura', 'Tejido de algodón'],
+    crafts: ['Cestería', 'Tejidos', 'Trabajos en barro', 'Mantas de algodón'],
+    location: 'Santander'
   },
   {
     id: 'guayabero',
@@ -697,45 +906,78 @@ export const ethnicities = [
     coordinates: { lat: 3.5, lng: -73.0 },
     population: 1500,
     language: 'Guayabero',
-    languageFamily: 'Guayabero',
+    languageFamily: 'Guahiboan',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Pueblo indígena ubicado en los llanos del Meta.',
-    traditions: ['Caza', 'Pesca', 'Agricultura'],
-    crafts: ['Canastos', 'Brazaletes', 'Artesanía en palma'],
-    location: 'Meta'
+    description: 'Pueblo indígena de la familia Guahiboan ubicado en los llanos del Meta.',
+    otherNames: 'Jirara.',
+    locationDetail:
+      'Se localizan en el departamento del Meta, en las riveras del río Guayabero y sus alrededores. También hay presencia en Casanare.',
+    populationSource:
+      'Su población se estima aproximadamente en 1.500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Guahiboan.',
+    culture:
+      'Los Guayabero comparten tradiciones con otros grupos de la familia Guahiboan. Su cultura está vinculada a los llanos orientales y la vida cerca de los ríos.',
+    economy:
+      'La economía se basa en la horticultura, caza y pesca. Cultivan yuca, plátano, maíz y otros productos de subsistencia.',
+    traditions: ['Caza tradicional', 'Pesca', 'Agricultura itinerante', 'Rituales comunitarios'],
+    crafts: ['Canastos', 'Brazaletes', 'Artesanía en palma', 'Hamacas'],
+    location: 'Meta y Casanare'
   },
   {
     id: 'hitnu',
-    name: 'Hitnu',
+    name: 'Hitnu (Macú)',
     region: 'llanos-orientales',
     departments: ['Arauca', 'Meta'],
     coordinates: { lat: 6.0, lng: -71.0 },
     population: 2000,
     language: 'Hitnu',
-    languageFamily: 'Guayabero',
+    languageFamily: 'Arawak',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800',
-    description: 'También llamados Macú. Habitan la región del Arauca y Meta.',
-    traditions: ['Caza tradicional', 'Pesca', 'Agricultura itinerante'],
-    crafts: ['Canastos', 'Brazaletes', 'Bolsas de fibra'],
+    description: 'Hitnu, también llamados Macú. Pueblo de la familia Arawak en los llanos orientales.',
+    otherNames: 'Macú, Hitnú.',
+    locationDetail:
+      'Se localizan en el departamento de Arauca, especialmente en la zona del río Ele y sus afluentes, así como en partes del Meta.',
+    populationSource:
+      'Su población se estima aproximadamente en 2.000 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Los Hitnu tienen tradiciones culturales vinculadas a los llanos orientales. Son expertos cazadores y pescadores. Comparten características culturales con otros grupos de la región.',
+    economy:
+      'La economía se basa en la horticultura, caza y pesca. Cultivan yuca, plátano, maíz y otros productos de subsistencia.',
+    traditions: ['Caza tradicional', 'Pesca', 'Agricultura itinerante', 'Rituales de paso'],
+    crafts: ['Canastos', 'Brazaletes', 'Bolsas de fibra', 'Arcos y flechas'],
     location: 'Arauca y Meta'
   },
   {
     id: 'hupdu',
     name: 'Hupdu (Hup)',
-    region: 'amazonia-sur',
-    departments: ['Vaupés'],
+    region: 'amazonia-norte',
+    departments: ['Vaupés', 'Guainía'],
     coordinates: { lat: 1.2, lng: -70.0 },
     population: 4000,
     language: 'Hupda',
     languageFamily: 'Nadëb',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
-    description: 'Pueblo Nadëb ubicado en el Vaupés.',
-    traditions: ['Danza', 'Caza', 'Pesca'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
-    location: 'Vaupés'
+    description: 'Pueblo Nadëb ubicado en el Vaupés y Guainía.',
+    otherNames: 'Hup, Juhupdu.',
+    locationDetail:
+      'Tradicionalmente se desplazaban en las áreas cercanas a las cabeceras de los afluentes del río Apaporis. Se ubican en el río Apaporis, Caño Jotabeya y La Libertad, departamento del Amazonas y Vaupés. Forman parte de los llamados "makú".',
+    populationSource:
+      'El término Hupdu significa "gente". En la base de datos del Dane este grupo se encuentra agregado a los nukak. El DANE 2005 reportó 1.080 personas.',
+    languageDetail:
+      'Parte de la rama lingüística de las etnias engendradas en el término Makú. Comparte afinidades lingüísticas con los nukak y kakua.',
+    culture:
+      'Su mito de origen cuenta como Kuteh, uno de los cuatro seres mitológicos que ordenaron el territorio, hizo mediante una bola de barro el primer ser viviente. Dentro de su cosmovisión conciben el mundo como estructurado en niveles interrelacionados.',
+    economy:
+      'Los grupos makú son reconocidos como expertos cazadores. Intercambian con otros grupos veneno para la cacería por canoas. Actualmente la pesca y la horticultura ocupan los primeros renglones.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Intercambio ceremonial'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos y flechas'],
+    location: 'Vaupés, Guainía y Amazonas'
   },
   {
     id: 'inga',
@@ -743,15 +985,26 @@ export const ethnicities = [
     region: 'andina-sur',
     departments: ['Putumayo', 'Cauca', 'Nariño'],
     coordinates: { lat: 1.0, lng: -76.5 },
-    population: 25000,
+    population: 15450,
     language: 'Inga',
     languageFamily: 'Quechua',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Descendientes del imperio Inca en el sur de Colombia.',
-    traditions: ['Taitas (médicos tradicionales)', 'Yagé (ayahuasca)', 'Cantos ancestrales'],
+    description: 'Ingano ("pueblo viajero"). Descendientes del imperio Inca en el sur de Colombia.',
+    otherNames: 'Ingano, "pueblo viajero".',
+    locationDetail:
+      'El pueblo Inga se localiza principalmente en el Valle del Sibundoy, a 2.200 metros sobre el nivel del mar, en el departamento del Putumayo. Son descendientes de los Incas y arribaron a la región como avanzadas militares en el proceso de expansión del imperio.',
+    populationSource:
+      'El Censo DANE 2005 reportó 15.450 personas autoreconocidas. El 50% son hombres (7.725) y 50% mujeres (7.725). Se concentran en Putumayo (62,4%), Nariño (16,6%) y Cauca (4,4%). Representan el 1,1% de la población indígena de Colombia.',
+    languageDetail:
+      'Pertenece a la familia lingüística Quechua. La lengua quechua inga (ingano) se habla en el Valle de Sibundoy, Yunguillo y Condagua (Putumayo), y en los ríos alto Caquetá y Putumayo. Una característica del grupo Inga es su dispersión por varias regiones de Colombia, habiendo adoptado el comercio para sobrevivir.',
+    culture:
+      'Esta comunidad comparte rasgos culturales y organizativos con el pueblo Camëntsá. Mientras este se dedica principalmente a actividades agrícolas, el pueblo Inga tiene una tradición viajera y un espíritu comerciante. Los Inga son médicos tradicionales por excelencia y poseedores de un gran conocimiento de las plantas. El yagé es considerado como el medio a través del cual se revela el mundo terrenal y espiritual. La familia es de carácter nuclear y el espacio familiar gira alrededor del fogón.',
+    economy:
+      'Su economía se sustenta en la agricultura, especialmente cultivos de maíz, fríjol, papa, hortalizas y frutales. Practican la ganadería y el comercio de leche para el aprovisionamiento de otros sectores. Se sitúan en centros urbanos del país, logrando consolidar bases comerciales sin abandonar su territorio ancestral.',
+    traditions: ['Taitas (médicos tradicionales)', 'Yagé (ayahuasca)', 'Cantos ancestrales', 'Comercio tradicional'],
     crafts: ['Bebederos', 'Mochilas', 'Collares de chaquira'],
-    location: 'Putumayo'
+    location: 'Putumayo, Nariño y Cauca'
   },
   {
     id: 'juhup',
@@ -759,15 +1012,26 @@ export const ethnicities = [
     region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 1.0, lng: -70.3 },
-    population: 2000,
+    population: 1080,
     language: 'Juhupda',
-    languageFamily: 'Nadëb',
+    languageFamily: 'Makú-Puinave',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Pueblo Nadëb que habita el Vaupés.',
-    traditions: ['Caza', 'Pesca', 'Chamanismo'],
+    description: 'Juhup. Pueblo Makú del Vaupés.',
+    otherNames: 'Juhup, Yuju.',
+    locationDetail:
+      'Tradicionalmente se desplazaban en las áreas cercanas a las cabeceras de los afluentes del río Apaporis. Se ubican en el río Apaporis, Caño Jotabeya y La Libertad, departamento del Amazonas.',
+    populationSource:
+      'En la base de datos del Dane este grupo se encuentra agregado a los nukak. El término Juhup significa "gente".',
+    languageDetail:
+      'Parte de la rama lingüística de las etnias engendradas en el término Makú. Comparte el 90% del vocabulario con la lengua de los Yuhup que habitan entre los ríos Tiquié, Taraira y Apaporis.',
+    culture:
+      'Su mito de origen cuenta como Kuteh, uno de los cuatro seres mitológicos que ordenaron el territorio, hizo mediante una bola de barro el primer ser viviente. Conciben el mundo estructurado en niveles interrelacionados.',
+    economy:
+      'Los grupos makú son reconocidos como expertos cazadores. Intercambian con otros grupos veneno para la cacería por canoas. Actualmente la pesca y la horticultura ocupan los primeros renglones.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Intercambio ceremonial'],
     crafts: ['Canastos', 'Brazaletes', 'Bebederos'],
-    location: 'Vaupés'
+    location: 'Vaupés y Amazonas'
   },
   {
     id: 'kakua',
@@ -775,13 +1039,24 @@ export const ethnicities = [
     region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.7, lng: -70.8 },
-    population: 800,
+    population: 150,
     language: 'Kakua',
-    languageFamily: 'Tucano Oriental',
+    languageFamily: 'Maku-Puinave',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
-    description: 'Pueblo Tukano Oriental pequeño y vulnerable.',
-    traditions: ['Maloca y organización comunitaria', 'Caza y pesca en cuencas del Vaupés', 'Rituales propios del complejo Tukano Oriental'],
+    description: 'Pueblo Maku-Puinave del Vaupés, tradicionalmente cazador-recolector.',
+    otherNames: 'Kakwa, Cacua.',
+    locationDetail:
+      'El grupo indígena Kakua se encuentra localizedo en el departamento del Vaupés, en el interfluvio de los ríos Querarí y Vaupés. Comparten territorio con grupos kubeo en Wacará. También se encuentran en el río Macú-Paraná junto a población hupdu. La mayoría vive dentro del Resguardo Indígena Parte Oriental del Vaupés.',
+    populationSource:
+      'No existen muchas fuentes de información. Los datos poblacionales según el censo de 2005 incluyen esta comunidad. Cuenta con aproximadamente 150 hablantes sobre un grupo étnico del mismo tamaño. La lengua está seriamente amenazada.',
+    languageDetail:
+      'Pertenece a la familia Maku-Puinave. Ha sido asociado con los nukak por su afinidad lingüística, cultural y geográfica. Comparte el noventa por ciento del léxico con la lengua nukak. Es una de las lenguas más amenazadas del Vaupés.',
+    culture:
+      'En su cosmovisión, su mito de origen habla de un incendio que exterminó a la gente del mundo entonces. Idn Kamni, héroe cultural, dio vida a los kakua juntando tierra y saliva.',
+    economy:
+      'Sus actividades económicas respondían al modelo nómada de subsistencia, similares a otros grupos denominados makú: caza, pesca, recolección y horticultura itinerante.',
+    traditions: ['Maloca y organización comunitaria', 'Caza y pesca', 'Rituales propios'],
     crafts: ['Canastos', 'Brazaletes', 'Arcos'],
     location: 'Vaupés'
   },
@@ -796,42 +1071,75 @@ export const ethnicities = [
     languageFamily: 'Barbacoana',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
-    description: '"Gente de la nieve". Habitan el Valle de Sibundoy en Putumayo.',
-    traditions: ['Carnaval del pueblo', 'Borrachera (trance chamánico)', 'Danza de los indios'],
-    crafts: ['Flautas traversas', 'Mochilas', 'Instrumentos musicales'],
-    location: 'Putumayo'
+    description: 'Kamëntzá. "Gente de la nieve" o "gente del agua". Habitan el Valle de Sibundoy en Putumayo.',
+    otherNames: 'Camëntsá, Sibundoy.',
+    locationDetail:
+      'Se localizan en el Valle del Sibundoy, municipio de Sibundoy, departamento del Putumayo, a una altitud aproximada de 2.200 metros sobre el nivel del mar.',
+    populationSource:
+      'El Censo DANE 2005 reportó 3.500 personas autoreconocidas como pertenecientes al pueblo Kamëntsá.',
+    languageDetail:
+      'La lengua kamëntsá pertenece a la familia lingüística Barbacoana. Es una de las lenguas más habladas de esta familia.',
+    culture:
+      'Comparten el Valle de Sibundoy con el pueblo Inga. Mientras el pueblo Inga tiene una tradición viajera y comercial, los Kamëntsá se dedican principalmente a actividades agrícolas. El Carnaval es la festividad más importante donde se realiza el "Borrachera", un trance chamánico ritual.',
+    economy:
+      'Su economía se basa en la agricultura de clima frío, cultivando papa, oca, melloco, fríjol, maíz y hortalizas. También crían ganado vacuno y practican el comercio.',
+    traditions: ['Carnaval del pueblo', 'Borrachera (trance chamánico)', 'Danza de los indios', 'Minga comunitaria'],
+    crafts: ['Flautas traversas', 'Mochilas', 'Instrumentos musicales', 'Tejidos'],
+    location: 'Putumayo (Valle de Sibundoy)'
   },
   {
     id: 'kankuamo',
     name: 'Kankuamo',
     region: 'andina-norte-caribe',
-    departments: ['Cesar'],
+    departments: ['Cesar', 'La Guajira', 'Magdalena'],
     coordinates: { lat: 10.4, lng: -73.2 },
-    population: 8500,
+    population: 12242,
     language: 'Kankuamo',
     languageFamily: 'Chibcha',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Habitan la vertiente sur de la Sierra Nevada de Santa Marta.',
-    traditions: ['Vallenato tradicional', 'Ceremonia del Yas', 'Danzas de protección'],
-    crafts: ['Cajas (instrumentos musicales)', 'Gaitas', 'Cuadros bordados'],
-    location: 'Sierra Nevada de Santa Marta'
+    description: 'Kankankuamos ("Guardianes del equilibrio del mundo"). Uno de los cuatro pueblos de la Sierra Nevada.',
+    otherNames: 'Kankankuamos, "guardianes del equilibrio del mundo".',
+    locationDetail:
+      'Los Kankuamos viven al norte de Colombia y comparten la cultura y tradición con los pueblos de la Sierra Nevada de Santa Marta: Kággabba (Kogui), Iku (Arhuaco) y Wiwa. Según su cosmogonía, cada pueblo representa "una pata de la mesa" y los Kankuamos son los guardianes del equilibrio del mundo.',
+    populationSource:
+      'El Censo DANE 2005 reportó 12.242 personas autoreconocidas. El 48,62% son hombres (6.182) y 51,38% mujeres (6.532). Se concentran en Cesar (96,29%), La Guajira (1,30%) y Bogotá (0,87%). Representan el 0,91% de la población indígena de Colombia.',
+    languageDetail:
+      'El idioma kankuamo hace parte del grupo de lenguas de la Sierra Nevada. El 5,46% de la población (7.739 personas) habla la lengua native, evidenciando su alto grado de riesgo de extinción. Las mujeres representan el 51,87% de los hablantes.',
+    culture:
+      'Los descendientes han hecho un ejercicio colectivo de memoria. El acto ritual de pagamento se ha convertido en un baluarte para la reconstitución de las tradiciones. La celebración del Corpus Christi reafirma el mito fundador del pueblo. La música tradicional de Gaita y Chicote son prácticas importantes.',
+    economy:
+      'Su sistema económico se sustenta en la posesión individual de cultivos y animales. Los hombres trabajan en las "rozas" donde siembran plátano, banano y frutales en tierras bajas, y papa y cebolla en tierras altas. Las mujeres tejen mochilas.',
+    traditions: ['Vallenato tradicional', 'Ceremonia del Yas', 'Pagamento', 'Corpus Christi'],
+    crafts: ['Cajas (instrumentos musicales)', 'Gaitas', 'Mochilas'],
+    location: 'Sierra Nevada de Santa Marta (Cesar)'
   },
   {
     id: 'karijona',
     name: 'Karijona',
     region: 'amazonia-sur',
-    departments: ['Vaupés', 'Amazonas'],
+    departments: ['Guaviare', 'Amazonas', 'Vaupés'],
     coordinates: { lat: 0.5, lng: -70.5 },
-    population: 200,
+    population: 425,
     language: 'Karijona',
-    languageFamily: 'Arawak',
+    languageFamily: 'Caribe',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
-    description: 'Pueblo Arawak en el Vaupés y Amazonas.',
-    traditions: ['Cosmovisión y relatos de origen Arawak', 'Caza y pesca fluvial', 'Chamanismo y memoria oral'],
+    description: 'Carijona. Pueblo Caribe del Vaupés y Amazonas.',
+    otherNames: 'Carijona, Carifuna, Hianacoto-umaua, Kaliohona.',
+    locationDetail:
+      'Se ubican en el Bajo río Vaupés, Puerto Nare y río Caquetá. Antiguamente vivían a orillas del río Yarí. Desde los años cuarenta se trasladaron al área del río Apaporis y en épocas recientes al resguardo de Komefayú en el Mirití Paraná (Amazonas). Algunos viven en Puerto Córdoba y La Pedrera.',
+    populationSource:
+      'Su población se estima en 425 individuos. Se encuentran dispersos en Guaviare, Amazonas y Valle. La mayor concentración está en Mira Flores-Guaviare (128 indígenas) y Leticia-Amazonas (120 personas). Distribución: 191 hombres y 234 mujeres.',
+    languageDetail:
+      'La lengua karijona pertenece a la familia Caribe. Según estudios de Sergio Meira, pertenece a la rama proto-taranoa de la familia lingüística caribe.',
+    culture:
+      'Practican el ritual del "Yuruparí" y el "Dabucurí" (ceremonia de intercambio). La estructura sociopolítica responde a un sistema jerárquico con linajes patrilineales. En la antigüedad el poder recaía sobre el chamán o curaca.',
+    economy:
+      'La horticultura itinerante de roza y quema con cultivo principal de yuca amarga es la base de su economía. Complementan con pesca, caza, recolección y fabricación de artesanías.',
+    traditions: ['Cosmovisión y relatos de origen Caribe', 'Ritual Yuruparí', 'Ceremonia Dabucurí', 'Chamanismo'],
     crafts: ['Canastos', 'Brazaletes', 'Arcos'],
-    location: 'Vaupés'
+    location: 'Guaviare y Amazonas'
   },
   {
     id: 'kawiyari',
@@ -839,13 +1147,24 @@ export const ethnicities = [
     region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.6, lng: -70.4 },
-    population: 1000,
+    population: 233,
     language: 'Kawiyarí',
-    languageFamily: 'Tucano Oriental',
+    languageFamily: 'Arawak',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Pueblo Tukano Oriental ubicado en el Vaupés.',
-    traditions: ['Caza', 'Pesca', 'Chamanismo'],
+    description: 'Kawiyarí. Pueblo Arawak del Vaupés.',
+    otherNames: 'Kawiarí, Kabiyarí, Cabiyari.',
+    locationDetail:
+      'Viven a orillas del río Apaporis medio y su afluente el caño Cananarí, en el Departamento del Vaupés. Su territorio está comprendido en el Resguardo Parte Oriental del Vaupés. Son afines con los barasana, con quienes han desarrollado fuertes vínculos de reciprocidad.',
+    populationSource:
+      'Su población se estima en 233 individuos. La mayor concentración está en Bogotá (48 indígenas) y Cali (21 personas). Distribución: 134 hombres y 99 mujeres.',
+    languageDetail:
+      'Su lengua pertenece a la familia lingüística Arawak. Mantienen relaciones principalmente con los barasana, taiwano y tatuyo. Adquieren la lengua de sus agnados. En el caso de un clan tatuyo, han adquirido la kawiyarí.',
+    culture:
+      'Su territorio está delimitado según la tradición mítica. Se celebra el "Yuruparí" centrado en el reconocimiento de la anaconda como núcleo de su cultura. Están divididos en dos grupos: los "Paamari" (gente del colibrí grande) y los "Pimiari" (gente del colibrí pequeño), estos últimos encargados de conservar las tradiciones.',
+    economy:
+      'La economía se fundamenta en la horticultura con prácticas tradicionales de tala y quema, sembrando yuca, ñame, chontaduro, banano, ají, piña, lulo y marañón. Complementan con caza, pesca y recolección.',
+    traditions: ['Ritual Yuruparí', 'Chamanismo', 'Sistema de clanes'],
     crafts: ['Canastos', 'Brazaletes', 'Flautas'],
     location: 'Vaupés'
   },
@@ -855,14 +1174,25 @@ export const ethnicities = [
     region: 'andina-sur',
     departments: ['Putumayo', 'Nariño'],
     coordinates: { lat: 0.8, lng: -77.3 },
-    population: 2500,
-    language: 'Kofan',
+    population: 1657,
+    language: "A'ingae",
     languageFamily: 'Kofan',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Guardianes de la biodiversidad en Putumayo y Nariño.',
-    traditions: ['Conservación del bosque', 'Yagé', 'Danza ceremonial'],
-    crafts: ['Bebederos ceremoniales', 'Canastos', 'Brazaletes'],
+    description: 'Kofán ("Sabios y maestros del mundo espiritual"). Guardianes de la biodiversidad.',
+    otherNames: 'Cofan, Kofane.',
+    locationDetail:
+      'El Pueblo Kofán está ubicado en la frontera entre Colombia y Ecuador. Cerca de 1.200 kofanes habitan once comunidades en las márgenes de los ríos Guamuez y San Miguel: Santa Rosa de Sucumbíos-El Diviso, Jardines de Sucumbíos, San José, Rancherías, Santa Rosa del Guamuez, Yarinal, Afilador, Campoalegre, Nueva Isla, Villa Nueva, Bocana de Luzón, Tshenene, organizados como cabildos territoriales en Putumayo.',
+    populationSource:
+      'El Censo DANE 2005 reportó 1.657 personas autoreconocidas. El 54,4% son hombres (901) y el 45,6% mujeres (756). Se concentran en Putumayo (88,7%), Nariño (8,1%) y Valle del Cauca (1,3%). Representan el 0,1% de la población indígena de Colombia.',
+    languageDetail:
+      'Su lengua se denomina A\'ingae. No ha podido ser clasificada dentro de ninguna de las grandes familias lingüísticas, aunque algunos expertos la consideran parte del Macro-Chibcha. Es una lengua aborigen única que se mantiene viva en la mayoría de las comunidades.',
+    culture:
+      'El pueblo Kofán en tiempos prehispánicos contaba con unos 15 mil habitantes. Fueron afectados por la explotación de quina y caucho. Desde los sesenta, con la llegada de la petrolera Texas, se reconfiguró la dinámica social. Los taitas kofanes gozan de gran reconocimiento por su amplio conocimiento sobre el yagé. El yagé se utiliza en contextos rituales para la adivinación, la toma de decisiones, resolución de conflictos y tratamiento médico.',
+    economy:
+      'Son horticultores itinerantes, pescadores y cazadores-recolectores. Cultivan maíz, yuca, plátano, fríjol, ají, café, arroz y frutales. Las mujeres se dedican a la elaboración y comercialización de artesanías en semilla, fibras naturales y barro.',
+    traditions: ['Conservación del bosque', 'Yagé', 'Danza ceremonial', 'Taitas (chamanes)'],
+    crafts: ['Bebederos ceremoniales', 'Canastos', 'Brazaletes', 'Artesanías en semillas'],
     location: 'Putumayo y Nariño'
   },
   {
@@ -876,10 +1206,21 @@ export const ethnicities = [
     languageFamily: 'Chibcha',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
-    description: '"Hermanos mayores". Habitan las altas cumbres de la Sierra Nevada de Santa Marta.',
-    traditions: ['Aluna (concepto de madre naturaleza)', 'Mamos (sacerdotes espirituales)', 'Reflexión sobre el equilibrio universal'],
-    crafts: ['Alpargatas', 'Canastos tejidos', 'Mochilas ceremoniales'],
-    location: 'Sierra Nevada de Santa Marta'
+    description: 'Kággabba. "Hermanos mayores". Guardianes de las altas cumbres de la Sierra Nevada de Santa Marta.',
+    otherNames: 'Kágabba, Cogui, "hermanos mayores".',
+    locationDetail:
+      'Los Kogui habitan las partes más altas de la Sierra Nevada de Santa Marta, en los departamentos de Cesar, Magdalena y La Guajira. Consideran la Sierra como el corazón del mundo desde el cual se originó todo.',
+    populationSource:
+      'Su población se estima aproximadamente en 4.500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha. Hay aproximadamente 1.000 a 1.500 hablantes.',
+    culture:
+      'Son un pueblo profundamente espiritual con su propia filosofía globalizante. Consideran la Sierra como el corazón del mundo. Los Mamos son los sacerdotes espirituales que mantienen el equilibrio universal. El concepto de Aluna (madre naturaleza) es central en su cosmovisión.',
+    economy:
+      'La agricultura es la principal actividad económica. Practican tumba y quema de bosque para sus cultivos en diferentes pisos térmicos.',
+    traditions: ['Aluna (concepto de madre naturaleza)', 'Mamos (sacerdotes espirituales)', 'Ceremonias en los picos nevados', 'Reflexión sobre el equilibrio universal'],
+    crafts: ['Alpargatas', 'Canastos tejidos', 'Mochilas ceremoniales', 'Sombreros tradicionales'],
+    location: 'Sierra Nevada de Santa Marta (Cesar, Magdalena, La Guajira)'
   },
   {
     id: 'kuiba',
@@ -892,26 +1233,48 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Pueblo Arawak que habita los llanos del Vichada y Meta.',
-    traditions: ['Caza', 'Pesca', 'Agricultura'],
-    crafts: ['Canastos', 'Brazaletes', 'Bebederos'],
+    description: 'Wámac. Pueblo Arawak que habita los llanos del Vichada y Meta.',
+    otherNames: 'Wámac, Huica.',
+    locationDetail:
+      'Se localizan en los departamentos de Vichada y Meta, en las riveras de los ríos Meta, Vichada y sus afluentes.',
+    populationSource:
+      'Su población se estima aproximadamente en 4.000 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de la familia Arawak de los llanos orientales.',
+    economy:
+      'La economía se basa en la horticultura, caza y pesca. Cultivan yuca, plátano, maíz y otros productos de subsistencia.',
+    traditions: ['Caza', 'Pesca', 'Agricultura', 'Rituales comunitarios'],
+    crafts: ['Canastos', 'Brazaletes', 'Bebederos', 'Hamacas'],
     location: 'Vichada y Meta'
   },
   {
     id: 'kurripaco',
     name: 'Kurripaco',
     region: 'amazonia-norte',
-    departments: ['Guainía', 'Vaupés'],
+    departments: ['Guainía', 'Vaupés', 'Amazonas'],
     coordinates: { lat: 2.8, lng: -69.0 },
     population: 6000,
     language: 'Kurripaco',
     languageFamily: 'Arawak',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Habitan la zona del Inírida en Guainía.',
-    traditions: ['Arte plumario', 'Danza ceremonial', 'Pesca ritual'],
-    crafts: ['Brazaletes de plumas', 'Canastos', 'Bebederos'],
-    location: 'Guainía y Vaupés'
+    description: 'Curripaco. Habitan la zona del Inírida en Guainía y el Vaupés.',
+    otherNames: 'Curripaco, Koripaco, Curripako.',
+    locationDetail:
+      'Se localizan principalmente en el departamento de Guainía, en la cuenca del río Inírida y sus afluentes. También hay presencia en Vaupés y Amazonas.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 6.000 personas autoreconocidas como Kurripaco.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak. La lengua curripaco es hablada por aproximadamente 2.000 personas.',
+    culture:
+      'Los Kurripaco tienen tradiciones culturales propias de la Amazonía colombiana. Son conocidos por su arte plumario y sus danzas ceremoniales.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección. Cultivan yuca, plátano, maíz, frutas y otros productos.',
+    traditions: ['Arte plumario', 'Danza ceremonial', 'Pesca ritual', 'Rituales de curación'],
+    crafts: ['Brazaletes de plumas', 'Canastos', 'Bebederos', 'Collares de semillas'],
+    location: 'Guainía, Vaupés y Amazonas'
   },
   {
     id: 'letuama',
@@ -921,11 +1284,22 @@ export const ethnicities = [
     coordinates: { lat: 0.4, lng: -70.4 },
     population: 600,
     language: 'Letuama',
-    languageFamily: 'Tucano Oriental',
+    languageFamily: 'Tanimuka-Letuama',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
-    description: 'Pueblo Tukano Oriental pequeño ubicado en el Vaupés.',
-    traditions: ['Caza', 'Pesca', 'Chamanismo'],
+    description: 'Pueblo de la familia Tanimuka-Letuama ubicado en el Vaupés.',
+    otherNames: 'Letuama.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés, en el interfluvio de los ríos Vaupés y Tiquié.',
+    populationSource:
+      'Su población se estima aproximadamente en 600 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tanimuka-Letuama.',
+    culture:
+      'Comparten características culturales con otros grupos de la región amazónica. El chamanismo tiene un papel importante en su cosmovisión.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Rituales ceremoniales'],
     crafts: ['Canastos', 'Brazaletes', 'Flautas'],
     location: 'Vaupés'
   },
@@ -940,41 +1314,74 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
-    description: 'Pueblo Arawak amazónico.',
-    traditions: ['Caza', 'Pesca', 'Agricultura'],
+    description: 'Makaguaje. Pueblo Arawak amazónico.',
+    otherNames: 'Macaguaje.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas, en las riveras de los ríos Caquetá, Putumayo y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de la Amazonía colombiana.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Agricultura', 'Chamanismo'],
     crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra'],
     location: 'Amazonas'
   },
   {
-    id: 'makuna',
-    name: 'Makuna',
+    id: 'kakuva',
+    name: 'Kakuva',
     region: 'amazonia-norte',
     departments: ['Vaupés'],
-    coordinates: { lat: 0.8, lng: -70.8 },
-    population: 4000,
-    language: 'Makuna',
+    coordinates: { lat: 0.8, lng: -70.2 },
+    population: 1500,
+    language: 'Kakuva',
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
-    image: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800',
-    description: 'Pueblo Tukano Oriental en el Vaupés.',
-    traditions: ['Danza ceremonial', 'Ceremonia del agua', 'Pesca'],
+    image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
+    description: 'Pueblo Tukano Oriental ubicado en el Vaupés.',
+    otherNames: 'Cacua, Kakwa.',
+    locationDetail:
+      'Se encuentran ubicados en el departamento del Vaupés, formando parte del complejo cultural del Vaupés junto con otros pueblos de la familia lingüística Tucano Oriental.',
+    populationSource:
+      'Su población se estima aproximadamente en 1.500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental. La lengua se encuentra en situación de vulnerabilidad.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés, incluyendo el sistema de organización social, las prácticas rituales y la cosmovisión del Yuruparí. Su patrón de asentamiento tradicional incluye la maloka como centro de la vida social y ceremonial.',
+    economy:
+      'La economía se basa en la horticultura de tala y quema, caza, pesca y recolección. Cultivan yuca amarga, plátano, maíz y otros productos de subsistencia.',
+    traditions: ['Danza ceremonial', 'Ceremonia del Yuruparí', 'Pesca'],
     crafts: ['Bebederos', 'Canastos', 'Brazaletes'],
     location: 'Vaupés'
   },
   {
     id: 'masiguare',
     name: 'Masiguare',
-    region: 'amazonia-norte',
+    region: 'llanos-orientales',
     departments: ['Meta'],
     coordinates: { lat: 3.8, lng: -72.5 },
     population: 1500,
     language: 'Masiguare',
-    languageFamily: 'Guahibo',
+    languageFamily: 'Guahiboan',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Pueblo de la familia Guahibo ubicado en el Meta.',
-    traditions: ['Caza', 'Pesca', 'Danza'],
-    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
+    description: 'Pueblo de la familia Guahiboan ubicado en los llanos del Meta.',
+    otherNames: 'Masiguare.',
+    locationDetail:
+      'Se localizan en el departamento del Meta, en las riveras de los ríos Meta y sus afluentes.',
+    populationSource:
+      'Su población se estima aproximadamente en 1.500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Guahiboan.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de la familia Guahiboan de los llanos orientales.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Danza', 'Rituales comunitarios'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos y flechas'],
     location: 'Meta'
   },
   {
@@ -988,10 +1395,21 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Pueblo Arawak amazónico.',
-    traditions: ['Chagra y recursos del río', 'Caza y pesca', 'Vínculos de parentesco y territorio'],
-    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
-    location: 'Amazonas'
+    description: 'Pueblo Arawak amazónico en riesgo crítico.',
+    otherNames: 'Matapí.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas y Vaupés, en las riveras de los ríos Apaporis y sus afluentes.',
+    populationSource:
+      'Su población se estima aproximadamente en 800 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de la Amazonía. La chagra y los recursos del río son fundamentales para su subsistencia.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Chagra', 'Caza y pesca', 'Vínculos de parentesco', 'Territorio'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos y flechas'],
+    location: 'Amazonas y Vaupés'
   },
   {
     id: 'mirana',
@@ -1004,10 +1422,21 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Pueblo Arawak que habita la región amazónica.',
-    traditions: ['Caza', 'Pesca', 'Chamanismo'],
-    crafts: ['Canastos', 'Brazaletes', 'Bebederos'],
-    location: 'Amazonas'
+    description: 'Miraña. Pueblo Arawak que habita la región amazónica.',
+    otherNames: 'Miraña, Míranha.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas y Putumayo, en las riveras de los ríos Caquetá, Putumayo y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de la Amazonía colombiana.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Agricultura tradicional'],
+    crafts: ['Canastos', 'Brazaletes', 'Bebederos', 'Trabajos en fibra'],
+    location: 'Amazonas y Putumayo'
   },
   {
     id: 'mokana',
@@ -1020,9 +1449,20 @@ export const ethnicities = [
     languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Herederos de la tradición Tairona en el departamento del Atlántico.',
-    traditions: ['Danza ceremonial', 'Tejido', 'Agricultura'],
-    crafts: ['Mochilas', 'Canastos', 'Bordados'],
+    description: 'Herederos de la tradición Tairona en el departamento del Atlántico y Bolívar.',
+    otherNames: 'Mocaná.',
+    locationDetail:
+      'Se localizan en los departamentos de Atlántico y Bolívar, en la región de los Montes de María y áreas circundantes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 8.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha. La lengua está en proceso de desaparición.',
+    culture:
+      'Herederos de la tradición Tairona, comparten elementos culturales con otros grupos de la región Caribe.',
+    economy:
+      'La economía se basa en la agricultura, pesca y cría de animales.',
+    traditions: ['Danza ceremonial', 'Tejido', 'Agricultura', 'Rituales tradicionales'],
+    crafts: ['Mochilas', 'Canastos', 'Bordados', 'Trabajos en barro'],
     location: 'Atlántico y Bolívar'
   },
   {
@@ -1036,10 +1476,21 @@ export const ethnicities = [
     languageFamily: 'Witoto',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
-    description: 'Reconocidos por sus profundos conocimientos de la selva.',
-    traditions: ['Danza del agua', 'Medicina tradicional', 'Leyendas de la creación'],
-    crafts: ['Canastos', 'Brazaletes de semillas', 'Pinturas corporales'],
-    location: 'Amazonía del Putumayo'
+    description: 'Muinane. Reconocidos por sus profundos conocimientos de la selva amazónica.',
+    otherNames: 'Muinane.',
+    locationDetail:
+      'Se localizan en el departamento del Putumayo, en las riveras de los ríos Putumayo, Cotuhé y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.200 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Witoto.',
+    culture:
+      'Los Muinane comparten tradiciones con otros grupos Witoto de la Amazonía. Son reconocidos por sus profundos conocimientos de la selva y la medicina tradicional.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Danza del agua', 'Medicina tradicional', 'Leyendas de la creación', 'Rituales chamánicos'],
+    crafts: ['Canastos', 'Brazaletes de semillas', 'Pinturas corporales', 'Trabajos en fibra'],
+    location: 'Putumayo'
   },
   {
     id: 'muisca',
@@ -1053,9 +1504,20 @@ export const ethnicities = [
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
     description: 'Herederos de una de las civilizaciones más avanzadas de América prehispánica.',
-    traditions: ['Tradiciones Muiscas', 'Danza', 'Agricultura ancestral'],
-    crafts: ['Tejidos', 'Cerámica', 'Orfebrería'],
-    location: 'Cundinamarca y Boyacá'
+    otherNames: 'Muisca, Mosca, Muzo.',
+    locationDetail:
+      'Los Muisca habitaron la región que actualmente ocupa los departamentos de Cundinamarca, Boyacá y Santander. Su territorio ancestral se centraba en el altiplano cundiboyacense.',
+    populationSource:
+      'El número de personas que se autoreconocen como Muisca ha aumentado significativamente. Se estiman aproximadamente 6.000 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha. La lengua muisca está extinta, aunque se están realizando esfuerzos de revitalización.',
+    culture:
+      'Los Muisca fueron conocidos por su organización política sofisticada, el comercio, la agricultura avanzada y la orfebrería. Su territorio fue uno de los más densamente poblados de América prehispánica.',
+    economy:
+      'La economía se basaba en la agricultura avanzada, el comercio y la artesanía (orfebrería, tejidos, cerámica).',
+    traditions: ['Tradiciones Muiscas', 'Danza', 'Agricultura ancestral', 'Ceremonias tradicionales'],
+    crafts: ['Tejidos', 'Cerámica', 'Orfebrería', 'Trabajos en oro'],
+    location: 'Cundinamarca, Boyacá y Santander'
   },
   {
     id: 'nasa',
@@ -1068,9 +1530,20 @@ export const ethnicities = [
     languageFamily: 'Paez',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Uno de los pueblos más grandes de Colombia.',
-    traditions: ['Cabildo Nasa', 'Danza tradicional', 'Sistema de gobernanza propio'],
-    crafts: ['Mochilas Nasa', 'Tejidos con diseños geométricos', 'Cestería tradicional'],
+    description: 'Nasa Yuwe. Uno de los pueblos indígenas más grandes y organizados de Colombia.',
+    otherNames: 'Páez, "gente".',
+    locationDetail:
+      'Los Nasa se localizan principalmente en el departamento del Cauca, especialmente en la zona de Tierradentro y el norte del Cauca. También hay presencia en Huila y Tolima.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 180.000 personas autoreconocidas como Nasa o Páez.',
+    languageDetail:
+      'Pertenece a la familia lingüística Paez. La lengua Nasa Yuwe es hablada por una porción significativa de la población.',
+    culture:
+      'Los Nasa son conocidos por su fuerte organización política y territorial. El Consejo Regional Indígena del Cauca (CRIC) fue fundado por los Nasa en 1971. El concepto de "Plan de Vida" es central en su cosmovisión.',
+    economy:
+      'La economía se basa en la agricultura, especialmente el cultivo de papa, maíz, cebolla y otros productos de clima frío. La ganadería también es importante.',
+    traditions: ['Cabildo Nasa', 'Danza tradicional', 'Sistema de gobernanza propio', 'Plan de Vida'],
+    crafts: ['Mochilas Nasa', 'Tejidos con diseños geométricos', 'Cestería tradicional', 'Ruanas'],
     location: 'Cauca, Huila y Tolima'
   },
   {
@@ -1084,9 +1557,20 @@ export const ethnicities = [
     languageFamily: 'Witoto',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Pueblo Witoto en el Putumayo.',
-    traditions: ['Maloca como espacio social', 'Chamanismo witoto', 'Caza, pesca y chagra'],
-    crafts: ['Canastos', 'Brazaletes', 'Bebederos'],
+    description: 'Nonuya. Pueblo Witoto en riesgo crítico en el Putumayo.',
+    otherNames: 'Nonuya.',
+    locationDetail:
+      'Se localizan en el departamento del Putumayo, en la región del bajo Putumayo.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 300 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Witoto.',
+    culture:
+      'Comparten tradiciones con otros grupos Witoto. La maloka es el espacio social y ceremonial central.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Maloca', 'Chamanismo witoto', 'Caza, pesca y chagra', 'Rituales ceremoniales'],
+    crafts: ['Canastos', 'Brazaletes', 'Bebederos', 'Trabajos en fibra'],
     location: 'Putumayo'
   },
   {
@@ -1097,13 +1581,24 @@ export const ethnicities = [
     coordinates: { lat: 2.5, lng: -69.0 },
     population: 400,
     language: 'Nukak',
-    languageFamily: 'Guayabero',
+    languageFamily: 'Maku-Puinave',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
-    description: 'Uno de los últimos pueblos nómadas de Colombia.',
-    traditions: ['Nomadismo', 'Caza y recolección', 'Vida seminómada'],
-    crafts: ['Brazaletes', 'Bolsas', 'Arcos y flechas'],
-    location: 'Guainía y Vaupés'
+    description: 'Nukak Makú. Uno de los últimos pueblos nómadas de Colombia.',
+    otherNames: 'Nukak Makú.',
+    locationDetail:
+      'Se localizan en los departamentos de Guainía, Vaupés y Guaviare, en el interfluvio de los ríos Guaviare, Inírida y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 400 personas autoreconocidas como Nukak. Algunos datos los agregan con los Juhup.',
+    languageDetail:
+      'Pertenece a la familia lingüística Maku-Puinave.',
+    culture:
+      'Los Nukak son uno de los últimos pueblos seminómadas de Colombia. Tradicionalmente eran nómadas cazadores-recolectores de la selva amazónica.',
+    economy:
+      'La economía se basa en la caza, pesca y recolección. Han ido incorporando gradualmente la horticultura.',
+    traditions: ['Nomadismo', 'Caza y recolección', 'Vida seminómada', 'Conocimientos ancestrales de la selva'],
+    crafts: ['Brazaletes', 'Bolsas', 'Arcos y flechas', 'Canastos'],
+    location: 'Guainía, Vaupés y Guaviare'
   },
   {
     id: 'ocaina',
@@ -1116,9 +1611,20 @@ export const ethnicities = [
     languageFamily: 'Witoto',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Pueblo Witoto ubicado en el Putumayo.',
-    traditions: ['Caza', 'Pesca', 'Chamanismo'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Ocaina. Pueblo Witoto en riesgo crítico en el Putumayo.',
+    otherNames: 'Ocaina.',
+    locationDetail:
+      'Se localizan en el departamento del Putumayo, en la región del bajo Putumayo.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Witoto.',
+    culture:
+      'Comparten tradiciones con otros grupos Witoto. El chamanismo es central en su cosmovisión.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Rituales ceremoniales'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Trabajos en fibra'],
     location: 'Putumayo'
   },
   {
@@ -1129,13 +1635,24 @@ export const ethnicities = [
     coordinates: { lat: 1.0, lng: -77.5 },
     population: 45000,
     language: 'Pastos',
-    languageFamily: 'Barbacoa',
+    languageFamily: 'Barbacoana',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
-    description: 'Habitan la zona alta de Nariño cerca de la frontera con Ecuador.',
-    traditions: ['Danza de los indios', 'Tejido de ruanas', 'Cultivo de papa'],
-    crafts: ['Ruanas de lana', 'Mochilas', 'Sombreros'],
-    location: 'Nariño'
+    description: 'Pastos. Habitan la zona alta de Nariño cerca de la frontera con Ecuador.',
+    otherNames: 'Pasto.',
+    locationDetail:
+      'Se localizan en el departamento de Nariño, en la zona alta andina cerca de la frontera con Ecuador. Los municipios de mayor concentración son Túquerres, Ipiales y Pasto.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 45.000 personas autoreconocidas como Pastos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Barbacoana.',
+    culture:
+      'Comparten tradiciones con otros grupos de la región andina. Son conocidos por sus tejidos de ruanas y el cultivo de papa.',
+    economy:
+      'La economía se basa en la agricultura de clima frío, especialmente el cultivo de papa, cebolla, habas y otros productos.',
+    traditions: ['Danza de los indios', 'Tejido de ruanas', 'Cultivo de papa', 'Fiestas tradicionales'],
+    crafts: ['Ruanas de lana', 'Mochilas', 'Sombreros', 'Tejidos tradicionales'],
+    location: 'Nariño (Túquerres, Ipiales, Pasto)'
   },
   {
     id: 'piapoco',
@@ -1148,10 +1665,21 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Pueblo Arawak de los llanos orientales.',
-    traditions: ['Caza', 'Pesca', 'Agricultura'],
-    crafts: ['Canastos', 'Brazaletes', 'Hamacas'],
-    location: 'Casanare y Meta'
+    description: 'Piapoco. Pueblo Arawak de los llanos orientales.',
+    otherNames: 'Piapoco, Piapoko.',
+    locationDetail:
+      'Se localizan en los departamentos de Casanare, Meta y Arauca, en las riveras de los ríos Meta, Casanare y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 8.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de los llanos orientales.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Agricultura', 'Rituales comunitarios'],
+    crafts: ['Canastos', 'Brazaletes', 'Hamacas', 'Trabajos en fibra'],
+    location: 'Casanare, Meta y Arauca'
   },
   {
     id: 'piaroa',
@@ -1164,10 +1692,21 @@ export const ethnicities = [
     languageFamily: 'Piaroa',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
-    description: 'Conocidos por su pacifismo y conocimientos sobre fauna y flora.',
-    traditions: ['Pacifismo', 'Caza sostenible', 'Chamanismo'],
-    crafts: ['Bebederos', 'Canastos', 'Brazaletes'],
-    location: 'Vichada, Meta y Guainía'
+    description: 'Piaroa. Conocidos por su pacifismo y profundos conocimientos sobre fauna y flora.',
+    otherNames: 'Piaroa, Piaroa.',
+    locationDetail:
+      'Se localizan en los departamentos de Vichada, Meta, Guainía y Arauca, en las riveras de los ríos Orinoco, Meta, Vichada y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 15.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Piaroa (aislada).',
+    culture:
+      'Los Piaroa son conocidos por su pacifismo y sus profundos conocimientos sobre la fauna y flora de los llanos y la Amazonía.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Pacifismo', 'Caza sostenible', 'Chamanismo', 'Conocimientos de fauna y flora'],
+    crafts: ['Bebederos', 'Canastos', 'Brazaletes', 'Trabajos en madera'],
+    location: 'Vichada, Meta, Guainía y Arauca'
   },
   {
     id: 'piratapuyo',
@@ -1180,9 +1719,20 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Pueblo Tukano Oriental ubicado en el Vaupés.',
-    traditions: ['Caza', 'Pesca', 'Danza ceremonial'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Piratapuyo. Pueblo Tukano Oriental ubicado en el Vaupés.',
+    otherNames: 'Piratapuyo.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés, en el río Piratapopo y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Danza ceremonial', 'Ritual del Yuruparí'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Bebederos'],
     location: 'Vaupés'
   },
   {
@@ -1196,15 +1746,26 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
-    description: 'Pueblo Tukano Oriental pequeño.',
+    description: 'Pisamira. Pueblo Tukano Oriental pequeño en riesgo crítico.',
+    otherNames: 'Pisamira.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés.',
+    populationSource:
+      'Su población se estima aproximadamente en 500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
     traditions: ['Rituales ligados al Yuruparí', 'Caza y pesca', 'Música y danza ritual'],
-    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos', 'Bebederos'],
     location: 'Vaupés'
   },
   {
     id: 'puinave',
     name: 'Puinave',
-    region: 'llanos-orientales',
+    region: 'amazonia-norte',
     departments: ['Guainía', 'Vichada'],
     coordinates: { lat: 3.5, lng: -68.0 },
     population: 6000,
@@ -1212,9 +1773,20 @@ export const ethnicities = [
     languageFamily: 'Puinave',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Habitan la zona del río Inírida en Guainía.',
-    traditions: ['Danza ceremonial', 'Caza', 'Pesca'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Puinave. Habitan la zona del río Inírida en Guainía y Vichada.',
+    otherNames: 'Puinave.',
+    locationDetail:
+      'Se localizan en los departamentos de Guainía y Vichada, en la cuenca del río Inírida y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 6.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Puinave.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de la región amazónica y de los llanos.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Danza ceremonial', 'Caza', 'Pesca', 'Rituales tradicionales'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Trabajos en fibra'],
     location: 'Guainía y Vichada'
   },
   {
@@ -1225,18 +1797,29 @@ export const ethnicities = [
     coordinates: { lat: 4.5, lng: -72.0 },
     population: 5000,
     language: 'Saliba',
-    languageFamily: 'Arawak',
+    languageFamily: 'Sáliva',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Pueblo Arawak que habita el norte del Meta y Casanare.',
-    traditions: ['Caza', 'Pesca', 'Ceremonias'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Sáliba. Pueblo de la familia Sáliva que habita el norte del Meta y Casanare.',
+    otherNames: 'Sáliba.',
+    locationDetail:
+      'Se localizan en los departamentos de Casanare y Meta, en las riveras de los ríos Meta, Casanare y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 5.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Sáliva.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de los llanos orientales.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Ceremonias', 'Rituales tradicionales'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Trabajos en fibra'],
     location: 'Casanare y Meta'
   },
   {
     id: 'senu',
     name: 'Senú',
-    region: 'amazonia-norte',
+    region: 'andina-norte-caribe',
     departments: ['Córdoba', 'Sucre', 'Bolívar'],
     coordinates: { lat: 8.0, lng: -75.5 },
     population: 15000,
@@ -1244,10 +1827,21 @@ export const ethnicities = [
     languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
-    description: 'Habitan la región de los Montes de María y Córdoba.',
-    traditions: ['Danza tradicional', 'Agricultura', 'Pesca'],
-    crafts: ['Canastos', 'Hamacas', 'Bordados'],
-    location: 'Córdoba y Sucre'
+    description: 'Senú. Habitan la región de los Montes de María y Córdoba.',
+    otherNames: 'Senú, Zenú.',
+    locationDetail:
+      'Se localizan en los departamentos de Córdoba, Sucre y Bolívar, en la región de los Montes de María.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 15.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha.',
+    culture:
+      'Comparten tradiciones culturales con otros grupos de la región Caribe.',
+    economy:
+      'La economía se basa en la agricultura, pesca y cría de animales.',
+    traditions: ['Danza tradicional', 'Agricultura', 'Pesca', 'Rituales tradicionales'],
+    crafts: ['Canastos', 'Hamacas', 'Bordados', 'Trabajos en barro'],
+    location: 'Córdoba, Sucre y Bolívar'
   },
   {
     id: 'sikuani',
@@ -1257,13 +1851,24 @@ export const ethnicities = [
     coordinates: { lat: 4.0, lng: -72.5 },
     population: 12000,
     language: 'Sikuani',
-    languageFamily: 'Guahibo',
+    languageFamily: 'Guahiboan',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Uno de los pueblos más grandes de los llanos orientales.',
-    traditions: ['Danza ceremonial', 'Caza', 'Pesca'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
-    location: 'Meta, Casanare y Vichada'
+    description: 'Sikuani. Uno de los pueblos más grandes de los llanos orientales.',
+    otherNames: 'Cuiva, "gente".',
+    locationDetail:
+      'Se localizan en los departamentos de Meta, Casanare, Vichada y Arauca, en las sabanas y riveras de los ríos de los llanos orientales.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 12.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Guahiboan.',
+    culture:
+      'Los Sikuani son uno de los pueblos más grandes de los llanos orientales. Mantienen tradiciones de caza, pesca y agricultura.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Danza ceremonial', 'Caza', 'Pesca', 'Rituales tradicionales'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Trabajos en palma'],
+    location: 'Meta, Casanare, Vichada y Arauca'
   },
   {
     id: 'siona',
@@ -1276,10 +1881,21 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Habitan la zona de transición entre los Andes y la Amazonía.',
-    traditions: ['Yagé ceremonial', 'Danza ceremonial', 'Caza sostenible'],
-    crafts: ['Bebederos', 'Mochilas', 'Collares de semillas'],
-    location: 'Putumayo'
+    description: 'Siona. Habitan la zona de transición entre los Andes y la Amazonía.',
+    otherNames: 'Siona.',
+    locationDetail:
+      'Se localizan en los departamentos de Putumayo y Nariño, en la zona de transición entre los Andes y la Amazonía.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones con otros grupos de la región. El Yagé es central en su cosmovisión.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Yagé ceremonial', 'Danza ceremonial', 'Caza sostenible', 'Chamanismo'],
+    crafts: ['Bebederos', 'Mochilas', 'Collares de semillas', 'Canastos'],
+    location: 'Putumayo y Nariño'
   },
   {
     id: 'siriano',
@@ -1292,9 +1908,20 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
-    description: 'Pueblo Tukano Oriental pequeño.',
-    traditions: ['Caza', 'Pesca', 'Chamanismo'],
-    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
+    description: 'Siriano. Pueblo Tukano Oriental pequeño en riesgo crítico.',
+    otherNames: 'Siriano.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés.',
+    populationSource:
+      'Su población se estima aproximadamente en 500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Ritual del Yuruparí'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos', 'Bebederos'],
     location: 'Vaupés'
   },
   {
@@ -1308,26 +1935,48 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Pueblo Tukano Oriental ubicado en el Vaupés.',
-    traditions: ['Danza', 'Caza', 'Pesca'],
-    crafts: ['Canastos', 'Brazaletes', 'Bebederos'],
+    description: 'Taiwano. Pueblo Tukano Oriental ubicado en el Vaupés.',
+    otherNames: 'Taiwano.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.200 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Danza', 'Caza', 'Pesca', 'Ritual del Yuruparí'],
+    crafts: ['Canastos', 'Brazaletes', 'Bebederos', 'Flautas'],
     location: 'Vaupés'
   },
   {
     id: 'tanimuka',
     name: 'Tanimuka',
-    region: 'amazonia-sur',
+    region: 'amazonia-norte',
     departments: ['Vaupés', 'Amazonas'],
     coordinates: { lat: 0.5, lng: -70.5 },
     population: 2000,
     language: 'Tanimuka',
-    languageFamily: 'Tanimuka',
+    languageFamily: 'Tanimuka-Letuama',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Pueblo amazónico ubicado en el Vaupés y Amazonas.',
-    traditions: ['Ceremonia del Yuruparí', 'Danza', 'Pesca'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
-    location: 'Vaupés'
+    description: 'Tanimuka. Pueblo amazónico ubicado en el Vaupés y Amazonas.',
+    otherNames: 'Tanimuka.',
+    locationDetail:
+      'Se localizan en los departamentos del Vaupés y Amazonas, en la cuenca de los ríos Vaupés y Apaporis.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 2.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tanimuka-Letuama.',
+    culture:
+      'Comparten tradiciones con otros grupos de la Amazonía.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Ceremonia del Yuruparí', 'Danza', 'Pesca', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Bebederos'],
+    location: 'Vaupés y Amazonas'
   },
   {
     id: 'tariano',
@@ -1340,9 +1989,20 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800',
-    description: 'Conocidos por su música tradicional.',
-    traditions: ['Música tradicional', 'Danza ceremonial', 'Pesca'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Tariano. Conocidos por su música tradicional.',
+    otherNames: 'Tariano.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés, en la cuenca del río Vaupés.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 4.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Música tradicional', 'Danza ceremonial', 'Pesca', 'Ritual del Yuruparí'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Bebederos'],
     location: 'Vaupés'
   },
   {
@@ -1356,9 +2016,20 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
-    description: 'Pueblo Tukano Oriental ubicado en el Vaupés.',
-    traditions: ['Ceremonia del Yuruparí', 'Danza', 'Pesca'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Tatuyo. Pueblo Tukano Oriental ubicado en el Vaupés.',
+    otherNames: 'Tatuyo.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Ceremonia del Yuruparí', 'Danza', 'Pesca', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Bebederos'],
     location: 'Vaupés'
   },
   {
@@ -1372,10 +2043,21 @@ export const ethnicities = [
     languageFamily: 'Ticuna',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Uno de los pueblos más numerosos de la Amazonía.',
-    traditions: ['Danza del Charachi', 'Pesca', 'Agricultura'],
-    crafts: ['Canastos', 'Brazaletes', 'Trabajos en palma'],
-    location: 'Amazonas'
+    description: 'Ticuna. Uno de los pueblos más numerosos de la Amazonía.',
+    otherNames: 'Tikuna, Tucuna.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas, especialmente en la zona de Leticia, Puerto Nariño y a lo largo del río Putumayo.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 30.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Ticuna.',
+    culture:
+      'Los Ticuna son uno de los pueblos más numerosos de la Amazonía colombiana. Son conocidos por sus danzas como el Charachi.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Danza del Charachi', 'Pesca', 'Agricultura', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes', 'Trabajos en palma', 'Tejidos'],
+    location: 'Amazonas y Putumayo'
   },
   {
     id: 'totoro',
@@ -1388,10 +2070,21 @@ export const ethnicities = [
     languageFamily: 'Paez',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
-    description: 'Habitan el municipio de Totoró en Cauca.',
-    traditions: ['Ceremonia del agua', 'Danza del venado', 'Cultivo de yuca'],
-    crafts: ['Tejidos tradicionales', 'Cestería', 'Mochilas'],
-    location: 'Cauca'
+    description: 'Totoró. Habitan el municipio de Totoró en Cauca.',
+    otherNames: 'Totoró.',
+    locationDetail:
+      'Se localizan en el departamento del Cauca, especialmente en el municipio de Totoró.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 8.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Paez.',
+    culture:
+      'Comparten tradiciones con otros grupos Nasa del Cauca.',
+    economy:
+      'La economía se basa en la agricultura de clima frío.',
+    traditions: ['Ceremonia del agua', 'Danza del venado', 'Cultivo de yuca', 'Rituales tradicionales'],
+    crafts: ['Tejidos tradicionales', 'Cestería', 'Mochilas', 'Trabajos en lana'],
+    location: 'Cauca (Totoró)'
   },
   {
     id: 'tshiripu',
@@ -1404,9 +2097,20 @@ export const ethnicities = [
     languageFamily: 'Paez',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Pueblo Nasa ubicado en el Cauca.',
-    traditions: ['Danza tradicional', 'Agricultura', 'Tejido'],
-    crafts: ['Mochilas', 'Tejidos', 'Bordados'],
+    description: 'Tsiripu. Pueblo Nasa ubicado en el Cauca.',
+    otherNames: 'Tsiripu.',
+    locationDetail:
+      'Se localizan en el departamento del Cauca.',
+    populationSource:
+      'Su población se estima aproximadamente en 500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Paez.',
+    culture:
+      'Comparten tradiciones con otros grupos Nasa del Cauca.',
+    economy:
+      'La economía se basa en la agricultura de clima frío.',
+    traditions: ['Danza tradicional', 'Agricultura', 'Tejido', 'Rituales tradicionales'],
+    crafts: ['Mochilas', 'Tejidos', 'Bordados', 'Trabajos en lana'],
     location: 'Cauca'
   },
   {
@@ -1420,26 +2124,48 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'El pueblo más numeroso del Vaupés.',
-    traditions: ['Yuruparí', 'Danza ceremonial', 'Ceremonia de la coca'],
-    crafts: ['Bebederos', 'Flautas', 'Máscaras'],
+    description: 'Tukano. El pueblo más numeroso del Vaupés.',
+    otherNames: 'Tukano.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés, en la cuenca del río Vaupés y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 15.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Los Tukano son el pueblo más numeroso del Vaupés. Comparten las características culturales del complejo Tukano Oriental.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Yuruparí', 'Danza ceremonial', 'Ceremonia de la coca', 'Chamanismo'],
+    crafts: ['Bebederos', 'Flautas', 'Máscaras', 'Canastos'],
     location: 'Vaupés'
   },
   {
     id: 'tule',
     name: 'Tule (Guna)',
     region: 'pacifica',
-    departments: ['Córdoba', 'Chocó'],
+    departments: ['Córdoba', 'Chocó', 'Antioquia', 'Atlántico'],
     coordinates: { lat: 7.5, lng: -76.0 },
-    population: 8000,
-    language: 'Guna',
+    population: 2383,
+    language: 'Cuna',
     languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
-    description: 'Conocidos mundialmente por sus molas.',
-    traditions: ['Mola (arte textil)', 'Danza del lujo', 'Toma de na'],
+    description: 'Guanadule ("La gente"). Conocidos mundialmente por sus molas.',
+    otherNames: 'Guanadule, Tula, Cuna, Kuna, Tacarcuna, Darienes.',
+    locationDetail:
+      'La mayor parte del pueblo Tule se encuentra en Panamá (Comarcas Kuna Yala, Madungandí, Wargantí y Wala). En Colombia se encuentra en el resguardo Caimán Nuevo (Antioquia) y en el resguardo Arquía (Chocó), bordeando el golfo de Urabá.',
+    populationSource:
+      'El Censo DANE 2005 reportó 2.383 personas autoreconocidas. El 50,3% son hombres (1.198) y el 49,7% mujeres (1.185). Se concentran en Antioquia (51,6%), Chocó (14,6%) y Atlántico (11,2%). El 32,5% habita en zonas urbanas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha. Los Cuna manejan dos variedades: la diaria (para labores cotidianas) y la ceremonial (para onmaket o congresos, rituales de curación y ceremonias de pubertad femenina).',
+    culture:
+      'Han mantenido sus manifestaciones culturales, cosmovisión, organización social y especialmente su lengua. En su sistema de creencias, Paptumat es el creador del mundo y de las doce capas en que se divide. Sus especialistas mágico-religiosos son tres chamanes. El Monte Takarkuna es el espacio sagrado ubicado en la cumbre que divide Panamá y Colombia. Durante la colonia desempeñaron un papel importante como comerciantes de cacao, quina y pieles.',
+    economy:
+      'Las actividades económicas básicas son la horticultura, caza y pesca, y últimamente ganadería en pequeña escala. Cultivan maíz, yuca, plátano, arroz, cacao y caña. En la actualidad cultivan grandes extensiones de plátano para exportación.',
+    traditions: ['Mola (arte textil)', 'Danza del lujo', 'Toma de na', 'Ceremonias de pubertad femenina'],
     crafts: ['Molas', 'Tashtek (brazaletes de oro)', 'Hamacas decoradas'],
-    location: 'Región del Darién, Córdoba'
+    location: 'Región del Darién, Córdoba, Chocó y Antioquia'
   },
   {
     id: 'tuyuka',
@@ -1452,9 +2178,20 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
-    description: 'Conocidos por sus conocimientos astronómicos.',
-    traditions: ['Astronomía tradicional', 'Danza ceremonial', 'Ceremonias'],
-    crafts: ['Bebederos', 'Canastos', 'Brazaletes'],
+    description: 'Tuyuka. Conocidos por sus conocimientos astronómicos.',
+    otherNames: 'Tuyuka.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 1.800 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Astronomía tradicional', 'Danza ceremonial', 'Ceremonias', 'Ritual del Yuruparí'],
+    crafts: ['Bebederos', 'Canastos', 'Brazaletes', 'Flautas'],
     location: 'Vaupés'
   },
   {
@@ -1468,15 +2205,26 @@ export const ethnicities = [
     languageFamily: 'Witoto',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Uno de los pueblos más conocidos de la Amazonía colombiana.',
-    traditions: ['Fuma deijena', 'Danza tradicional', 'Sistema de clanes'],
-    crafts: ['Canastos', 'Brazaletes de chaquira', 'Bebederos'],
-    location: 'Putumayo y Amazonas'
+    description: 'Uitoto. Uno de los pueblos más conocidos de la Amazonía colombiana.',
+    otherNames: 'Huitoto, Witoto.',
+    locationDetail:
+      'Se localizan en los departamentos de Putumayo, Amazonas y Caquetá, en la región del bajo Putumayo y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 10.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Witoto.',
+    culture:
+      'Los Uitoto son uno de los pueblos más conocidos de la Amazonía colombiana. Son conocidos por su sistema de clanes y la Fuma Deijena.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Fuma deijena', 'Danza tradicional', 'Sistema de clanes', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes de chaquira', 'Bebederos', 'Trabajos en fibra'],
+    location: 'Putumayo, Amazonas y Caquetá'
   },
   {
     id: 'uwa',
     name: "U'wa",
-    region: 'andina-sur',
+    region: 'andina-norte-caribe',
     departments: ['Santander', 'Boyacá', 'Norte de Santander'],
     coordinates: { lat: 6.5, lng: -72.8 },
     population: 6000,
@@ -1484,10 +2232,21 @@ export const ethnicities = [
     languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: '"Gente del agua". Guardianes de fuentes de agua sagradas.',
-    traditions: ['Ceremonias del agua', 'Danza', 'Agricultura ancestral'],
-    crafts: ['Canastos', 'Tejidos', 'Trabajos en madera'],
-    location: 'Santander y Boyacá'
+    description: "U'wa. 'Gente del agua'. Guardianes de fuentes de agua sagradas.",
+    otherNames: "U'wa, Uwa.",
+    locationDetail:
+      'Se localizan en los departamentos de Santander, Boyacá y Norte de Santander, en la región oriental de la Cordillera Oriental.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 6.000 personas autoreconocidas.',
+    languageDetail:
+      "Pertenece a la familia lingüística Chibcha.",
+    culture:
+      "Los U'wa son guardianes de fuentes de agua sagradas. Son conocidos por su resistencia a la explotación petrolera en su territorio.",
+    economy:
+      'La economía se basa en la agricultura y la minería tradicional.',
+    traditions: ['Ceremonias del agua', 'Danza', 'Agricultura ancestral', 'Rituales tradicionales'],
+    crafts: ['Canastos', 'Tejidos', 'Trabajos en madera', 'Trabajos en barro'],
+    location: 'Santander, Boyacá y Norte de Santander'
   },
   {
     id: 'wanano',
@@ -1500,26 +2259,48 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Pueblo del complejo Tukano Oriental en el Vaupés.',
-    traditions: ['Caza', 'Pesca', 'Chamanismo'],
-    crafts: ['Canastos', 'Brazaletes', 'Plumas'],
+    description: 'Wanano. Pueblo del complejo Tukano Oriental en el Vaupés.',
+    otherNames: 'Wanano, Guanano.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 5.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Ritual del Yuruparí'],
+    crafts: ['Canastos', 'Brazaletes', 'Plumas', 'Bebederos'],
     location: 'Vaupés'
   },
   {
     id: 'waunan',
-    name: 'Waunan',
+    name: 'Wounaan (Woun Meu)',
     region: 'pacifica',
-    departments: ['Vaupés'],
-    coordinates: { lat: 0.8, lng: -70.5 },
+    departments: ['Chocó', 'Valle del Cauca'],
+    coordinates: { lat: 5.0, lng: -77.0 },
     population: 3000,
-    language: 'Waunan',
-    languageFamily: 'Tucano Oriental',
+    language: 'Wounaan',
+    languageFamily: 'Embera-Chocó',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800',
-    description: 'Parte del complejo cultural Tukano Oriental.',
-    traditions: ['Danza ceremonial', 'Ceremonias ligadas al Yuruparí', 'Pesca tradicional'],
-    crafts: ['Bebederos', 'Canastos', 'Brazaletes'],
-    location: 'Vaupés'
+    description: 'Wounaan. Pueblo Embera-Chocó del Pacífico.',
+    otherNames: 'Woun Meu, Waunan.',
+    locationDetail:
+      'Se localizan en los departamentos del Chocó y Valle del Cauca, en la región del Pacífico.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 3.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Embera-Chocó.',
+    culture:
+      'Comparten tradiciones con otros grupos Embera del Pacífico.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Danza ceremonial', 'Jaibanismo', 'Pesca tradicional', 'Rituales tradicionales'],
+    crafts: ['Bebederos', 'Canastos', 'Brazaletes', 'Tejidos'],
+    location: 'Chocó y Valle del Cauca'
   },
   {
     id: 'wayuu',
@@ -1532,9 +2313,20 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1589506383004-479db8661e02?w=800',
-    description: 'El pueblo indígena más numeroso de Colombia.',
-    traditions: ['Tejido de chinchorros', 'Pechichada (ritual de iniciación)', 'Majayura (fiesta ceremonial)'],
-    crafts: ['Hamacas', 'Moñonas', 'Sulmajuna (bolsos tejidos)'],
+    description: 'El Wayúu. El pueblo indígena más numeroso de Colombia.',
+    otherNames: 'Wayúu, Guajiros.',
+    locationDetail:
+      'Habitan la región de La Guajira en el norte de Colombia. Comparten territorio con otros pueblos de la Sierra Nevada de Santa Marta. Están distribuidos en la Media y Alta Guajira.',
+    populationSource:
+      'Son el pueblo indígena más numeroso de Colombia con aproximadamente 470.000 personas.',
+    languageDetail:
+      'Wayuunaiki pertenece a la familia lingüística Arawak. Es una de las lenguas indígenas con mayor número de hablantes en Colombia.',
+    culture:
+      'Son expertos en sobrevivir con poca agua en el desierto. Mantienen tradiciones de tejido de chinchorros. La pechichada es un ritual de iniciación importante. La majayura es una fiesta ceremonial central. El权 sistema de clanes matricentral es fundamental.',
+    economy:
+      'La ganadería de cabras y ovejas es importante. El tejido de artesanías complementa su economía. Han enfrentado crisis por sequías y megaproyectos.',
+    traditions: ['Tejido de chinchorros', 'Pechichada (ritual de iniciación)', 'Majayura (fiesta ceremonial)', 'Sistema de clanes'],
+    crafts: ['Hamacas', 'Moñonas', 'Sulmajuna (bolsos tejidos)', 'Cestería'],
     location: 'La Guajira'
   },
   {
@@ -1548,15 +2340,26 @@ export const ethnicities = [
     languageFamily: 'Chibcha',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Uno de los cuatro pueblos de la Sierra Nevada de Santa Marta.',
-    traditions: ['Bunde (danza ceremonial)', 'Ceremonia de la cosecha', 'Rituales de paso'],
-    crafts: ['Tejidos tradicionales', 'Cestería', 'Máscaras ceremoniales'],
-    location: 'Sierra Nevada de Santa Marta'
+    description: 'Wiwa. Uno de los cuatro pueblos de la Sierra Nevada de Santa Marta.',
+    otherNames: 'Arsario, Guaneguajira.',
+    locationDetail:
+      'Se localizan en los departamentos de Cesar, Magdalena y La Guajira, en la Sierra Nevada de Santa Marta.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 2.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha.',
+    culture:
+      'Los Wiwa son uno de los cuatro pueblos de la Sierra Nevada de Santa Marta.',
+    economy:
+      'La economía se basa en la agricultura y la cría de animales.',
+    traditions: ['Bunde (danza ceremonial)', 'Ceremonia de la cosecha', 'Rituales de paso', 'Mamos'],
+    crafts: ['Tejidos tradicionales', 'Cestería', 'Máscaras ceremoniales', 'Mochilas'],
+    location: 'Sierra Nevada de Santa Marta (Cesar, Magdalena, La Guajira)'
   },
   {
     id: 'yagua',
     name: 'Yagua',
-    region: 'amazonia-norte',
+    region: 'amazonia-sur',
     departments: ['Amazonas'],
     coordinates: { lat: -2.0, lng: -73.0 },
     population: 7000,
@@ -1564,9 +2367,20 @@ export const ethnicities = [
     languageFamily: 'Yagua',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
-    description: 'Conocidos por su técnica de pesca con arpón.',
-    traditions: ['Pesca con arpón', 'Danza del loro', 'Chamanismo'],
-    crafts: ['Brazaletes', 'Canastos', 'Arpones'],
+    description: 'Yagua. Conocidos por su técnica de pesca con arpón.',
+    otherNames: 'Yagua.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas, especialmente en las riveras del río Amazonas y sus afluentes.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 7.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Yagua.',
+    culture:
+      'Los Yagua son conocidos por su técnica de pesca con arpón y sus danzas tradicionales.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Pesca con arpón', 'Danza del loro', 'Chamanismo', 'Rituales tradicionales'],
+    crafts: ['Brazaletes', 'Canastos', 'Arpones', 'Plumas'],
     location: 'Amazonas'
   },
   {
@@ -1580,10 +2394,21 @@ export const ethnicities = [
     languageFamily: 'Quechua',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
-    description: 'Descendientes del imperio Inca.',
-    traditions: ['Danza tradicional', 'Agricultura', 'Tejido'],
-    crafts: ['Mochilas', 'Ruanas', 'Bordados'],
-    location: 'Cauca y Nariño'
+    description: 'Yanacona. Descendientes del imperio Inca.',
+    otherNames: 'Yanacona.',
+    locationDetail:
+      'Se localizan en los departamentos de Cauca, Nariño y Putumayo.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 25.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Quechua.',
+    culture:
+      'Los Yanacona son descendientes de los avanzados del imperio Inca en Colombia.',
+    economy:
+      'La economía se basa en la agricultura de clima frío.',
+    traditions: ['Danza tradicional', 'Agricultura', 'Tejido', 'Rituales tradicionales'],
+    crafts: ['Mochilas', 'Ruanas', 'Bordados', 'Sombreros'],
+    location: 'Cauca, Nariño y Putumayo'
   },
   {
     id: 'yauna',
@@ -1592,30 +2417,52 @@ export const ethnicities = [
     departments: ['Amazonas'],
     coordinates: { lat: -0.5, lng: -72.0 },
     population: 300,
-    language: 'Yagua',
+    language: 'Yauna',
     languageFamily: 'Yagua',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
-    description: 'Pueblo amazónico relacionado con los Yagua.',
+    description: 'Yauna. Pueblo amazónico en riesgo crítico.',
+    otherNames: 'Yauna.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas.',
+    populationSource:
+      'Su población se estima aproximadamente en 300 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Yagua.',
+    culture:
+      'Comparten afinidad cultural con los pueblos Yagua.',
+    economy:
+      'La economía se basa en la caza, pesca y recolección.',
     traditions: ['Afinidad cultural con pueblos Yagua', 'Caza y pesca en selva y río', 'Rituales propios del territorio'],
-    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos', 'Trabajos en fibra'],
     location: 'Amazonas'
   },
   {
     id: 'yuko',
     name: 'Yuko',
-    region: 'amazonia-sur',
-    departments: ['Cesar', 'Norte de Santander'],
+    region: 'andina-norte-caribe',
+    departments: ['Norte de Santander'],
     coordinates: { lat: 8.2, lng: -73.0 },
     population: 3000,
     language: 'Yuko',
     languageFamily: 'Chibcha',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
-    description: 'Pueblo Chibcha ubicado en Cesar y Norte de Santander.',
-    traditions: ['Danza tradicional', 'Agricultura', 'Rituales'],
+    description: 'Yuko. Pueblo Chibcha ubicado en Norte de Santander.',
+    otherNames: 'Yuko.',
+    locationDetail:
+      'Se localizan en el departamento de Norte de Santander, en la región de la Serranía de los Motilones.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 3.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha.',
+    culture:
+      'Comparten tradiciones con otros grupos Chibcha de la región.',
+    economy:
+      'La economía se basa en la agricultura y la caza.',
+    traditions: ['Danza tradicional', 'Agricultura', 'Rituales', 'Rituales tradicionales'],
     crafts: ['Canastos', 'Tejidos', 'Trabajos en barro'],
-    location: 'Cesar'
+    location: 'Norte de Santander'
   },
   {
     id: 'yukuna',
@@ -1628,15 +2475,26 @@ export const ethnicities = [
     languageFamily: 'Arawak',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
-    description: 'Pueblo Arawak amazónico.',
-    traditions: ['Caza', 'Pesca', 'Agricultura'],
-    crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra'],
+    description: 'Yukuna. Pueblo Arawak amazónico.',
+    otherNames: 'Yukuna.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 2.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones con otros grupos de la Amazonía.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Agricultura', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra', 'Bebederos'],
     location: 'Amazonas'
   },
   {
     id: 'yuri',
     name: 'Yuri',
-    region: 'amazonia-norte',
+    region: 'amazonia-sur',
     departments: ['Amazonas'],
     coordinates: { lat: -1.5, lng: -72.5 },
     population: 200,
@@ -1644,7 +2502,18 @@ export const ethnicities = [
     languageFamily: 'Yuri',
     status: 'En peligro crítico',
     image: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800',
-    description: 'Uno de los pueblos más pequeños y vulnerables.',
+    description: 'Yuri. Uno de los pueblos más pequeños y vulnerables.',
+    otherNames: 'Yuri,passé.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas.',
+    populationSource:
+      'Su población se estima aproximadamente en 200 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Yuri.',
+    culture:
+      'Los Yuri son uno de los pueblos más pequeños y vulnerables de Colombia.',
+    economy:
+      'La economía se basa en la caza, pesca y recolección.',
     traditions: ['Organización en grupos familiares reducidos', 'Caza, pesca y recolección', 'Memoria oral y vínculo territorial'],
     crafts: ['Brazaletes', 'Canastos', 'Plumas'],
     location: 'Amazonas'
@@ -1660,9 +2529,20 @@ export const ethnicities = [
     languageFamily: 'Tucano Oriental',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
-    description: 'Pueblo Tukano Oriental ubicado en el Vaupés.',
-    traditions: ['Caza', 'Pesca', 'Danza ceremonial'],
-    crafts: ['Canastos', 'Brazaletes', 'Flautas'],
+    description: 'Yurutí. Pueblo Tukano Oriental ubicado en el Vaupés.',
+    otherNames: 'Yurutí.',
+    locationDetail:
+      'Se localizan en el departamento del Vaupés.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 1.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Tucano Oriental.',
+    culture:
+      'Comparten las características culturales del complejo Tukano Oriental del Vaupés.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Danza ceremonial', 'Ritual del Yuruparí'],
+    crafts: ['Canastos', 'Brazaletes', 'Flautas', 'Bebederos'],
     location: 'Vaupés'
   },
   {
@@ -1676,10 +2556,21 @@ export const ethnicities = [
     languageFamily: 'Zenú',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
-    description: 'Herederos de una de las civilizaciones más desarrolladas de América.',
-    traditions: ['Ceremonia del agua', 'Danza del flechero', 'Ofrendas a la tierra'],
-    crafts: ['Sombrero vueltiao', 'Mochilas', 'Cestería en totumo'],
-    location: 'Córdoba y Sucre'
+    description: 'Zenú. Herederos de una de las civilizaciones más desarrolladas de América.',
+    otherNames: 'Zenú, Sinú.',
+    locationDetail:
+      'Se localizan en los departamentos de Córdoba, Sucre y Bolívar, en la región del San Jorge y el Sinú.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 250.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Zenú.',
+    culture:
+      'Los Zenú son herederos de una de las civilizaciones más desarrolladas de América. Los Senú están estrechamente relacionados con los Zenú.',
+    economy:
+      'La economía se basa en la agricultura, pesca y crafts tradicionales.',
+    traditions: ['Ceremonia del agua', 'Danza del flechero', 'Ofrendas a la tierra', 'Rituales tradicionales'],
+    crafts: ['Sombrero vueltiao', 'Mochilas', 'Cestería en totumo', 'Tejidos'],
+    location: 'Córdoba, Sucre y Bolívar'
   },
   {
     id: 'yukpa',
@@ -1692,10 +2583,21 @@ export const ethnicities = [
     languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
-    description: 'Pueblo Chibcha ubicado en la Serranía del Perijá.',
-    traditions: ['Caza', 'Pesca', 'Agricultura'],
-    crafts: ['Canastos', 'Hamacas', 'Bordados'],
-    location: 'Cesar'
+    description: 'Yukpa. Pueblo Chibcha ubicado en la Serranía del Perijá.',
+    otherNames: 'Yukpa.',
+    locationDetail:
+      'Se localizan en los departamentos de Cesar y Norte de Santander, en la Serranía del Perijá.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 8.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha.',
+    culture:
+      'Los Yukpa comparten tradiciones con otros grupos Chibcha de la región.',
+    economy:
+      'La economía se basa en la agricultura y la caza.',
+    traditions: ['Caza', 'Pesca', 'Agricultura', 'Rituales tradicionales'],
+    crafts: ['Canastos', 'Hamacas', 'Bordados', 'Tejidos'],
+    location: 'Cesar y Norte de Santander'
   },
   {
     id: 'cocama',
@@ -1703,15 +2605,26 @@ export const ethnicities = [
     region: 'amazonia-sur',
     departments: ['Amazonas', 'Putumayo'],
     coordinates: { lat: -0.5, lng: -73.5 },
-    population: 3000,
-    language: 'Cocama',
-    languageFamily: 'Tupian',
+    population: 2204,
+    language: 'Kokama',
+    languageFamily: 'Tupí Guaraní',
     status: 'En peligro',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Pueblo Tupí que habita la región amazónica.',
-    traditions: ['Caza', 'Pesca', 'Agricultura'],
+    description: 'Cocama ("Nosotros Mismos"). Pueblo Tupí que habita la región amazónica.',
+    otherNames: 'Kokama, Cocama, Ucayali, Xibitaoan, Huallaga, Pampadeque, Pandequebo, Omagua.',
+    locationDetail:
+      'Los Cocama viven cerca de Leticia en San José del Río e Isla de Ronda, en Puerto Nariño (Amazonas), en el resguardo del mismo nombre, y a lo largo del bajo río Putumayo en pequeños asentamientos. Comparten territorio con los Tikuna y Yagua.',
+    populationSource:
+      'Su población se estima en 2.204 individuos. La mayor concentración está en Leticia (1.413 indígenas) y Puerto Nariño (659 personas).',
+    languageDetail:
+      'Muy poco hablada en la actualidad, pertenece a la familia lingüística Tupí Guaraní. La lengua kokama-kokamilya se habla en la isla de Ronda frente a Leticia, y en las localidades de Naranjales, Palmeras y San José. Solo tiene unos pocos semi-hablantes.',
+    culture:
+      'Se encuentran frente a un proceso de transformación cultural adoptando elementos de la tradición occidental y judeo-cristiana. Dentro de su cosmovisión "Maisangara" es el espíritu original del cual descendieron. La práctica de la brujería es importante para resolución de conflictos. Tienen especialistas mágico-religiosos: el Chamán y el Curandero. Para la curación utilizan hojas de tabaco, hojas de palma, creolina, alcanfor y agua florida.',
+    economy:
+      'Se dedican a la pesca y agricultura. Cultivan maíz, yuca, fríjol, calabaza, piña y tabaco. Las vegas de los ríos se utilizan para el cultivo de arroz con fines comerciales. Complementan con crianza y venta de animales domésticos y comercialización de madera, yute y pescado.',
+    traditions: ['Caza', 'Pesca', 'Agricultura', 'Brujería'],
     crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra'],
-    location: 'Amazonas'
+    location: 'Amazonas y Putumayo'
   },
   {
     id: 'tsachila',
@@ -1724,11 +2637,578 @@ export const ethnicities = [
     languageFamily: 'Chibcha',
     status: 'Vulnerable',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
-    description: 'Conocidos por su práctica de teñir el cabello de rojo.',
-    traditions: ['Teñido del cabello', 'Danza ceremonial', 'Chamanismo'],
-    crafts: ['Canastos', 'Brazaletes', 'Collares'],
+    description: 'Tsáchila. Conocidos por su práctica de teñir el cabello de rojo.',
+    otherNames: 'Colorados.',
+    locationDetail:
+      'Se localizan en el departamento de Nariño, en la zona de Santo Domingo de los Colorados.',
+    populationSource:
+      'El Censo DANE 2005rió aproximadamente 6.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha.',
+    culture:
+      'Los Tsáchila son conocidos por su práctica de teñir el cabello de rojo con el achiote.',
+    economy:
+      'La economía se basa en la agricultura y el comercio.',
+    traditions: ['Teñido del cabello', 'Danza ceremonial', 'Chamanismo', 'Rituales tradicionales'],
+    crafts: ['Canastos', 'Brazaletes', 'Collares', 'Tejidos'],
+    location: 'Nariño (Santo Domingo de los Colorados)'
+  },
+  {
+    id: 'cocomacoya',
+    name: 'Cocomacoya',
+    region: 'amazonia-sur',
+    departments: ['Putumayo'],
+    coordinates: { lat: 0.2, lng: -75.0 },
+    population: 500,
+    language: 'Cocomacoya',
+    languageFamily: 'Witoto',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
+    description: 'Cocomacoya. Pueblo Witoto en riesgo crítico.',
+    otherNames: 'Cocomacoya.',
+    locationDetail:
+      'Se localizan en el departamento del Putumayo.',
+    populationSource:
+      'Su población se estima aproximadamente en 500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Witoto.',
+    culture:
+      'Comparten tradiciones con otros grupos Witoto de la Amazonía.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Rituales ceremoniales'],
+    crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra'],
+    location: 'Putumayo'
+  },
+  {
+    id: 'cocono',
+    name: 'Cocono',
+    region: 'amazonia-sur',
+    departments: ['Putumayo', 'Amazonas'],
+    coordinates: { lat: 0.0, lng: -74.5 },
+    population: 300,
+    language: 'Cocono',
+    languageFamily: 'Witoto',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
+    description: 'Cocono. Pueblo Witoto en riesgo crítico.',
+    otherNames: 'Cocono.',
+    locationDetail:
+      'Se localizan en el departamento del Putumayo y Amazonas.',
+    populationSource:
+      'Su población se estima aproximadamente en 300 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Witoto.',
+    culture:
+      'Comparten tradiciones con otros grupos Witoto de la Amazonía.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Rituales ceremoniales'],
+    crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra'],
+    location: 'Putumayo y Amazonas'
+  },
+  {
+    id: 'murui-muina',
+    name: 'Murui Muina',
+    region: 'amazonia-sur',
+    departments: ['Putumayo'],
+    coordinates: { lat: 0.3, lng: -74.8 },
+    population: 1500,
+    language: 'Murui',
+    languageFamily: 'Witoto',
+    status: 'En peligro',
+    image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800',
+    description: 'Murui Muina. Pueblo Witoto de la Amazonía.',
+    otherNames: 'Murui.',
+    locationDetail:
+      'Se localizan en el departamento del Putumayo.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 1.500 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Witoto.',
+    culture:
+      'Comparten tradiciones con otros grupos Witoto de la Amazonía.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Rituales ceremoniales'],
+    crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra'],
+    location: 'Putumayo'
+  },
+  {
+    id: 'piodo',
+    name: 'Piodo',
+    region: 'amazonia-norte',
+    departments: ['Guainía'],
+    coordinates: { lat: 3.0, lng: -69.5 },
+    population: 200,
+    language: 'Piodo',
+    languageFamily: 'Puinave',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
+    description: 'Piodo. Pueblo en riesgo crítico en Guainía.',
+    otherNames: 'Piodo.',
+    locationDetail:
+      'Se localizan en el departamento de Guainía.',
+    populationSource:
+      'Su población se estima aproximadamente en 200 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Puinave.',
+    culture:
+      'Comparten tradiciones con otros grupos de la región.',
+    economy:
+      'La economía se basa en la caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Rituales'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
+    location: 'Guainía'
+  },
+  {
+    id: 'mundaruku',
+    name: 'Mundaruku',
+    region: 'amazonia-sur',
+    departments: ['Amazonas'],
+    coordinates: { lat: -1.0, lng: -72.0 },
+    population: 500,
+    language: 'Mundaruku',
+    languageFamily: 'Arawak',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
+    description: 'Mundaruku. Pueblo Arawak en riesgo crítico.',
+    otherNames: 'Mundaruku.',
+    locationDetail:
+      'Se localizan en el departamento del Amazonas.',
+    populationSource:
+      'Su población se estima aproximadamente en 500 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Comparten tradiciones con otros grupos de la Amazonía.',
+    economy:
+      'La economía se basa en la horticultura, caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo', 'Rituales'],
+    crafts: ['Canastos', 'Brazaletes', 'Trabajos en fibra'],
+    location: 'Amazonas'
+  },
+  {
+    id: 'tamasidaos',
+    name: 'Tamasidaos',
+    region: 'amazonia-norte',
+    departments: ['Guainía'],
+    coordinates: { lat: 3.2, lng: -69.8 },
+    population: 150,
+    language: 'Tamasidaos',
+    languageFamily: 'Puinave',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
+    description: 'Tamasidaos. Pueblo en riesgo crítico.',
+    otherNames: 'Tamasidaos.',
+    locationDetail:
+      'Se localizan en el departamento de Guainía.',
+    populationSource:
+      'Su población se estima aproximadamente en 150 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Puinave.',
+    culture:
+      'Comparten tradiciones con otros grupos de la región.',
+    economy:
+      'La economía se basa en la caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
+    location: 'Guainía'
+  },
+  {
+    id: 'tutza',
+    name: 'Tutza',
+    region: 'andina-sur',
+    departments: ['Boyacá'],
+    coordinates: { lat: 5.5, lng: -72.5 },
+    population: 200,
+    language: 'Tutza',
+    languageFamily: 'Chibcha',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800',
+    description: 'Tutza. Pueblo Chibcha en riesgo crítico.',
+    otherNames: 'Tutza.',
+    locationDetail:
+      'Se localizan en el departamento de Boyacá.',
+    populationSource:
+      'Su población se estima aproximadamente en 200 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Chibcha.',
+    culture:
+      'Comparten tradiciones con otros grupos Chibcha de la región.',
+    economy:
+      'La economía se basa en la agricultura.',
+    traditions: ['Agricultura', 'Rituales tradicionales'],
+    crafts: ['Tejidos', 'Canastos', 'Trabajos en barro'],
+    location: 'Boyacá'
+  },
+  {
+    id: 'wapiyu',
+    name: 'Wapiyu',
+    region: 'amazonia-norte',
+    departments: ['Guainía'],
+    coordinates: { lat: 3.5, lng: -69.0 },
+    population: 100,
+    language: 'Wapiyu',
+    languageFamily: 'Puinave',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
+    description: 'Wapiyu. Pueblo en riesgo crítico.',
+    otherNames: 'Wapiyu.',
+    locationDetail:
+      'Se localizan en el departamento de Guainía.',
+    populationSource:
+      'Su población se estima aproximadamente en 100 individuos.',
+    languageDetail:
+      'Pertenece a la familia lingüística Puinave.',
+    culture:
+      'Comparten tradiciones con otros grupos de la región.',
+    economy:
+      'La economía se basa en la caza, pesca y recolección.',
+    traditions: ['Caza', 'Pesca', 'Chamanismo'],
+    crafts: ['Canastos', 'Brazaletes', 'Arcos'],
+    location: 'Guainía'
+  },
+  {
+    id: 'inganoe',
+    name: 'Inganoe',
+    region: 'andina-sur',
+    departments: ['Putumayo', 'Cauca'],
+    coordinates: { lat: 1.2, lng: -76.8 },
+    population: 3000,
+    language: 'Inga',
+    languageFamily: 'Quechua',
+    status: 'Vulnerable',
+    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
+    description: 'Inganoe. Pueblo Quechua emparentado con los Inga.',
+    otherNames: 'Inganoe.',
+    locationDetail:
+      'Se localizan en los departamentos de Putumayo y Cauca.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 3.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Quechua.',
+    culture:
+      'Comparten tradiciones con los pueblos Inga y Yanacona.',
+    economy:
+      'La economía se basa en la agricultura de clima frío.',
+    traditions: ['Agricultura', 'Comercio', 'Rituales tradicionales'],
+    crafts: ['Mochilas', 'Tejidos', 'Bordados'],
+    location: 'Putumayo y Cauca'
+  },
+  {
+    id: 'camsa',
+    name: 'Camsá (Camsá)',
+    region: 'andina-sur',
+    departments: ['Nariño', 'Putumayo'],
+    coordinates: { lat: 1.2, lng: -77.1 },
+    population: 2000,
+    language: 'Camsá',
+    languageFamily: 'Camsá',
+    status: 'En peligro',
+    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
+    description: 'Camsá. Pueblo de la familia lingüística Camsá.',
+    otherNames: 'Camsá, Sibundoy.',
+    locationDetail:
+      'Se localizan en los departamentos de Nariño y Putumayo, en el Valle de Sibundoy.',
+    populationSource:
+      'El Censo DANE 2005 reportó aproximadamente 2.000 personas autoreconocidas.',
+    languageDetail:
+      'Pertenece a la familia lingüística Camsá (aislada).',
+    culture:
+      'Comparten tradiciones con los pueblos Kamëntsá e Inga del Valle de Sibundoy.',
+    economy:
+      'La economía se basa en la agricultura y el comercio.',
+    traditions: ['Agricultura', 'Comercio', 'Rituales tradicionales'],
+    crafts: ['Tejidos', 'Canastos', 'Trabajos en barro'],
+    location: 'Nariño y Putumayo'
+  },
+  {
+    id: 'arzario',
+    name: 'Arzario',
+    region: 'andina-norte-caribe',
+    departments: ['La Guajira', 'Cesar'],
+    coordinates: { lat: 10.5, lng: -73.0 },
+    population: 18202,
+    language: 'Dumuna',
+    languageFamily: 'Chibcha',
+    status: 'Vulnerable',
+    image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
+    description: 'Arzario (Wiwa). Pueblo de la Sierra Nevada de Santa Marta.',
+    otherNames: 'Sanjá, Wiwa.',
+    locationDetail:
+      'Se localizan en la Sierra Nevada de Santa Marta, en los departamentos de La Guajira y Cesar.',
+    populationSource: 'Su población se estima en 18.202 individuos (DANE 2018).',
+    languageDetail:
+      'Hablan la lengua Dumuna, perteneciente a la familia lingüística Chibcha.',
+    culture:
+      'Comparten tradiciones ancestrales con los otros pueblos de la Sierra Nevada: Arhuaco, Kogui y Wiwa. Mantienen sus rituales y ceremonias tradicionales.',
+    economy:
+      'La agricultura y el comercio son sus principales actividades económicas.',
+    traditions: ['Rituales ancestrales', 'Sistema de autoridades tradicionales', 'Ceremonias de la Sierra'],
+    crafts: ['Tejidos', 'Canastos', 'Mochilas'],
+    location: 'Sierra Nevada de Santa Marta'
+  },
+  {
+    id: 'quillacinga',
+    name: 'Quillacinga',
+    region: 'andina-sur',
+    departments: ['Nariño'],
+    coordinates: { lat: 1.2, lng: -77.5 },
+    population: 7333,
+    language: 'Castellano',
+    languageFamily: 'Indoeuropea',
+    status: 'Vulnerable',
+    image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
+    description: 'Quillacinga. Pueblo que habita el departamento de Nariño.',
+    otherNames: 'Quillacinga.',
+    locationDetail:
+      'Se localizan en el departamento de Nariño, en la región andina sur.',
+    populationSource: 'Su población se estima en 7.333 individuos (DANE 2018).',
+    languageDetail:
+      'No conservan su lengua ancestral y utilizan el castellano como idioma principal.',
+    culture:
+      'Los Quillacinga mantienen tradiciones culturales propias de la región andina, aunque han perdido su lengua original.',
+    economy:
+      'La agricultura y la ganadería son sus principales actividades económicas.',
+    traditions: ['Tradiciones agrícolas', 'Fiestas patronales', 'Artesanía'],
+    crafts: ['Tejidos', 'Alfarería', 'Trabajos en madera'],
     location: 'Nariño'
-  }
+  },
+  {
+    id: 'kizgo',
+    name: 'Kizgó',
+    region: 'andina-sur',
+    departments: ['Cauca'],
+    coordinates: { lat: 2.5, lng: -76.5 },
+    population: 3974,
+    language: 'Guambiano',
+    languageFamily: 'Barbacoana',
+    status: 'Vulnerable',
+    image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=800',
+    description: 'Kizgó (Quizgó). Pueblo de la familia lingüística Guambiano.',
+    otherNames: 'Quizgó.',
+    locationDetail:
+      'Se localizan en el departamento del Cauca, en la región andina sur.',
+    populationSource: 'Su población se estima en 3.974 individuos (DANE 2018).',
+    languageDetail:
+      'Hablan la lengua Guambiano, perteneciente a la familia lingüística Barbacoana.',
+    culture:
+      'Comparten tradiciones culturales con los pueblos Guambiano y Coconuco de la región.',
+    economy:
+      'La agricultura y la ganadería son sus principales actividades económicas.',
+    traditions: ['Agricultura tradicional', 'Medicina ancestral', 'Rituales comunitarios'],
+    crafts: ['Tejidos', 'Cestería', 'Trabajos en lana'],
+    location: 'Cauca'
+  },
+  {
+    id: 'macahuan',
+    name: 'Macahuan',
+    region: 'llanos-orientales',
+    departments: ['Arauca'],
+    coordinates: { lat: 6.5, lng: -71.5 },
+    population: 1764,
+    language: 'Macahuan',
+    languageFamily: 'Guahiba',
+    status: 'En peligro',
+    image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
+    description: 'Macahuan. Pueblo de la familia lingüística Guahiba.',
+    otherNames: 'Macahuan.',
+    locationDetail:
+      'Se localizan en el departamento de Arauca, en los llanos orientales.',
+    populationSource: 'Su población se estima en 1.764 individuos (DANE 2018).',
+    languageDetail:
+      'Pertenece a la familia lingüística Guahiba.',
+    culture:
+      'Comparten tradiciones culturales con otros pueblos de los llanos orientales.',
+    economy:
+      'La agricultura de subsistencia y la caza son sus principales actividades.',
+    traditions: ['Agricultura tradicional', 'Caza', 'Pesca'],
+    crafts: ['Canastos', 'Hamacas', 'Artesanía en fibra'],
+    location: 'Arauca'
+  },
+  {
+    id: 'wipiwi',
+    name: 'Wipiwi',
+    region: 'llanos-orientales',
+    departments: ['Casanare'],
+    coordinates: { lat: 5.5, lng: -71.0 },
+    population: 299,
+    language: 'Cuiba',
+    languageFamily: 'Guahiba',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
+    description: 'Wipiwi. Pueblo de la familia lingüística Guahiba.',
+    otherNames: 'Wipijiwi, Waüpijiwi.',
+    locationDetail:
+      'Se localizan en el departamento de Casanare, en los llanos orientales.',
+    populationSource: 'Su población se estima en 299 individuos (DANE 2018).',
+    languageDetail:
+      'Pertenece a la familia lingüística Guahiba. Hablan también el castellano.',
+    culture:
+      'Mantienen tradiciones de los pueblos Guahiba de los llanos orientales.',
+    economy:
+      'La agricultura de subsistencia es su principal actividad.',
+    traditions: ['Agricultura tradicional', 'Caza', 'Pesca'],
+    crafts: ['Canastos', 'Hamacas'],
+    location: 'Casanare'
+  },
+  {
+    id: 'nutabe',
+    name: 'Nutabe',
+    region: 'andina-norte-caribe',
+    departments: ['Antioquia'],
+    coordinates: { lat: 5.8, lng: -75.5 },
+    population: 178,
+    language: 'Castellano',
+    languageFamily: 'Indoeuropea',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800',
+    description: 'Nutabe. Pueblo ancestral del departamento de Antioquia.',
+    otherNames: 'Nutabe.',
+    locationDetail:
+      'Se localizan en el departamento de Antioquia.',
+    populationSource: 'Su población se estima en 178 individuos (DANE 2018).',
+    languageDetail:
+      'No conservan su lengua ancestral y utilizan el castellano como idioma principal.',
+    culture:
+      'Los Nutabe mantienen tradiciones culturales propias de la región andina.',
+    economy:
+      'La agricultura es su principal actividad económica.',
+    traditions: ['Tradiciones agrícolas', 'Artesanía'],
+    crafts: ['Tejidos', 'Alfarería'],
+    location: 'Antioquia'
+  },
+  {
+    id: 'tanigua',
+    name: 'Tanigua',
+    region: 'amazonia-sur',
+    departments: ['Caquetá'],
+    coordinates: { lat: 1.5, lng: -75.0 },
+    population: 145,
+    language: 'Tinigua',
+    languageFamily: 'Tinigua-pamigua',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
+    description: 'Tanigua. Pueblo de la familia lingüística Tinigua.',
+    otherNames: 'Tinigua.',
+    locationDetail:
+      'Se localizan en el departamento del Caquetá.',
+    populationSource: 'Su población se estima en 145 individuos (DANE 2018).',
+    languageDetail:
+      'Pertenece a la familia lingüística Tinigua-pamigua.',
+    culture:
+      'Los Tanigua han mantenido sus tradiciones a pesar de su pequeño número.',
+    economy:
+      'La agricultura de subsistencia es su principal actividad.',
+    traditions: ['Agricultura tradicional', 'Caza', 'Pesca'],
+    crafts: ['Canastos', 'Artesanía'],
+    location: 'Caquetá'
+  },
+  {
+    id: 'yamalero',
+    name: 'Yamalero',
+    region: 'llanos-orientales',
+    departments: ['Casanare'],
+    coordinates: { lat: 5.3, lng: -71.5 },
+    population: 142,
+    language: 'Yamalero',
+    languageFamily: 'Guahiba',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1583005463983-3c1a3b9f3e87?w=800',
+    description: 'Yamalero. Pueblo de la familia lingüística Guahiba.',
+    otherNames: 'Mariposos.',
+    locationDetail:
+      'Se localizan en el departamento de Casanare.',
+    populationSource: 'Su población se estima en 142 individuos (DANE 2018).',
+    languageDetail:
+      'Pertenece a la familia lingüística Guahiba.',
+    culture:
+      'Mantienen tradiciones de los pueblos Guahiba de los llanos orientales.',
+    economy:
+      'La agricultura de subsistencia es su principal actividad.',
+    traditions: ['Agricultura tradicional', 'Caza'],
+    crafts: ['Canastos', 'Hamacas'],
+    location: 'Casanare'
+  },
+  {
+    id: 'mapayerri',
+    name: 'Mapayerri',
+    region: 'llanos-orientales',
+    departments: ['Vichada'],
+    coordinates: { lat: 5.0, lng: -68.5 },
+    population: 104,
+    language: 'Mapayerri',
+    languageFamily: 'Aislada',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
+    description: 'Mapayerri. Pueblo de lengua aislada.',
+    otherNames: 'Mapayerri.',
+    locationDetail:
+      'Se localizan en el departamento de Vichada, en los llanos orientales.',
+    populationSource: 'Su población se estima en 104 individuos (DANE 2018).',
+    languageDetail:
+      'Su lengua pertenece a una familia aislada.',
+    culture:
+      'Los Mapayerri mantienen sus tradiciones ancestrales en el territorio de los llanos.',
+    economy:
+      'La agricultura de subsistencia y la caza son sus principales actividades.',
+    traditions: ['Agricultura tradicional', 'Caza', 'Pesca'],
+    crafts: ['Canastos', 'Artesanía'],
+    location: 'Vichada'
+  },
+  {
+    id: 'calima',
+    name: 'Calima',
+    region: 'andina-sur',
+    departments: ['Valle del Cauca'],
+    coordinates: { lat: 3.5, lng: -76.5 },
+    population: 50,
+    language: 'Castellano',
+    languageFamily: 'Indoeuropea',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=800',
+    description: 'Calima. Pueblo ancestral del Valle del Cauca.',
+    otherNames: 'Calima.',
+    locationDetail:
+      'Se localizan en el departamento del Valle del Cauca.',
+    populationSource: 'Su población se estima en aproximadamente 50 individuos (DANE 2018).',
+    languageDetail:
+      'No conservan su lengua ancestral y utilizan el castellano como idioma principal.',
+    culture:
+      'Los Calima mantienen tradiciones culturales de la región andina.',
+    economy:
+      'La agricultura es su principal actividad económica.',
+    traditions: ['Tradiciones agrícolas', 'Artesanía'],
+    crafts: ['Tejidos', 'Alfarería'],
+    location: 'Valle del Cauca'
+  },
+  {
+    id: 'baniva',
+    name: 'Baniva',
+    region: 'amazonia-norte',
+    departments: ['Guainía'],
+    coordinates: { lat: 3.0, lng: -67.5 },
+    population: 187,
+    language: 'Karu',
+    languageFamily: 'Arawak',
+    status: 'En peligro crítico',
+    image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800',
+    description: 'Baniva. Pueblo de la familia lingüística Arawak.',
+    otherNames: 'Baniwa.',
+    locationDetail:
+      'Se localizan en el departamento del Guainía, en la región amazónica norte.',
+    populationSource: 'Su población se estima en 187 individuos (DANE 2018).',
+    languageDetail:
+      'Pertenece a la familia lingüística Arawak.',
+    culture:
+      'Los Baniva mantienen tradiciones culturales de los pueblos Arawak de la región amazónica.',
+    economy:
+      'La agricultura de subsistencia y la pesca son sus principales actividades.',
+    traditions: ['Agricultura tradicional', 'Pesca', 'Caza'],
+    crafts: ['Canastos', 'Artesanía'],
+    location: 'Guainía'
+  },
 ];
 
 export const getEthnicityByRegion = (regionId) => {
