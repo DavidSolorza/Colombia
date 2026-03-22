@@ -139,8 +139,8 @@ export default function Library({ onEthnicityClick }) {
             Biblioteca de pueblos indígenas
           </h1>
           <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
-            Consulta lenguas, territorios y población. Filtra por región natural, estado de la lengua u ordena el
-            catálogo como prefieras.
+            Consulta lenguas, territorios y población. Filtra por región natural, estado de la lengua u ordénalos como
+            prefieras.
           </p>
         </motion.header>
 
@@ -406,7 +406,7 @@ export default function Library({ onEthnicityClick }) {
 
         <div className="mt-10 flex items-center gap-3">
           <div className="h-px flex-1 bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Catálogo</span>
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Pueblos</span>
           <div className="h-px flex-1 bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
         </div>
 

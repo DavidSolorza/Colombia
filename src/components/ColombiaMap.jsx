@@ -131,19 +131,26 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
       .attr('stroke', '#7dd3fc')
       .attr('stroke-width', 0.5);
 
-    svg.append('rect')
+    const oceanRect = svg
+      .append('rect')
       .attr('width', width)
       .attr('height', height)
       .attr('fill', 'url(#oceanPattern)')
-      .attr('rx', 12);
+      .attr('rx', 12)
+      .attr('opacity', 0);
 
-    svg.append('rect')
+    const innerRect = svg
+      .append('rect')
       .attr('x', 10).attr('y', 10)
       .attr('width', width - 20)
       .attr('height', height - 20)
       .attr('fill', 'url(#mapBgGradient)')
       .attr('rx', 8)
-      .attr('pointer-events', 'none');
+      .attr('pointer-events', 'none')
+      .attr('opacity', 0);
+
+    oceanRect.transition().duration(480).ease(d3.easeCubicOut).attr('opacity', 1);
+    innerRect.transition().duration(520).delay(80).ease(d3.easeCubicOut).attr('opacity', 1);
 
     d3.json(mapJsonUrl())
       .then((co) => {
@@ -180,6 +187,8 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
 
       const regionLayer = svg.append('g').attr('class', 'region-polygons-layer');
 
+      const regionPaths = [];
+
       regions.forEach((region) => {
         const geoms = geomsByRegion[region.id];
         if (!geoms?.length) return;
@@ -194,14 +203,15 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
         const { count, people } = regionEthnicityStats(region.id);
         const tooltipText = `${region.name}\n${count} etnias · ${people.toLocaleString('es-CO')} personas`;
 
-        regionLayer
+        const pathSel = regionLayer
           .append('path')
           .attr('class', `region-polygon region-polygon-${region.id}`)
           .datum(merged)
           .attr('d', path)
           .attr('fill', regionColors[region.id] || '#e2e8f0')
-          .attr('fill-opacity', 0.94)
+          .attr('fill-opacity', 0)
           .attr('stroke', '#64748b')
+          .attr('stroke-opacity', 0)
           .attr('stroke-width', 1.1)
           .attr('stroke-linejoin', 'round')
           .style('cursor', 'pointer')
@@ -236,41 +246,100 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
               .attr('stroke-width', 1.1);
             setTooltip({ show: false, x: 0, y: 0, content: '' });
           });
+
+        regionPaths.push({ sel: pathSel, merged, idx: regionPaths.length });
       });
 
-      regions.forEach(region => {
-        const regionDepts = departments.filter(d => d.region === region.id);
+      const pathStagger = 135;
+      const pathDuration = 680;
+
+      regionPaths.forEach(({ sel, merged, idx }) => {
+        let cx;
+        let cy;
+        try {
+          [cx, cy] = path.centroid({ type: 'Feature', properties: {}, geometry: merged });
+        } catch {
+          cx = width / 2;
+          cy = height / 2;
+        }
+        const ok = Number.isFinite(cx) && Number.isFinite(cy);
+        const t0 = ok
+          ? `translate(${cx},${cy}) scale(0.68) translate(${-cx},${-cy})`
+          : 'translate(0,0) scale(1)';
+
+        if (ok) sel.attr('transform', t0);
+
+        sel
+          .transition()
+          .delay(120 + idx * pathStagger)
+          .duration(pathDuration)
+          .ease(d3.easeCubicOut)
+          .attr('transform', null)
+          .attr('fill-opacity', 0.94)
+          .attr('stroke-opacity', 1);
+      });
+
+      const markerEntries = [];
+
+      regions.forEach((region) => {
+        const regionDepts = departments.filter((d) => d.region === region.id);
         if (regionDepts.length === 0) return;
 
-        const regionCoords = regionDepts.map(d => [d.coordinates.lng, d.coordinates.lat]);
-        const centerLng = d3.mean(regionCoords, d => d[0]);
-        const centerLat = d3.mean(regionCoords, d => d[1]);
+        const regionCoords = regionDepts.map((d) => [d.coordinates.lng, d.coordinates.lat]);
+        const centerLng = d3.mean(regionCoords, (d) => d[0]);
+        const centerLat = d3.mean(regionCoords, (d) => d[1]);
         const [x, y] = projection([centerLng, centerLat]);
 
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         if (x < 6 || x > width - 6 || y < 6 || y > height - 6) return;
 
+        markerEntries.push({ region, x, y });
+      });
+
+      const markerBaseDelay =
+        200 + Math.max(0, regionPaths.length - 1) * pathStagger + pathDuration * 0.35;
+
+      markerEntries.forEach(({ region, x, y }, idx) => {
         const regionGroup = svg
           .append('g')
           .attr('class', `region-marker ${region.id}`)
-          .style('pointer-events', 'none');
+          .style('pointer-events', 'none')
+          .attr('opacity', 0);
 
-        regionGroup.append('circle')
-          .attr('cx', x).attr('cy', y)
-          .attr('r', regionR)
+        const circle = regionGroup
+          .append('circle')
+          .attr('cx', x)
+          .attr('cy', y)
+          .attr('r', 0)
           .attr('fill', d3.color(regionColors[region.id]).brighter(0.2))
           .attr('stroke', regionColors[region.id])
           .attr('stroke-width', 2.5)
           .style('filter', 'drop-shadow(0 2px 4px rgba(0,0,0,0.2))');
 
-        regionGroup.append('text')
-          .attr('x', x).attr('y', y + 26 * markerScale)
+        const label = regionGroup
+          .append('text')
+          .attr('x', x)
+          .attr('y', y + 26 * markerScale)
           .attr('text-anchor', 'middle')
           .attr('fill', '#1e293b')
           .attr('font-size', `${9 * markerScale}px`)
           .attr('font-weight', '600')
           .attr('pointer-events', 'none')
+          .attr('opacity', 0)
           .text(region.mapLabel || region.name);
+
+        const md = markerBaseDelay + idx * 110;
+
+        circle
+          .transition()
+          .delay(md)
+          .duration(520)
+          .ease(d3.easeBackOut.overshoot(1.15))
+          .attr('r', regionR);
+
+        regionGroup.transition().delay(md).duration(380).ease(d3.easeCubicOut).attr('opacity', 1);
+
+        label.transition().delay(md + 200).duration(340).ease(d3.easeCubicOut).attr('opacity', 1);
       });
     })
       .catch((err) => {
@@ -308,9 +377,9 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
         >
         <motion.div
           className="absolute inset-0 z-0"
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+          initial={{ opacity: 0, scale: 0.97, y: 14 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
         >
           <MapSvgCanvas ref={svgRef} viewW={dimensions.width} viewH={dimensions.height} />
         </motion.div>
