@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    @apply min-h-full;
+  }
+
+  body {
+    @apply font-sans text-slate-900 antialiased;
+    @apply bg-gradient-to-b from-slate-50 via-slate-50 to-slate-100;
+  }
+}
+
+/* Interacciones del mapa vectorial (paths generados por D3) */
+@layer components {
+  .colombia-map .municipio {
+    @apply cursor-pointer transition-all duration-300 ease-out;
+  }
+
+  .colombia-map .municipio:hover {
+    opacity: 0.88 !important;
+    stroke: rgb(5 150 105) !important;
+    stroke-width: 1.25px !important;
+  }
+
+  .colombia-map .dept-border {
+    pointer-events: none;
+  }
+
+  .region-marker circle {
+    @apply cursor-pointer transition-all duration-300 ease-out;
+  }
+
+  .region-marker:hover circle {
+    filter: drop-shadow(0 0 12px currentColor);
+  }
+
+  .region-marker text {
+    pointer-events: none;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+  }
+
+  .ethnicity-marker {
+    @apply cursor-pointer;
+  }
+
+  .ethnicity-marker:hover .ethnicity-dot {
+    filter: drop-shadow(0 0 5px rgb(0 0 0 / 0.4));
+  }
+
+  .map-tooltip {
+    animation: map-tooltip-fade 0.15s ease;
+  }
+
+  @keyframes map-tooltip-fade {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
