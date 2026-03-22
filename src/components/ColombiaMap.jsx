@@ -37,15 +37,172 @@ function findDepartmentForMunicipio(feature) {
   return dept;
 }
 
-function regionEthnicityStats(regionId) {
+function regionTooltipStats(regionId) {
   const list = ethnicities.filter((e) => e.region === regionId);
   const people = list.reduce((s, e) => s + (Number(e.population) || 0), 0);
-  return { count: list.length, people };
+  const languageFamilies = new Set(list.map((e) => e.languageFamily).filter(Boolean)).size;
+  return { count: list.length, people, languageFamilies };
+}
+
+function truncateRegionBlurb(text, max = 132) {
+  const s = String(text || '').trim();
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max).trimEnd();
+  const i = cut.lastIndexOf(' ');
+  const base = i > 48 ? cut.slice(0, i) : cut;
+  return `${base}…`;
+}
+
+const TOOLTIP_W = 292;
+const TOOLTIP_H = 220;
+
+function clampMapTooltipPosition(clientX, clientY) {
+  if (typeof window === 'undefined') return { left: clientX + 14, top: clientY + 12 };
+  const pad = 10;
+  let left = clientX + 14;
+  let top = clientY + 12;
+  if (left + TOOLTIP_W > window.innerWidth - pad) {
+    left = Math.max(pad, clientX - TOOLTIP_W - 14);
+  }
+  if (top + TOOLTIP_H > window.innerHeight - pad) {
+    top = Math.max(pad, clientY - TOOLTIP_H - 8);
+  }
+  left = Math.max(pad, Math.min(left, window.innerWidth - TOOLTIP_W - pad));
+  top = Math.max(pad, Math.min(top, window.innerHeight - TOOLTIP_H - pad));
+  return { left, top };
+}
+
+function IconUsers({ className }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+      <circle cx="9" cy="7" r="4" />
+      <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+    </svg>
+  );
+}
+
+function IconMap({ className }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+      <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+      <line x1="8" y1="2" x2="8" y2="18" />
+      <line x1="16" y1="6" x2="16" y2="22" />
+    </svg>
+  );
+}
+
+function IconChart({ className }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+      <path d="M3 3v18h18" />
+      <path d="M7 16l4-6 4 3 4-8" />
+    </svg>
+  );
+}
+
+function IconLayers({ className }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+      <polygon points="12 2 2 7 12 12 22 7 12 2" />
+      <polyline points="2 17 12 22 22 17" />
+      <polyline points="2 12 12 17 22 12" />
+    </svg>
+  );
 }
 
 function mapJsonUrl() {
   const base = import.meta.env.BASE_URL || '/';
   return `${base.endsWith('/') ? base : `${base}/`}colombia-municipios.json`;
+}
+
+function MapRegionHoverTooltip({ tooltip }) {
+  if (!tooltip?.show || !tooltip.regionId) return null;
+  const region = regions.find((r) => r.id === tooltip.regionId);
+  if (!region) return null;
+
+  const accent = region.color || regionColors[region.id] || '#0f766e';
+  const stats = regionTooltipStats(region.id);
+  const deptCount = region.departments?.length ?? 0;
+  const blurb = truncateRegionBlurb(region.description);
+  const { left, top } = clampMapTooltipPosition(tooltip.x, tooltip.y);
+
+  const statClass =
+    'flex items-center gap-1.5 text-slate-400 [&_svg]:shrink-0 [&_svg]:opacity-85';
+  const ddClass = 'text-right font-semibold tabular-nums text-white';
+
+  return (
+    <motion.div
+      key={region.id}
+      role="tooltip"
+      initial={{ opacity: 0, y: 8, scale: 0.96 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+      className="map-region-tooltip pointer-events-none fixed z-[1000] w-[min(92vw,18.25rem)] overflow-hidden rounded-xl border border-white/12 bg-slate-950/88 text-white shadow-[0_20px_50px_-12px_rgba(0,0,0,0.45)] backdrop-blur-md backdrop-saturate-150 ring-1 ring-white/8"
+      style={{
+        left,
+        top,
+        boxShadow: `0 18px 40px -14px rgb(0 0 0 / 0.5), inset 0 1px 0 0 rgb(255 255 255 / 0.06), 0 0 0 1px ${accent}33`
+      }}
+    >
+      <div
+        className="h-1 w-full"
+        style={{
+          background: `linear-gradient(90deg, ${accent} 0%, ${accent}99 45%, transparent 100%)`
+        }}
+      />
+      <div className="px-3.5 pb-3 pt-2.5 sm:px-4 sm:pb-3.5 sm:pt-3">
+        <p className="text-[0.65rem] font-bold uppercase tracking-[0.14em] text-slate-500">Región natural</p>
+        <h3 className="mt-0.5 text-[0.95rem] font-bold leading-snug tracking-tight text-white sm:text-base">
+          {region.name}
+        </h3>
+        {region.mapLabel && region.mapLabel !== region.name ? (
+          <p className="mt-0.5 text-xs font-medium text-slate-400">En el mapa: {region.mapLabel}</p>
+        ) : null}
+
+        <dl className="mt-3 grid grid-cols-[1fr_auto] gap-x-3 gap-y-2 border-t border-white/10 pt-3 text-[0.72rem] leading-tight sm:text-[0.75rem]">
+          <dt className={statClass}>
+            <IconUsers className="h-3.5 w-3.5" />
+            Pueblos indígenas
+          </dt>
+          <dd className={ddClass}>{stats.count}</dd>
+
+          <dt className={statClass}>
+            <IconMap className="h-3.5 w-3.5" />
+            Departamentos
+          </dt>
+          <dd className={ddClass}>{deptCount}</dd>
+
+          <dt className={statClass}>
+            <IconChart className="h-3.5 w-3.5" />
+            Población (estimada)
+          </dt>
+          <dd className={ddClass}>{stats.people.toLocaleString('es-CO')}</dd>
+
+          <dt className={statClass}>
+            <IconLayers className="h-3.5 w-3.5" />
+            Familias lingüísticas
+          </dt>
+          <dd className={ddClass}>{stats.languageFamilies}</dd>
+        </dl>
+
+        {blurb ? (
+          <p className="mt-3 line-clamp-3 border-t border-white/10 pt-3 text-[0.7rem] leading-relaxed text-slate-300 sm:text-[0.72rem]">
+            {blurb}
+          </p>
+        ) : null}
+
+        <p className="mt-2.5 flex items-center gap-1.5 text-[0.65rem] font-medium text-slate-500">
+          <span
+            className="inline-block h-1 w-1 rounded-full"
+            style={{ backgroundColor: accent }}
+            aria-hidden
+          />
+          Clic en la región para ver pueblos y detalle
+        </p>
+      </div>
+    </motion.div>
+  );
 }
 
 /** SVG estable: al cambiar tooltip u otras props del padre, React no re-renderiza el lienzo y D3 conserva el dibujo. */
@@ -71,7 +228,7 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
   const onRegionClickRef = useRef(onRegionClick);
   onRegionClickRef.current = onRegionClick;
 
-  const [tooltip, setTooltip] = useState({ show: false, x: 0, y: 0, content: '' });
+  const [tooltip, setTooltip] = useState({ show: false, x: 0, y: 0, regionId: null });
   const [dimensions, setDimensions] = useState({ width: 800, height: 900 });
   const [mapError, setMapError] = useState(null);
 
@@ -200,9 +357,6 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
         }
         if (!merged?.coordinates?.length) return;
 
-        const { count, people } = regionEthnicityStats(region.id);
-        const tooltipText = `${region.name}\n${count} etnias · ${people.toLocaleString('es-CO')} personas`;
-
         const pathSel = regionLayer
           .append('path')
           .attr('class', `region-polygon region-polygon-${region.id}`)
@@ -230,7 +384,7 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
               show: true,
               x: event.clientX,
               y: event.clientY,
-              content: tooltipText
+              regionId: region.id
             });
           })
           .on('mousemove', (event) => {
@@ -244,7 +398,7 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
               .attr('fill-opacity', 0.94)
               .attr('stroke', '#64748b')
               .attr('stroke-width', 1.1);
-            setTooltip({ show: false, x: 0, y: 0, content: '' });
+            setTooltip({ show: false, x: 0, y: 0, regionId: null });
           });
 
         regionPaths.push({ sel: pathSel, merged, idx: regionPaths.length });
@@ -386,14 +540,7 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
         </div>
       </div>
 
-      {tooltip.show && (
-        <div
-          className="map-tooltip pointer-events-none fixed z-[1000] max-w-[min(92vw,18rem)] whitespace-pre-line rounded-lg bg-slate-900 px-3.5 py-2 text-sm font-semibold leading-snug text-white shadow-lg"
-          style={{ left: tooltip.x + 15, top: tooltip.y - 10 }}
-        >
-          {tooltip.content}
-        </div>
-      )}
+      <MapRegionHoverTooltip tooltip={tooltip} />
 
       <aside
         className="pointer-events-auto fixed left-2 top-[5.25rem] z-40 max-h-[380px] w-[10.75rem] overflow-y-auto overscroll-contain rounded-xl border border-slate-200/70 bg-white/95 p-2 shadow-lg shadow-slate-900/10 backdrop-blur-sm sm:left-3 sm:top-[5.5rem] sm:max-h-[440px] sm:w-52 sm:rounded-2xl sm:p-2.5 md:left-4 md:max-h-[480px] md:p-3 lg:max-h-[520px]"
