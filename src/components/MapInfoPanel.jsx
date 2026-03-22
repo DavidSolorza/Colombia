@@ -33,9 +33,9 @@ export default function MapInfoPanel({ className = '' }) {
         <li className="flex gap-2.5">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500" aria-hidden />
           <span>
-            <strong className="font-semibold text-slate-900">Mapa por macroregiones</strong> (Caribe, Andina, Pacífico,
-            Amazonía, Orinoquía): pasa el cursor para ver cuántos pueblos hay y la población sumada; haz clic para abrir
-            el detalle de la región.
+            <strong className="font-semibold text-slate-900">Seis regiones culturales</strong> (Amazonía norte y sur,
+            Andina sur, Pacífico, Andina norte / Caribe, Llanos): pasa el cursor para ver cuántos pueblos hay y la población
+            sumada; haz clic para abrir el detalle de la región.
           </span>
         </li>
         <li className="flex gap-2.5">

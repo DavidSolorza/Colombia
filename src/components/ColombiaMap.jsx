@@ -5,11 +5,12 @@ import { motion } from 'framer-motion';
 import { regions, departments, ethnicities } from '../data/ethnicities';
 
 const regionColors = {
-  'caribe': '#fde68a',
-  'andina': '#86efac',
-  'pacifico': '#93c5fd',
-  'amazonia': '#6ee7b7',
-  'orinoquia': '#ddd6fe'
+  'amazonia-norte': '#5eead4',
+  'amazonia-sur': '#6ee7b7',
+  'andina-sur': '#86efac',
+  pacifica: '#93c5fd',
+  'andina-norte-caribe': '#fde68a',
+  'llanos-orientales': '#ddd6fe'
 };
 
 function normalizeDeptLabel(s) {
@@ -269,7 +270,7 @@ export default function ColombiaMap({ onRegionClick, selectedRegion }) {
           .attr('font-size', `${9 * markerScale}px`)
           .attr('font-weight', '600')
           .attr('pointer-events', 'none')
-          .text(region.name);
+          .text(region.mapLabel || region.name);
       });
     })
       .catch((err) => {

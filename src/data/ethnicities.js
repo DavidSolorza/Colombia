@@ -1,85 +1,117 @@
 export const regions = [
   {
-    id: 'caribe',
-    name: 'Macro Norte / Caribe',
-    color: '#f59e0b',
-    departments: ['Atlántico', 'Bolívar', 'Cesar', 'Córdoba', 'La Guajira', 'Magdalena', 'Sucre'],
-    coordinates: { lat: 10.5, lng: -74.5 },
-    description: 'Costa norte de Colombia con presencia de pueblos como Wayuu, Zenú, Arhuacos, Kogui, Wiwa, Kankuamo, Yukpa, Barí y Emberá.'
+    id: 'amazonia-norte',
+    name: 'Región Amazónica Norte',
+    mapLabel: 'Amazonía N.',
+    color: '#0f766e',
+    departments: ['Guainía', 'Guaviare', 'Vaupés'],
+    coordinates: { lat: 1.2, lng: -70.5 },
+    description:
+      'Parte del río Amazonas: selva tropical sobre pocas elevaciones; los ríos son la principal vía de transporte y comunicación (el Vaupés es central). Predominan lenguas de la familia Tucano; es frecuente el matrimonio exógamo y hogares bilingües, donde la madre transmite su lengua a los hijos.'
   },
   {
-    id: 'andina',
-    name: 'Macro Occidente',
-    color: '#10b981',
-    departments: ['Antioquia', 'Boyacá', 'Caldas', 'Cauca', 'Cundinamarca', 'Huila', 'Nariño', 'Norte de Santander', 'Quindío', 'Risaralda', 'Santander', 'Tolima'],
-    coordinates: { lat: 3.0, lng: -75.5 },
-    description: 'Región andina con pueblos como Nasa, Pasto, Emberá, Awá, Yanacona, Guambiano, Muisca, Totoró y Uwa.'
+    id: 'amazonia-sur',
+    name: 'Región Amazónica Sur',
+    mapLabel: 'Amazonía S.',
+    color: '#15803d',
+    departments: ['Amazonas', 'Caquetá', 'Putumayo'],
+    coordinates: { lat: -0.3, lng: -73.5 },
+    description:
+      'Al sur del río Apaporis, con geografía afín a la Amazonía norte. Las vías fluviales principales son los ríos Caquetá, Putumayo y Amazonas. Concentra pueblos de lenguas como Huitoto, Ticuna, Bora y otras familias amazónicas.'
   },
   {
-    id: 'pacifico',
-    name: 'Pacífico',
-    color: '#3b82f6',
-    departments: ['Chocó', 'Cauca', 'Nariño', 'Valle del Cauca'],
-    coordinates: { lat: 4.5, lng: -77.0 },
-    description: 'Litoral pacífico con gran diversidad cultural incluyendo Emberá, Eperara-Siapidara, Awá y Tsáchila.'
-  },
-  {
-    id: 'amazonia',
-    name: 'Amazonía',
+    id: 'andina-sur',
+    name: 'Región Andina Sur',
+    mapLabel: 'Andina sur',
     color: '#059669',
-    departments: ['Amazonas', 'Caquetá', 'Guainía', 'Putumayo', 'Vaupés'],
-    coordinates: { lat: 0.5, lng: -73.0 },
-    description: 'Selva amazónica con más de 30 pueblos indígenas incluyendo Ticuna, Huitoto, Nukak, Cubeo, Tukano y muchos más.'
+    departments: ['Cauca', 'Valle del Cauca', 'Nariño', 'Huila', 'Tolima', 'Cundinamarca', 'Caldas', 'Risaralda', 'Quindío'],
+    coordinates: { lat: 2.8, lng: -76.5 },
+    description:
+      'Cordillera de los Andes: tierras frías donde muchas comunidades cultivan papa, cebolla, habas, oca y crían vacunos, cuyes, cerdos y aves. Incluye el eje caucana-nariñense y el valle alto del Magdalena.'
   },
   {
-    id: 'orinoquia',
-    name: 'Orinoquía',
-    color: '#8b5cf6',
-    departments: ['Arauca', 'Casanare', 'Guaviare', 'Meta', 'Vichada'],
-    coordinates: { lat: 4.0, lng: -71.5 },
-    description: 'Llanos orientales con pueblos como Sikuani, Cuiba, Piapoco, Achagua, Piaroa y Hitnu.'
+    id: 'pacifica',
+    name: 'Región Pacífica',
+    mapLabel: 'Pacífico',
+    color: '#2563eb',
+    departments: ['Chocó'],
+    coordinates: { lat: 5.2, lng: -76.8 },
+    description:
+      'Limitada al occidente por el Pacífico y al oriente por la Cordillera Occidental: selva tropical húmeda y suelos frecuentemente pantanosos. Predominan pueblos de la familia lingüística chocó con fuertes vínculos culturales y lingüísticos entre sí.'
+  },
+  {
+    id: 'andina-norte-caribe',
+    name: 'Región Andina Norte y Caribe',
+    mapLabel: 'Norte / Caribe',
+    color: '#d97706',
+    departments: [
+      'La Guajira',
+      'Magdalena',
+      'Cesar',
+      'Norte de Santander',
+      'Santander',
+      'Antioquia',
+      'Córdoba',
+      'Sucre',
+      'Bolívar',
+      'Atlántico',
+      'Boyacá'
+    ],
+    coordinates: { lat: 8.5, lng: -73.5 },
+    description:
+      'No constituye una sola unidad geográfica: abarca cordillera, Sierra del Perijá, Sierra Nevada de Santa Marta y la costa Caribe. Hay afinidad lingüística y cultural en torno a la familia Chibcha y otras tradiciones del norte del país.'
+  },
+  {
+    id: 'llanos-orientales',
+    name: 'Región Llanos Orientales',
+    mapLabel: 'Llanos',
+    color: '#7c3aed',
+    departments: ['Arauca', 'Vichada', 'Casanare', 'Meta'],
+    coordinates: { lat: 5.0, lng: -71.0 },
+    description:
+      'Planicie de la cuenca del Orinoco, cubierta de sabana con selva en riberas de ríos y caños. El Meta la cruza de sureste a noreste. Las poblaciones suelen ubicarse donde hay buena pesca y caza; predominan lenguas de la familia Guahíbo y el pueblo guahibo es el más numeroso de la zona.'
   }
 ];
 
 export const departments = [
-  { id: '05', name: 'Antioquia', region: 'andina', coordinates: { lat: 6.5, lng: -75.5 }, population: 6636000 },
-  { id: '08', name: 'Atlántico', region: 'caribe', coordinates: { lat: 10.7, lng: -74.9 }, population: 2803283 },
-  { id: '13', name: 'Bolívar', region: 'caribe', coordinates: { lat: 9.5, lng: -75.5 }, population: 2147000 },
-  { id: '15', name: 'Boyacá', region: 'andina', coordinates: { lat: 5.5, lng: -73.5 }, population: 1276000 },
-  { id: '17', name: 'Caldas', region: 'andina', coordinates: { lat: 5.2, lng: -75.2 }, population: 998000 },
-  { id: '18', name: 'Caquetá', region: 'amazonia', coordinates: { lat: 1.0, lng: -74.5 }, population: 490000 },
-  { id: '19', name: 'Cauca', region: 'andina', coordinates: { lat: 2.5, lng: -77.0 }, population: 1489000 },
-  { id: '20', name: 'Cesar', region: 'caribe', coordinates: { lat: 9.5, lng: -73.5 }, population: 1098000 },
-  { id: '27', name: 'Chocó', region: 'pacifico', coordinates: { lat: 5.5, lng: -76.8 }, population: 520000 },
-  { id: '23', name: 'Córdoba', region: 'caribe', coordinates: { lat: 8.0, lng: -75.8 }, population: 1808000 },
-  { id: '25', name: 'Cundinamarca', region: 'andina', coordinates: { lat: 4.8, lng: -74.2 }, population: 3409000 },
-  { id: '94', name: 'Guainía', region: 'amazonia', coordinates: { lat: 2.5, lng: -68.5 }, population: 42000 },
-  { id: '95', name: 'Guaviare', region: 'orinoquia', coordinates: { lat: 2.0, lng: -72.0 }, population: 115000 },
-  { id: '41', name: 'Huila', region: 'andina', coordinates: { lat: 2.5, lng: -75.5 }, population: 1150000 },
-  { id: '44', name: 'La Guajira', region: 'caribe', coordinates: { lat: 11.5, lng: -72.5 }, population: 880000 },
-  { id: '47', name: 'Magdalena', region: 'caribe', coordinates: { lat: 10.0, lng: -74.2 }, population: 1385000 },
-  { id: '50', name: 'Meta', region: 'orinoquia', coordinates: { lat: 4.0, lng: -73.5 }, population: 1053000 },
-  { id: '52', name: 'Nariño', region: 'andina', coordinates: { lat: 1.5, lng: -78.0 }, population: 1608000 },
-  { id: '54', name: 'Norte de Santander', region: 'andina', coordinates: { lat: 7.8, lng: -72.5 }, population: 1608000 },
-  { id: '86', name: 'Putumayo', region: 'amazonia', coordinates: { lat: 0.5, lng: -76.0 }, population: 345000 },
-  { id: '63', name: 'Quindío', region: 'andina', coordinates: { lat: 4.5, lng: -75.7 }, population: 580000 },
-  { id: '66', name: 'Risaralda', region: 'andina', coordinates: { lat: 5.0, lng: -76.0 }, population: 945000 },
-  { id: '68', name: 'Santander', region: 'andina', coordinates: { lat: 7.0, lng: -73.0 }, population: 2084000 },
-  { id: '70', name: 'Sucre', region: 'caribe', coordinates: { lat: 9.3, lng: -75.4 }, population: 870000 },
-  { id: '81', name: 'Arauca', region: 'orinoquia', coordinates: { lat: 6.5, lng: -71.5 }, population: 262000 },
-  { id: '85', name: 'Casanare', region: 'orinoquia', coordinates: { lat: 5.5, lng: -72.5 }, population: 420000 },
-  { id: '97', name: 'Vaupés', region: 'amazonia', coordinates: { lat: 1.0, lng: -70.5 }, population: 44000 },
-  { id: '91', name: 'Amazonas', region: 'amazonia', coordinates: { lat: -1.5, lng: -72.0 }, population: 79000 },
-  { id: '99', name: 'Vichada', region: 'orinoquia', coordinates: { lat: 5.0, lng: -69.5 }, population: 115000 },
-  { id: '73', name: 'Tolima', region: 'andina', coordinates: { lat: 4.0, lng: -75.2 }, population: 1331000 },
-  { id: '76', name: 'Valle del Cauca', region: 'pacifico', coordinates: { lat: 3.8, lng: -76.5 }, population: 4576000 }
+  { id: '05', name: 'Antioquia', region: 'andina-norte-caribe', coordinates: { lat: 6.5, lng: -75.5 }, population: 6636000 },
+  { id: '08', name: 'Atlántico', region: 'andina-norte-caribe', coordinates: { lat: 10.7, lng: -74.9 }, population: 2803283 },
+  { id: '13', name: 'Bolívar', region: 'andina-norte-caribe', coordinates: { lat: 9.5, lng: -75.5 }, population: 2147000 },
+  { id: '15', name: 'Boyacá', region: 'andina-norte-caribe', coordinates: { lat: 5.5, lng: -73.5 }, population: 1276000 },
+  { id: '17', name: 'Caldas', region: 'andina-sur', coordinates: { lat: 5.2, lng: -75.2 }, population: 998000 },
+  { id: '18', name: 'Caquetá', region: 'amazonia-sur', coordinates: { lat: 1.0, lng: -74.5 }, population: 490000 },
+  { id: '19', name: 'Cauca', region: 'andina-sur', coordinates: { lat: 2.5, lng: -77.0 }, population: 1489000 },
+  { id: '20', name: 'Cesar', region: 'andina-norte-caribe', coordinates: { lat: 9.5, lng: -73.5 }, population: 1098000 },
+  { id: '27', name: 'Chocó', region: 'pacifica', coordinates: { lat: 5.5, lng: -76.8 }, population: 520000 },
+  { id: '23', name: 'Córdoba', region: 'andina-norte-caribe', coordinates: { lat: 8.0, lng: -75.8 }, population: 1808000 },
+  { id: '25', name: 'Cundinamarca', region: 'andina-sur', coordinates: { lat: 4.8, lng: -74.2 }, population: 3409000 },
+  { id: '94', name: 'Guainía', region: 'amazonia-norte', coordinates: { lat: 2.5, lng: -68.5 }, population: 42000 },
+  { id: '95', name: 'Guaviare', region: 'amazonia-norte', coordinates: { lat: 2.0, lng: -72.0 }, population: 115000 },
+  { id: '41', name: 'Huila', region: 'andina-sur', coordinates: { lat: 2.5, lng: -75.5 }, population: 1150000 },
+  { id: '44', name: 'La Guajira', region: 'andina-norte-caribe', coordinates: { lat: 11.5, lng: -72.5 }, population: 880000 },
+  { id: '47', name: 'Magdalena', region: 'andina-norte-caribe', coordinates: { lat: 10.0, lng: -74.2 }, population: 1385000 },
+  { id: '50', name: 'Meta', region: 'llanos-orientales', coordinates: { lat: 4.0, lng: -73.5 }, population: 1053000 },
+  { id: '52', name: 'Nariño', region: 'andina-sur', coordinates: { lat: 1.5, lng: -78.0 }, population: 1608000 },
+  { id: '54', name: 'Norte de Santander', region: 'andina-norte-caribe', coordinates: { lat: 7.8, lng: -72.5 }, population: 1608000 },
+  { id: '86', name: 'Putumayo', region: 'amazonia-sur', coordinates: { lat: 0.5, lng: -76.0 }, population: 345000 },
+  { id: '63', name: 'Quindío', region: 'andina-sur', coordinates: { lat: 4.5, lng: -75.7 }, population: 580000 },
+  { id: '66', name: 'Risaralda', region: 'andina-sur', coordinates: { lat: 5.0, lng: -76.0 }, population: 945000 },
+  { id: '68', name: 'Santander', region: 'andina-norte-caribe', coordinates: { lat: 7.0, lng: -73.0 }, population: 2084000 },
+  { id: '70', name: 'Sucre', region: 'andina-norte-caribe', coordinates: { lat: 9.3, lng: -75.4 }, population: 870000 },
+  { id: '81', name: 'Arauca', region: 'llanos-orientales', coordinates: { lat: 6.5, lng: -71.5 }, population: 262000 },
+  { id: '85', name: 'Casanare', region: 'llanos-orientales', coordinates: { lat: 5.5, lng: -72.5 }, population: 420000 },
+  { id: '97', name: 'Vaupés', region: 'amazonia-norte', coordinates: { lat: 1.0, lng: -70.5 }, population: 44000 },
+  { id: '91', name: 'Amazonas', region: 'amazonia-sur', coordinates: { lat: -1.5, lng: -72.0 }, population: 79000 },
+  { id: '99', name: 'Vichada', region: 'llanos-orientales', coordinates: { lat: 5.0, lng: -69.5 }, population: 115000 },
+  { id: '73', name: 'Tolima', region: 'andina-sur', coordinates: { lat: 4.0, lng: -75.2 }, population: 1331000 },
+  { id: '76', name: 'Valle del Cauca', region: 'andina-sur', coordinates: { lat: 3.8, lng: -76.5 }, population: 4576000 }
 ];
 
 export const ethnicities = [
   {
     id: 'achagua',
     name: 'Achagua',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Meta', 'Casanare'],
     coordinates: { lat: 4.2, lng: -72.8 },
     population: 796,
@@ -106,7 +138,7 @@ export const ethnicities = [
   {
     id: 'amobalo',
     name: 'Ambaló',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.8, lng: -76.5 },
     population: 2749,
@@ -132,7 +164,7 @@ export const ethnicities = [
   {
     id: 'amorua',
     name: 'Amorúa',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Casanare', 'Vichada'],
     coordinates: { lat: 5.5, lng: -70.5 },
     population: 178,
@@ -160,7 +192,7 @@ export const ethnicities = [
   {
     id: 'andoque',
     name: 'Andoque',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Caquetá', 'Amazonas'],
     coordinates: { lat: -0.5, lng: -72.5 },
     population: 597,
@@ -188,7 +220,7 @@ export const ethnicities = [
   {
     id: 'andakies',
     name: 'Andakies',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.6, lng: -76.6 },
     population: 500,
@@ -204,7 +236,7 @@ export const ethnicities = [
   {
     id: 'awa',
     name: 'Awá',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Nariño', 'Putumayo'],
     coordinates: { lat: 1.2, lng: -77.5 },
     population: 25813,
@@ -232,7 +264,7 @@ export const ethnicities = [
   {
     id: 'bara',
     name: 'Bará',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.8, lng: -70.5 },
     population: 208,
@@ -260,7 +292,7 @@ export const ethnicities = [
   {
     id: 'barasana',
     name: 'Barasana',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés', 'Amazonas'],
     coordinates: { lat: 0.5, lng: -70.8 },
     population: 350,
@@ -289,7 +321,7 @@ export const ethnicities = [
   {
     id: 'bari',
     name: 'Barí',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Norte de Santander'],
     coordinates: { lat: 8.5, lng: -72.8 },
     population: 5923,
@@ -317,7 +349,7 @@ export const ethnicities = [
   {
     id: 'betoye',
     name: 'Betoye',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Arauca'],
     coordinates: { lat: 6.5, lng: -71.2 },
     population: 394,
@@ -345,7 +377,7 @@ export const ethnicities = [
   {
     id: 'bora',
     name: 'Bora',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Amazonas', 'Putumayo'],
     coordinates: { lat: -0.5, lng: -74.0 },
     population: 933,
@@ -372,7 +404,7 @@ export const ethnicities = [
   {
     id: 'canamomo',
     name: 'Cañamomo',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Risaralda'],
     coordinates: { lat: 5.3, lng: -75.8 },
     population: 8500,
@@ -388,7 +420,7 @@ export const ethnicities = [
   {
     id: 'carapana',
     name: 'Carapana',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.8, lng: -70.3 },
     population: 1500,
@@ -404,7 +436,7 @@ export const ethnicities = [
   {
     id: 'chimila',
     name: 'Chimila',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Cesar', 'Magdalena', 'Bolívar'],
     coordinates: { lat: 9.5, lng: -74.0 },
     population: 3000,
@@ -420,7 +452,7 @@ export const ethnicities = [
   {
     id: 'chiricoa',
     name: 'Chiricoa',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Meta', 'Vichada'],
     coordinates: { lat: 4.5, lng: -71.0 },
     population: 500,
@@ -436,7 +468,7 @@ export const ethnicities = [
   {
     id: 'coconuco',
     name: 'Coconuco',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.6, lng: -76.5 },
     population: 12000,
@@ -452,7 +484,7 @@ export const ethnicities = [
   {
     id: 'coreguaje',
     name: 'Coreguaje',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Caquetá', 'Putumayo'],
     coordinates: { lat: 1.0, lng: -75.5 },
     population: 8000,
@@ -468,7 +500,7 @@ export const ethnicities = [
   {
     id: 'coyaima',
     name: 'Coyaima-Natagaima',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Tolima'],
     coordinates: { lat: 3.8, lng: -75.0 },
     population: 25000,
@@ -484,7 +516,7 @@ export const ethnicities = [
   {
     id: 'cubeo',
     name: 'Cubeo',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 1.2, lng: -70.5 },
     population: 3000,
@@ -500,7 +532,7 @@ export const ethnicities = [
   {
     id: 'desano',
     name: 'Desano',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.8, lng: -70.2 },
     population: 5000,
@@ -516,7 +548,7 @@ export const ethnicities = [
   {
     id: 'dujo',
     name: 'Dujo',
-    region: 'amazonia',
+    region: 'andina-norte-caribe',
     departments: ['Vaupés'],
     coordinates: { lat: 0.5, lng: -70.8 },
     population: 300,
@@ -532,7 +564,7 @@ export const ethnicities = [
   {
     id: 'embera',
     name: 'Embera',
-    region: 'pacifico',
+    region: 'pacifica',
     departments: ['Chocó', 'Córdoba', 'Antioquia', 'Risaralda'],
     coordinates: { lat: 5.5, lng: -76.5 },
     population: 45000,
@@ -548,7 +580,7 @@ export const ethnicities = [
   {
     id: 'embera-katio',
     name: 'Embera Katío',
-    region: 'pacifico',
+    region: 'pacifica',
     departments: ['Córdoba', 'Chocó', 'Antioquia'],
     coordinates: { lat: 7.0, lng: -76.0 },
     population: 30000,
@@ -564,7 +596,7 @@ export const ethnicities = [
   {
     id: 'embera-chami',
     name: 'Embera Chamí',
-    region: 'andina',
+    region: 'pacifica',
     departments: ['Risaralda', 'Chocó', 'Caldas'],
     coordinates: { lat: 5.2, lng: -76.0 },
     population: 12000,
@@ -580,7 +612,7 @@ export const ethnicities = [
   {
     id: 'eperara',
     name: 'Eperara-Siapidara',
-    region: 'pacifico',
+    region: 'pacifica',
     departments: ['Cauca', 'Nariño', 'Valle del Cauca'],
     coordinates: { lat: 3.0, lng: -77.5 },
     population: 8000,
@@ -596,7 +628,7 @@ export const ethnicities = [
   {
     id: 'arhuaco',
     name: 'Arhuaco (Ika)',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Cesar', 'Magdalena', 'La Guajira'],
     coordinates: { lat: 10.5, lng: -73.2 },
     population: 12000,
@@ -612,7 +644,7 @@ export const ethnicities = [
   {
     id: 'guambiano',
     name: 'Guambiano',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.5, lng: -76.7 },
     population: 25000,
@@ -628,7 +660,7 @@ export const ethnicities = [
   {
     id: 'guanaca',
     name: 'Guanaca',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.6, lng: -76.6 },
     population: 3000,
@@ -644,7 +676,7 @@ export const ethnicities = [
   {
     id: 'guane',
     name: 'Guane',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Santander', 'Boyacá'],
     coordinates: { lat: 6.0, lng: -73.5 },
     population: 500,
@@ -660,7 +692,7 @@ export const ethnicities = [
   {
     id: 'guayabero',
     name: 'Guayabero',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Meta', 'Casanare'],
     coordinates: { lat: 3.5, lng: -73.0 },
     population: 1500,
@@ -676,7 +708,7 @@ export const ethnicities = [
   {
     id: 'hitnu',
     name: 'Hitnu',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Arauca', 'Meta'],
     coordinates: { lat: 6.0, lng: -71.0 },
     population: 2000,
@@ -692,7 +724,7 @@ export const ethnicities = [
   {
     id: 'hupdu',
     name: 'Hupdu (Hup)',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Vaupés'],
     coordinates: { lat: 1.2, lng: -70.0 },
     population: 4000,
@@ -708,7 +740,7 @@ export const ethnicities = [
   {
     id: 'inga',
     name: 'Inga',
-    region: 'amazonia',
+    region: 'andina-sur',
     departments: ['Putumayo', 'Cauca', 'Nariño'],
     coordinates: { lat: 1.0, lng: -76.5 },
     population: 25000,
@@ -724,7 +756,7 @@ export const ethnicities = [
   {
     id: 'juhup',
     name: 'Juhup (Yuhup)',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 1.0, lng: -70.3 },
     population: 2000,
@@ -740,7 +772,7 @@ export const ethnicities = [
   {
     id: 'kakua',
     name: 'Kakua',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.7, lng: -70.8 },
     population: 800,
@@ -756,7 +788,7 @@ export const ethnicities = [
   {
     id: 'kamentsa',
     name: 'Kamëntsá',
-    region: 'amazonia',
+    region: 'andina-sur',
     departments: ['Putumayo'],
     coordinates: { lat: 1.8, lng: -76.6 },
     population: 3500,
@@ -772,7 +804,7 @@ export const ethnicities = [
   {
     id: 'kankuamo',
     name: 'Kankuamo',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Cesar'],
     coordinates: { lat: 10.4, lng: -73.2 },
     population: 8500,
@@ -788,7 +820,7 @@ export const ethnicities = [
   {
     id: 'karijona',
     name: 'Karijona',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Vaupés', 'Amazonas'],
     coordinates: { lat: 0.5, lng: -70.5 },
     population: 200,
@@ -804,7 +836,7 @@ export const ethnicities = [
   {
     id: 'kawiyari',
     name: 'Kawiyarí',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.6, lng: -70.4 },
     population: 1000,
@@ -820,7 +852,7 @@ export const ethnicities = [
   {
     id: 'cofan',
     name: 'Kofán',
-    region: 'amazonia',
+    region: 'andina-sur',
     departments: ['Putumayo', 'Nariño'],
     coordinates: { lat: 0.8, lng: -77.3 },
     population: 2500,
@@ -836,7 +868,7 @@ export const ethnicities = [
   {
     id: 'kogui',
     name: 'Kogui (Kágaba)',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Cesar', 'Magdalena', 'La Guajira'],
     coordinates: { lat: 10.8, lng: -73.8 },
     population: 4500,
@@ -852,7 +884,7 @@ export const ethnicities = [
   {
     id: 'kuiba',
     name: 'Kuiba (Wámac)',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Vichada', 'Meta'],
     coordinates: { lat: 5.0, lng: -69.5 },
     population: 4000,
@@ -868,7 +900,7 @@ export const ethnicities = [
   {
     id: 'kurripaco',
     name: 'Kurripaco',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Guainía', 'Vaupés'],
     coordinates: { lat: 2.8, lng: -69.0 },
     population: 6000,
@@ -884,7 +916,7 @@ export const ethnicities = [
   {
     id: 'letuama',
     name: 'Letuama',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.4, lng: -70.4 },
     population: 600,
@@ -900,7 +932,7 @@ export const ethnicities = [
   {
     id: 'makaguaje',
     name: 'Makaguaje',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Amazonas'],
     coordinates: { lat: -0.5, lng: -72.0 },
     population: 1500,
@@ -916,7 +948,7 @@ export const ethnicities = [
   {
     id: 'makuna',
     name: 'Makuna',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.8, lng: -70.8 },
     population: 4000,
@@ -932,7 +964,7 @@ export const ethnicities = [
   {
     id: 'masiguare',
     name: 'Masiguare',
-    region: 'orinoquia',
+    region: 'amazonia-norte',
     departments: ['Meta'],
     coordinates: { lat: 3.8, lng: -72.5 },
     population: 1500,
@@ -948,7 +980,7 @@ export const ethnicities = [
   {
     id: 'matapi',
     name: 'Matapí',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Amazonas', 'Vaupés'],
     coordinates: { lat: -0.3, lng: -71.5 },
     population: 800,
@@ -964,7 +996,7 @@ export const ethnicities = [
   {
     id: 'mirana',
     name: 'Miraña',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Amazonas', 'Putumayo'],
     coordinates: { lat: -0.5, lng: -73.5 },
     population: 1500,
@@ -980,7 +1012,7 @@ export const ethnicities = [
   {
     id: 'mokana',
     name: 'Mokaná',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Atlántico', 'Bolívar'],
     coordinates: { lat: 10.5, lng: -75.0 },
     population: 8000,
@@ -996,7 +1028,7 @@ export const ethnicities = [
   {
     id: 'muinane',
     name: 'Muinane',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Putumayo'],
     coordinates: { lat: 0.5, lng: -75.5 },
     population: 1200,
@@ -1012,7 +1044,7 @@ export const ethnicities = [
   {
     id: 'muisca',
     name: 'Muisca',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cundinamarca', 'Boyacá', 'Santander'],
     coordinates: { lat: 4.8, lng: -74.2 },
     population: 6000,
@@ -1028,7 +1060,7 @@ export const ethnicities = [
   {
     id: 'nasa',
     name: 'Nasa (Páez)',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca', 'Huila', 'Tolima'],
     coordinates: { lat: 2.5, lng: -76.5 },
     population: 180000,
@@ -1044,7 +1076,7 @@ export const ethnicities = [
   {
     id: 'nonuya',
     name: 'Nonuya',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Putumayo'],
     coordinates: { lat: 0.2, lng: -74.8 },
     population: 300,
@@ -1060,7 +1092,7 @@ export const ethnicities = [
   {
     id: 'nukak',
     name: 'Nukak',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Guainía', 'Vaupés', 'Guaviare'],
     coordinates: { lat: 2.5, lng: -69.0 },
     population: 400,
@@ -1076,7 +1108,7 @@ export const ethnicities = [
   {
     id: 'ocaina',
     name: 'Ocaina',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Putumayo'],
     coordinates: { lat: 0.5, lng: -75.0 },
     population: 500,
@@ -1092,7 +1124,7 @@ export const ethnicities = [
   {
     id: 'pasto',
     name: 'Pastos',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Nariño'],
     coordinates: { lat: 1.0, lng: -77.5 },
     population: 45000,
@@ -1108,7 +1140,7 @@ export const ethnicities = [
   {
     id: 'piapoco',
     name: 'Piapoco',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Casanare', 'Meta', 'Arauca'],
     coordinates: { lat: 5.0, lng: -72.0 },
     population: 8000,
@@ -1124,7 +1156,7 @@ export const ethnicities = [
   {
     id: 'piaroa',
     name: 'Piaroa',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Vichada', 'Meta', 'Guainía', 'Arauca'],
     coordinates: { lat: 4.5, lng: -68.5 },
     population: 15000,
@@ -1140,7 +1172,7 @@ export const ethnicities = [
   {
     id: 'piratapuyo',
     name: 'Piratapuyo',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.5, lng: -70.3 },
     population: 1500,
@@ -1156,7 +1188,7 @@ export const ethnicities = [
   {
     id: 'pisamira',
     name: 'Pisamira',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.6, lng: -70.5 },
     population: 500,
@@ -1172,7 +1204,7 @@ export const ethnicities = [
   {
     id: 'puinave',
     name: 'Puinave',
-    region: 'amazonia',
+    region: 'llanos-orientales',
     departments: ['Guainía', 'Vichada'],
     coordinates: { lat: 3.5, lng: -68.0 },
     population: 6000,
@@ -1188,7 +1220,7 @@ export const ethnicities = [
   {
     id: 'saliba',
     name: 'Sáliba',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Casanare', 'Meta'],
     coordinates: { lat: 4.5, lng: -72.0 },
     population: 5000,
@@ -1204,7 +1236,7 @@ export const ethnicities = [
   {
     id: 'senu',
     name: 'Senú',
-    region: 'caribe',
+    region: 'amazonia-norte',
     departments: ['Córdoba', 'Sucre', 'Bolívar'],
     coordinates: { lat: 8.0, lng: -75.5 },
     population: 15000,
@@ -1220,7 +1252,7 @@ export const ethnicities = [
   {
     id: 'sikuani',
     name: 'Sikuani (Cuiva)',
-    region: 'orinoquia',
+    region: 'llanos-orientales',
     departments: ['Meta', 'Casanare', 'Vichada', 'Arauca'],
     coordinates: { lat: 4.0, lng: -72.5 },
     population: 12000,
@@ -1236,7 +1268,7 @@ export const ethnicities = [
   {
     id: 'siona',
     name: 'Siona',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Putumayo', 'Nariño'],
     coordinates: { lat: 0.5, lng: -77.0 },
     population: 1500,
@@ -1252,7 +1284,7 @@ export const ethnicities = [
   {
     id: 'siriano',
     name: 'Siriano',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 1.0, lng: -70.0 },
     population: 500,
@@ -1268,7 +1300,7 @@ export const ethnicities = [
   {
     id: 'taiwano',
     name: 'Taiwano',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.7, lng: -70.5 },
     population: 1200,
@@ -1284,7 +1316,7 @@ export const ethnicities = [
   {
     id: 'tanimuka',
     name: 'Tanimuka',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Vaupés', 'Amazonas'],
     coordinates: { lat: 0.5, lng: -70.5 },
     population: 2000,
@@ -1300,7 +1332,7 @@ export const ethnicities = [
   {
     id: 'tariano',
     name: 'Tariano',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 1.0, lng: -69.8 },
     population: 4000,
@@ -1316,7 +1348,7 @@ export const ethnicities = [
   {
     id: 'tatuyo',
     name: 'Tatuyo',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.8, lng: -70.3 },
     population: 1500,
@@ -1332,7 +1364,7 @@ export const ethnicities = [
   {
     id: 'ticuna',
     name: 'Ticuna (Tikuna)',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Amazonas', 'Putumayo'],
     coordinates: { lat: -1.5, lng: -73.0 },
     population: 30000,
@@ -1348,7 +1380,7 @@ export const ethnicities = [
   {
     id: 'totoro',
     name: 'Totoró',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.5, lng: -76.8 },
     population: 8000,
@@ -1364,7 +1396,7 @@ export const ethnicities = [
   {
     id: 'tshiripu',
     name: 'Tsiripu',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca'],
     coordinates: { lat: 2.4, lng: -76.7 },
     population: 500,
@@ -1380,7 +1412,7 @@ export const ethnicities = [
   {
     id: 'tukano',
     name: 'Tukano',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 1.0, lng: -70.0 },
     population: 15000,
@@ -1396,7 +1428,7 @@ export const ethnicities = [
   {
     id: 'tule',
     name: 'Tule (Guna)',
-    region: 'caribe',
+    region: 'pacifica',
     departments: ['Córdoba', 'Chocó'],
     coordinates: { lat: 7.5, lng: -76.0 },
     population: 8000,
@@ -1412,7 +1444,7 @@ export const ethnicities = [
   {
     id: 'tuyuka',
     name: 'Tuyuka',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.3, lng: -70.8 },
     population: 1800,
@@ -1428,7 +1460,7 @@ export const ethnicities = [
   {
     id: 'uitoto',
     name: 'Uitoto (Huitoto)',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Putumayo', 'Amazonas', 'Caquetá'],
     coordinates: { lat: 0.3, lng: -74.5 },
     population: 10000,
@@ -1444,7 +1476,7 @@ export const ethnicities = [
   {
     id: 'uwa',
     name: "U'wa",
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Santander', 'Boyacá', 'Norte de Santander'],
     coordinates: { lat: 6.5, lng: -72.8 },
     population: 6000,
@@ -1460,7 +1492,7 @@ export const ethnicities = [
   {
     id: 'wanano',
     name: 'Wanano',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 1.2, lng: -69.8 },
     population: 5000,
@@ -1476,7 +1508,7 @@ export const ethnicities = [
   {
     id: 'waunan',
     name: 'Waunan',
-    region: 'amazonia',
+    region: 'pacifica',
     departments: ['Vaupés'],
     coordinates: { lat: 0.8, lng: -70.5 },
     population: 3000,
@@ -1492,7 +1524,7 @@ export const ethnicities = [
   {
     id: 'wayuu',
     name: 'Wayuu',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['La Guajira', 'Cesar', 'Magdalena'],
     coordinates: { lat: 11.5, lng: -72.3 },
     population: 470000,
@@ -1508,7 +1540,7 @@ export const ethnicities = [
   {
     id: 'wiwa',
     name: 'Wiwa',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Cesar', 'Magdalena', 'La Guajira'],
     coordinates: { lat: 10.6, lng: -73.5 },
     population: 2500,
@@ -1524,7 +1556,7 @@ export const ethnicities = [
   {
     id: 'yagua',
     name: 'Yagua',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Amazonas'],
     coordinates: { lat: -2.0, lng: -73.0 },
     population: 7000,
@@ -1540,7 +1572,7 @@ export const ethnicities = [
   {
     id: 'yanacona',
     name: 'Yanacona',
-    region: 'andina',
+    region: 'andina-sur',
     departments: ['Cauca', 'Nariño', 'Putumayo'],
     coordinates: { lat: 2.2, lng: -76.8 },
     population: 25000,
@@ -1556,7 +1588,7 @@ export const ethnicities = [
   {
     id: 'yauna',
     name: 'Yauna',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Amazonas'],
     coordinates: { lat: -0.5, lng: -72.0 },
     population: 300,
@@ -1572,7 +1604,7 @@ export const ethnicities = [
   {
     id: 'yuko',
     name: 'Yuko',
-    region: 'caribe',
+    region: 'amazonia-sur',
     departments: ['Cesar', 'Norte de Santander'],
     coordinates: { lat: 8.2, lng: -73.0 },
     population: 3000,
@@ -1588,7 +1620,7 @@ export const ethnicities = [
   {
     id: 'yukuna',
     name: 'Yukuna',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Amazonas'],
     coordinates: { lat: -0.5, lng: -71.8 },
     population: 2500,
@@ -1604,7 +1636,7 @@ export const ethnicities = [
   {
     id: 'yuri',
     name: 'Yuri',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Amazonas'],
     coordinates: { lat: -1.5, lng: -72.5 },
     population: 200,
@@ -1620,7 +1652,7 @@ export const ethnicities = [
   {
     id: 'yuruti',
     name: 'Yurutí',
-    region: 'amazonia',
+    region: 'amazonia-norte',
     departments: ['Vaupés'],
     coordinates: { lat: 0.4, lng: -70.3 },
     population: 1500,
@@ -1636,7 +1668,7 @@ export const ethnicities = [
   {
     id: 'zenu',
     name: 'Zenú',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Córdoba', 'Sucre', 'Bolívar'],
     coordinates: { lat: 8.5, lng: -75.5 },
     population: 250000,
@@ -1652,7 +1684,7 @@ export const ethnicities = [
   {
     id: 'yukpa',
     name: 'Yukpa',
-    region: 'caribe',
+    region: 'andina-norte-caribe',
     departments: ['Cesar', 'Norte de Santander'],
     coordinates: { lat: 8.5, lng: -73.0 },
     population: 8000,
@@ -1668,7 +1700,7 @@ export const ethnicities = [
   {
     id: 'cocama',
     name: 'Cocama (Kukama)',
-    region: 'amazonia',
+    region: 'amazonia-sur',
     departments: ['Amazonas', 'Putumayo'],
     coordinates: { lat: -0.5, lng: -73.5 },
     population: 3000,
@@ -1684,7 +1716,7 @@ export const ethnicities = [
   {
     id: 'tsachila',
     name: 'Tsáchila (Colorados)',
-    region: 'pacifico',
+    region: 'andina-sur',
     departments: ['Nariño'],
     coordinates: { lat: 1.2, lng: -78.5 },
     population: 6000,
